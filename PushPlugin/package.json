@@ -1,0 +1,13 @@
+{
+  "name": "twenty-ios-push-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remote push notifications for Twenty-iOS: Twenty marketplace app + Cloudflare relay worker (FCM HTTP v1). No Cloudflare Queue in v1.",
+  "scripts": {
+    "install:all": "npm install --prefix twenty-app && npm install --prefix cloudflare-worker",
+    "typecheck": "npm run typecheck --prefix twenty-app && npm run typecheck --prefix cloudflare-worker",
+    "test": "npm test --prefix twenty-app && npm test --prefix cloudflare-worker",
+    "build": "npm run build --prefix twenty-app && npm run build --prefix cloudflare-worker",
+    "check": "npm run typecheck && npm run test && npm run build"
+  }
+}

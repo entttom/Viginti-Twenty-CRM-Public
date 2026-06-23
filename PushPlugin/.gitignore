@@ -1,0 +1,26 @@
+# Dependencies & build output
+**/node_modules/
+**/dist/
+**/.wrangler/
+**/coverage/
+
+# Cloudflare Worker secrets
+cloudflare-worker/.dev.vars
+cloudflare-worker/.env
+cloudflare-worker/.env.*
+!cloudflare-worker/.dev.vars.example
+!cloudflare-worker/.env.example
+
+# Twenty-App secrets
+twenty-app/.env
+twenty-app/.env.*
+!twenty-app/.env.example
+
+# Firebase / service accounts (never commit)
+GoogleService-Info.plist
+**/GoogleService-Info.plist
+service-account*.json
+firebase-service-account*.json
+
+# Logs
+*.log

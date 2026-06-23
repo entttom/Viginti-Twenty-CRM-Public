@@ -1,0 +1,127 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "de_DE",
+        "policyText" : "",
+        "policyURL" : "https://www.drentner.at/privacy-policy/"
+      },
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : "https://www.drentner.at/privacy-policy/"
+      }
+    ]
+  },
+  "identifier" : "A1B2C3D4",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "0000000000",
+    "_developerTeamID" : "0000000000",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 0,
+    "_locale" : "de_DE",
+    "_storefront" : "DEU",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21437654",
+      "localizations" : [
+        {
+          "description" : "Viginti Pro",
+          "displayName" : "Viginti Pro",
+          "locale" : "de_DE"
+        },
+        {
+          "description" : "Viginti Pro",
+          "displayName" : "Viginti Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Viginti Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "60000001",
+          "introductoryOffer" : {
+            "internalID" : "70000001",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P2W"
+          },
+          "localizations" : [
+            {
+              "description" : "Viginti Pro – monatlich. Vollständig mobil mit deinem Twenty CRM arbeiten.",
+              "displayName" : "Viginti Pro – Monatlich",
+              "locale" : "de_DE"
+            },
+            {
+              "description" : "Viginti Pro – monthly. Work with your Twenty CRM wherever you are.",
+              "displayName" : "Viginti Pro – Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "org.entner.twenty.Twenty.pro.monatlich",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Viginti Pro – Monthly",
+          "subscriptionGroupID" : "21437654",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "60000002",
+          "introductoryOffer" : {
+            "internalID" : "70000002",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P2W"
+          },
+          "localizations" : [
+            {
+              "description" : "Viginti Pro – jährlich. Vollständig mobil mit deinem Twenty CRM arbeiten.",
+              "displayName" : "Viginti Pro – Jährlich",
+              "locale" : "de_DE"
+            },
+            {
+              "description" : "Viginti Pro – yearly. Work with your Twenty CRM wherever you are.",
+              "displayName" : "Viginti Pro – Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "org.entner.twenty.Twenty.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Viginti Pro – Yearly",
+          "subscriptionGroupID" : "21437654",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

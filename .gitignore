@@ -1,0 +1,80 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# Firebase
+GoogleService-Info.plist
+**/GoogleService-Info.plist
+
+# Firebase service account files must never be added
+service-account*.json
+firebase-service-account*.json
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Firebase (never commit credentials/config)
+GoogleService-Info.plist
+**/GoogleService-Info.plist
+service-account*.json
+firebase-service-account*.json
+
+# PushPlugin: Cloudflare Worker secrets
+PushPlugin/cloudflare-worker/.dev.vars
+PushPlugin/cloudflare-worker/.env
+PushPlugin/cloudflare-worker/.env.*
+!PushPlugin/cloudflare-worker/.dev.vars.example
+!PushPlugin/cloudflare-worker/.env.example
+
+# PushPlugin: Twenty-App secrets
+PushPlugin/twenty-app/.env
+PushPlugin/twenty-app/.env.*
+!PushPlugin/twenty-app/.env.example
+
+# PushPlugin: TypeScript dependencies and build results
+PushPlugin/**/node_modules/
+PushPlugin/**/dist/
+PushPlugin/**/.wrangler/
+PushPlugin/**/coverage/

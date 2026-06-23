@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAAF00012FC0000000F00001 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = AAAF00032FC0000000F00003 /* FirebaseMessaging */; };
+		CC01000B2FB2FF9200EEDB0B /* TwentyWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CC0100012FB2FF9200EEDB01 /* TwentyWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB0100082FB2FF9200EEDA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA43B632FB2FF9200EEDABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA43B6A2FB2FF9200EEDABE;
+			remoteInfo = Twenty;
+		};
+		BB0200082FB2FF9200EEDA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA43B632FB2FF9200EEDABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA43B6A2FB2FF9200EEDABE;
+			remoteInfo = Twenty;
+		};
+		CC0100052FB2FF9200EEDB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA43B632FB2FF9200EEDABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0100042FB2FF9200EEDB04;
+			remoteInfo = TwentyWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC01000D2FB2FF9200EEDB0D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CC01000B2FB2FF9200EEDB0B /* TwentyWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AAA43B6B2FB2FF9200EEDABE /* Twenty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twenty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0100012FB2FF9200EEDA01 /* TwentyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwentyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0200012FB2FF9200EEDA10 /* TwentyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwentyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0100012FB2FF9200EEDB01 /* TwentyWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TwentyWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CC01000E2FB2FF9200EEDB0E /* Exceptions for "TwentyWidgets" folder in "TwentyWidgets" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CC0100042FB2FF9200EEDB04 /* TwentyWidgets */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AAA43B6D2FB2FF9200EEDABE /* Twenty */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Twenty;
+			sourceTree = "<group>";
+		};
+		BB0100022FB2FF9200EEDA02 /* TwentyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TwentyTests;
+			sourceTree = "<group>";
+		};
+		BB0200022FB2FF9200EEDA11 /* TwentyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TwentyUITests;
+			sourceTree = "<group>";
+		};
+		CC0100022FB2FF9200EEDB02 /* TwentyWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CC01000E2FB2FF9200EEDB0E /* Exceptions for "TwentyWidgets" folder in "TwentyWidgets" target */,
+			);
+			path = TwentyWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA43B682FB2FF9200EEDABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAF00012FC0000000F00001 /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0100032FB2FF9200EEDA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0200032FB2FF9200EEDA13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0100032FB2FF9200EEDB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA43B622FB2FF9200EEDABE = {
+			isa = PBXGroup;
+			children = (
+				AAA43B6D2FB2FF9200EEDABE /* Twenty */,
+				BB0100022FB2FF9200EEDA02 /* TwentyTests */,
+				BB0200022FB2FF9200EEDA11 /* TwentyUITests */,
+				CC0100022FB2FF9200EEDB02 /* TwentyWidgets */,
+				AAA43B6C2FB2FF9200EEDABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA43B6C2FB2FF9200EEDABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA43B6B2FB2FF9200EEDABE /* Twenty.app */,
+				BB0100012FB2FF9200EEDA01 /* TwentyTests.xctest */,
+				BB0200012FB2FF9200EEDA10 /* TwentyUITests.xctest */,
+				CC0100012FB2FF9200EEDB01 /* TwentyWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA43B6A2FB2FF9200EEDABE /* Twenty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA43B762FB2FF9300EEDABE /* Build configuration list for PBXNativeTarget "Twenty" */;
+			buildPhases = (
+				AAA43B672FB2FF9200EEDABE /* Sources */,
+				AAA43B682FB2FF9200EEDABE /* Frameworks */,
+				AAA43B692FB2FF9200EEDABE /* Resources */,
+				CC01000D2FB2FF9200EEDB0D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC0100062FB2FF9200EEDB06 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AAA43B6D2FB2FF9200EEDABE /* Twenty */,
+			);
+			name = Twenty;
+			packageProductDependencies = (
+				AAAF00032FC0000000F00003 /* FirebaseMessaging */,
+			);
+			productName = Twenty;
+			productReference = AAA43B6B2FB2FF9200EEDABE /* Twenty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB0100062FB2FF9200EEDA06 /* TwentyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB01000C2FB2FF9200EEDA0C /* Build configuration list for PBXNativeTarget "TwentyTests" */;
+			buildPhases = (
+				BB0100042FB2FF9200EEDA04 /* Sources */,
+				BB0100032FB2FF9200EEDA03 /* Frameworks */,
+				BB0100052FB2FF9200EEDA05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0100072FB2FF9200EEDA07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB0100022FB2FF9200EEDA02 /* TwentyTests */,
+			);
+			name = TwentyTests;
+			packageProductDependencies = (
+			);
+			productName = TwentyTests;
+			productReference = BB0100012FB2FF9200EEDA01 /* TwentyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB0200062FB2FF9200EEDA16 /* TwentyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB02000C2FB2FF9200EEDA1C /* Build configuration list for PBXNativeTarget "TwentyUITests" */;
+			buildPhases = (
+				BB0200042FB2FF9200EEDA14 /* Sources */,
+				BB0200032FB2FF9200EEDA13 /* Frameworks */,
+				BB0200052FB2FF9200EEDA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0200072FB2FF9200EEDA17 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB0200022FB2FF9200EEDA11 /* TwentyUITests */,
+			);
+			name = TwentyUITests;
+			packageProductDependencies = (
+			);
+			productName = TwentyUITests;
+			productReference = BB0200012FB2FF9200EEDA10 /* TwentyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CC0100042FB2FF9200EEDB04 /* TwentyWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC01000C2FB2FF9200EEDB0C /* Build configuration list for PBXNativeTarget "TwentyWidgets" */;
+			buildPhases = (
+				CC0100072FB2FF9200EEDB07 /* Sources */,
+				CC0100032FB2FF9200EEDB03 /* Frameworks */,
+				CC0100082FB2FF9200EEDB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CC0100022FB2FF9200EEDB02 /* TwentyWidgets */,
+			);
+			name = TwentyWidgets;
+			packageProductDependencies = (
+			);
+			productName = TwentyWidgets;
+			productReference = CC0100012FB2FF9200EEDB01 /* TwentyWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA43B632FB2FF9200EEDABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					AAA43B6A2FB2FF9200EEDABE = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					BB0100062FB2FF9200EEDA06 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = AAA43B6A2FB2FF9200EEDABE;
+					};
+					BB0200062FB2FF9200EEDA16 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = AAA43B6A2FB2FF9200EEDABE;
+					};
+					CC0100042FB2FF9200EEDB04 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = AAA43B662FB2FF9200EEDABE /* Build configuration list for PBXProject "Twenty" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				Base,
+			);
+			mainGroup = AAA43B622FB2FF9200EEDABE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AAAF00022FC0000000F00002 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AAA43B6C2FB2FF9200EEDABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA43B6A2FB2FF9200EEDABE /* Twenty */,
+				CC0100042FB2FF9200EEDB04 /* TwentyWidgets */,
+				BB0100062FB2FF9200EEDA06 /* TwentyTests */,
+				BB0200062FB2FF9200EEDA16 /* TwentyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA43B692FB2FF9200EEDABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0100052FB2FF9200EEDA05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0200052FB2FF9200EEDA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0100082FB2FF9200EEDB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA43B672FB2FF9200EEDABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0100042FB2FF9200EEDA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0200042FB2FF9200EEDA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0100072FB2FF9200EEDB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB0100072FB2FF9200EEDA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA43B6A2FB2FF9200EEDABE /* Twenty */;
+			targetProxy = BB0100082FB2FF9200EEDA08 /* PBXContainerItemProxy */;
+		};
+		BB0200072FB2FF9200EEDA17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA43B6A2FB2FF9200EEDABE /* Twenty */;
+			targetProxy = BB0200082FB2FF9200EEDA18 /* PBXContainerItemProxy */;
+		};
+		CC0100062FB2FF9200EEDB06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0100042FB2FF9200EEDB04 /* TwentyWidgets */;
+			targetProxy = CC0100052FB2FF9200EEDB05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAA43B742FB2FF9300EEDABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAA43B752FB2FF9300EEDABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AAA43B772FB2FF9300EEDABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APS_ENVIRONMENT = development;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Twenty/Twenty.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				ENABLE_PREVIEWS = YES;
+				FIREBASE_ENABLED = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Viginti – Twenty Client";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Twenty needs the camera to scan business cards and create contacts from them.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Twenty exports a CRM contact into your iOS Contacts when you choose to.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Twenty needs the microphone to record voice notes.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Twenty needs access to your photo library to import business card images.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Twenty uses on-device speech recognition to transcribe your voice notes.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_BackgroundColorName = LaunchBackground;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_ImageName = LaunchLogo;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.Twenty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUSH_ENVIRONMENT = sandbox;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA43B782FB2FF9300EEDABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APS_ENVIRONMENT = production;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Twenty/Twenty.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				ENABLE_PREVIEWS = YES;
+				FIREBASE_ENABLED = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Viginti – Twenty Client";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Twenty needs the camera to scan business cards and create contacts from them.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Twenty exports a CRM contact into your iOS Contacts when you choose to.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Twenty needs the microphone to record voice notes.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Twenty needs access to your photo library to import business card images.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Twenty uses on-device speech recognition to transcribe your voice notes.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_BackgroundColorName = LaunchBackground;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_ImageName = LaunchLogo;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.Twenty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUSH_ENVIRONMENT = production;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB0100092FB2FF9200EEDA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.TwentyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twenty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Twenty";
+			};
+			name = Debug;
+		};
+		BB01000A2FB2FF9200EEDA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.TwentyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twenty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Twenty";
+			};
+			name = Release;
+		};
+		BB0200092FB2FF9200EEDA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.TwentyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twenty;
+			};
+			name = Debug;
+		};
+		BB02000A2FB2FF9200EEDA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.TwentyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twenty;
+			};
+			name = Release;
+		};
+		CC0100092FB2FF9200EEDB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TwentyWidgets/TwentyWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TwentyWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.Twenty.TwentyWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC01000A2FB2FF9200EEDB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TwentyWidgets/TwentyWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TwentyWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.Twenty.TwentyWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA43B662FB2FF9200EEDABE /* Build configuration list for PBXProject "Twenty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA43B742FB2FF9300EEDABE /* Debug */,
+				AAA43B752FB2FF9300EEDABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA43B762FB2FF9300EEDABE /* Build configuration list for PBXNativeTarget "Twenty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA43B772FB2FF9300EEDABE /* Debug */,
+				AAA43B782FB2FF9300EEDABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB01000C2FB2FF9200EEDA0C /* Build configuration list for PBXNativeTarget "TwentyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0100092FB2FF9200EEDA09 /* Debug */,
+				BB01000A2FB2FF9200EEDA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB02000C2FB2FF9200EEDA1C /* Build configuration list for PBXNativeTarget "TwentyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0200092FB2FF9200EEDA19 /* Debug */,
+				BB02000A2FB2FF9200EEDA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC01000C2FB2FF9200EEDB0C /* Build configuration list for PBXNativeTarget "TwentyWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0100092FB2FF9200EEDB09 /* Debug */,
+				CC01000A2FB2FF9200EEDB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAAF00022FC0000000F00002 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAAF00032FC0000000F00003 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAAF00022FC0000000F00002 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AAA43B632FB2FF9200EEDABE /* Project object */;
+}
