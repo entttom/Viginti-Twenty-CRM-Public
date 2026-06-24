@@ -5,6 +5,7 @@
 	<key>com.apple.developer.associated-domains</key>
 	<array>
 		<string>applinks:viginti.entner.org</string>
+		<string>webcredentials:viginti.entner.org</string>
 	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>

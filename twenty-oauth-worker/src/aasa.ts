@@ -1,7 +1,11 @@
 // Apple App Site Association document.
 //
 // Served identically under both /.well-known/apple-app-site-association and
-// /apple-app-site-association. Only the /twenty/callback path is associated.
+// /apple-app-site-association.
+//
+// - `applinks`: associates only /twenty/callback as a universal link.
+// - `webcredentials`: REQUIRED for the ASWebAuthenticationSession HTTPS callback
+//   (iOS 17.4+). Without it iOS refuses / immediately cancels the auth session.
 
 import { APPLE_APPLICATION_IDENTIFIER, CALLBACK_PATH } from './config';
 
@@ -19,6 +23,9 @@ export function buildAasaResponse(requestId: string): Response {
           ],
         },
       ],
+    },
+    webcredentials: {
+      apps: [APPLE_APPLICATION_IDENTIFIER],
     },
   };
 

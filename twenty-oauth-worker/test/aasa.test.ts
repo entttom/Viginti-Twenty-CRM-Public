@@ -22,6 +22,8 @@ describe('Apple App Site Association', () => {
       expect(detail.components).toEqual([
         { '/': '/twenty/callback', comment: 'Twenty OAuth callback for Viginti' },
       ]);
+      // webcredentials is required for the ASWebAuthenticationSession HTTPS callback.
+      expect(body.webcredentials.apps).toEqual(['RG7FE682S2.org.entner.twenty.Twenty']);
     });
   }
 
