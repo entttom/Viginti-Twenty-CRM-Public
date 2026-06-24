@@ -20,10 +20,10 @@ import {
   handleProviderStart,
   handleProviderToken,
 } from './managed-oauth';
-import { methodNotAllowed, notFound, publicJson } from './responses';
+import { methodNotAllowed, notFound, publicJson, tooManyRequests } from './responses';
 import { noStoreJsonHeaders } from './security-headers';
 import { isValidProviderId } from './validation';
-import type { Env } from './types';
+import type { Env, RateLimit } from './types';
 
 const PROVIDER_PREFIX = '/twenty/oauth/providers/';
 
@@ -88,6 +88,8 @@ async function routeProvider(
     return { response: notFound(requestId) };
   }
 
+  const clientIp = request.headers.get('cf-connecting-ip') ?? 'unknown';
+
   switch (action) {
     case 'config':
       if (method !== 'GET') {
@@ -95,36 +97,54 @@ async function routeProvider(
       }
       return { response: await handleProviderConfig(env, providerId, requestId), providerId };
 
-    case 'start':
+    case 'start': {
       if (method !== 'GET') {
         return { response: methodNotAllowed(requestId, 'GET'), providerId };
+      }
+      if (await isRateLimited(env.RL_START, clientIp)) {
+        return { response: tooManyRequests(requestId), providerId };
       }
       return {
         response: await handleProviderStart(url, env, providerId, requestId),
         providerId,
       };
+    }
 
-    case 'token':
+    case 'token': {
       if (method !== 'POST') {
         return { response: methodNotAllowed(requestId, 'POST'), providerId };
+      }
+      if (await isRateLimited(env.RL_TOKEN, clientIp)) {
+        return { response: tooManyRequests(requestId), providerId };
       }
       return {
         response: await handleProviderToken(request, env, providerId, requestId),
         providerId,
       };
+    }
 
-    case 'refresh':
+    case 'refresh': {
       if (method !== 'POST') {
         return { response: methodNotAllowed(requestId, 'POST'), providerId };
+      }
+      if (await isRateLimited(env.RL_TOKEN, clientIp)) {
+        return { response: tooManyRequests(requestId), providerId };
       }
       return {
         response: await handleProviderRefresh(request, env, providerId, requestId),
         providerId,
       };
+    }
 
     default:
       return { response: notFound(requestId) };
   }
+}
+
+/** Returns true when the limiter rejects this client IP. */
+async function isRateLimited(limiter: RateLimit, clientIp: string): Promise<boolean> {
+  const { success } = await limiter.limit({ key: clientIp });
+  return !success;
 }
 
 function mustGet(

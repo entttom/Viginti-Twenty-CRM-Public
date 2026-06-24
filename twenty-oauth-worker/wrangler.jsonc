@@ -37,4 +37,23 @@
     "enabled": true,
     "head_sampling_rate": 0.1,
   },
+  // Native Cloudflare Workers rate limiting (edge-enforced, distributed — not
+  // in-memory). RL_TOKEN covers /token + /refresh (20/min/IP); RL_START covers
+  // /start (60/min/IP). Keyed by the client IP inside the worker.
+  "unsafe": {
+    "bindings": [
+      {
+        "name": "RL_TOKEN",
+        "type": "ratelimit",
+        "namespace_id": "1001",
+        "simple": { "limit": 20, "period": 60 },
+      },
+      {
+        "name": "RL_START",
+        "type": "ratelimit",
+        "namespace_id": "1002",
+        "simple": { "limit": 60, "period": 60 },
+      },
+    ],
+  },
 }

@@ -18,9 +18,20 @@ const BASE_VARS = {
   IOS_BUNDLE_ID: 'org.entner.twenty.Twenty',
 };
 
+/** A rate limiter that always allows, unless `allow` is false. */
+function fakeLimiter(allow: boolean): Env['RL_TOKEN'] {
+  return { limit: async () => ({ success: allow }) };
+}
+
+interface EnvOptions {
+  /** When false, both rate limiters reject (simulates exceeding the limit). */
+  rateLimitAllows?: boolean;
+}
+
 /** Build an Env backed by an in-memory fake D1 holding the given providers. */
-export function makeEnv(providers: OAuthProviderRow[] = []): Env {
+export function makeEnv(providers: OAuthProviderRow[] = [], opts: EnvOptions = {}): Env {
   const map = new Map(providers.map((p) => [p.id, p]));
+  const allow = opts.rateLimitAllows ?? true;
 
   const db = {
     prepare(_sql: string) {
@@ -46,6 +57,8 @@ export function makeEnv(providers: OAuthProviderRow[] = []): Env {
     ...BASE_VARS,
     PROVIDER_SECRET_ENCRYPTION_KEY: TEST_ENCRYPTION_KEY,
     OAUTH_DB: db,
+    RL_TOKEN: fakeLimiter(allow),
+    RL_START: fakeLimiter(allow),
   };
 }
 

@@ -75,6 +75,32 @@ describe('security', () => {
     expect((await dispatch(env, '/health', { method: 'DELETE' })).status).toBe(405);
   });
 
+  it('returns 429 when the rate limiter rejects a sensitive route', async () => {
+    const env = makeEnv([await makeProvider()], { rateLimitAllows: false });
+    const state = 'a'.repeat(43);
+    const challenge = 'b'.repeat(43);
+
+    const start = await dispatch(
+      env,
+      `/twenty/oauth/providers/twenty-cloud/start?state=${state}&code_challenge=${challenge}`,
+    );
+    expect(start.status).toBe(429);
+    expect(start.headers.get('Retry-After')).toBe('60');
+
+    const token = await dispatch(env, '/twenty/oauth/providers/twenty-cloud/token', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ code: 'x', codeVerifier: 'c'.repeat(64) }),
+    });
+    expect(token.status).toBe(429);
+  });
+
+  it('does not rate limit the public config route', async () => {
+    const env = makeEnv([await makeProvider()], { rateLimitAllows: false });
+    const res = await dispatch(env, '/twenty/oauth/providers/twenty-cloud/config');
+    expect(res.status).toBe(200);
+  });
+
   it('fails closed when the environment is misconfigured', async () => {
     const env = makeEnv();
     (env as { PUBLIC_BASE_URL: string }).PUBLIC_BASE_URL = 'https://wrong.example';

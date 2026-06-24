@@ -52,6 +52,13 @@ export function validateEnv(env: Env): void {
     throw new Error('env_invalid: OAUTH_DB binding missing');
   }
 
+  if (!env.RL_TOKEN || typeof env.RL_TOKEN.limit !== 'function') {
+    throw new Error('env_invalid: RL_TOKEN binding missing');
+  }
+  if (!env.RL_START || typeof env.RL_START.limit !== 'function') {
+    throw new Error('env_invalid: RL_START binding missing');
+  }
+
   assertEncryptionKeyShape(env.PROVIDER_SECRET_ENCRYPTION_KEY);
 }
 

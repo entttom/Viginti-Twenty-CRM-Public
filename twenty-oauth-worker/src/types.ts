@@ -1,6 +1,15 @@
 // Shared types for the Viginti Twenty OAuth Worker.
 
 /**
+ * Cloudflare Workers native rate limiting binding. Edge-enforced and
+ * distributed — not in-memory. Configured under `unsafe.bindings` in
+ * wrangler.jsonc.
+ */
+export interface RateLimit {
+  limit(options: { key: string }): Promise<{ success: boolean }>;
+}
+
+/**
  * Worker runtime environment. Non-secret values come from `wrangler.jsonc`
  * `vars`. `PROVIDER_SECRET_ENCRYPTION_KEY` is a Worker secret and is NEVER
  * stored in source, git, README, tests, logs or D1.
@@ -15,6 +24,11 @@ export interface Env {
   PROVIDER_SECRET_ENCRYPTION_KEY: string;
 
   OAUTH_DB: D1Database;
+
+  /** Token + refresh: 20 req/min per IP. */
+  RL_TOKEN: RateLimit;
+  /** Authorization start: 60 req/min per IP. */
+  RL_START: RateLimit;
 }
 
 export type TokenEndpointAuthMethod = 'none' | 'client_secret_post';

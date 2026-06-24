@@ -54,6 +54,12 @@ export function methodNotAllowed(requestId: string, allow: string): Response {
   return errorJson('method_not_allowed', 405, requestId, undefined, { Allow: allow });
 }
 
+export function tooManyRequests(requestId: string): Response {
+  return errorJson('rate_limited', 429, requestId, 'Too many requests.', {
+    'Retry-After': '60',
+  });
+}
+
 export function internalError(requestId: string): Response {
   return errorJson('internal_error', 500, requestId);
 }
