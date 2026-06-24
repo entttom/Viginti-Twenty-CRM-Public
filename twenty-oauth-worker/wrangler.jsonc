@@ -1,0 +1,40 @@
+{
+  // Wrangler configuration for the Viginti Twenty OAuth worker.
+  // Docs: https://developers.cloudflare.com/workers/wrangler/configuration/
+  //
+  // The custom domain is provisioned directly through Cloudflare Workers — no
+  // manual CNAME to a workers.dev address is required.
+  //
+  // Secrets (PROVIDER_SECRET_ENCRYPTION_KEY) are NEVER set here. Use:
+  //   npx wrangler secret put PROVIDER_SECRET_ENCRYPTION_KEY
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "viginti-twenty-oauth",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-24",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "viginti.entner.org",
+      "custom_domain": true,
+    },
+  ],
+  "vars": {
+    "PUBLIC_BASE_URL": "https://viginti.entner.org",
+    "DEFAULT_TWENTY_ISSUER": "https://api.twenty.com",
+    "OAUTH_SCOPE": "api profile",
+    "APPLE_TEAM_ID": "RG7FE682S2",
+    "IOS_BUNDLE_ID": "org.entner.twenty.Twenty",
+  },
+  "d1_databases": [
+    {
+      "binding": "OAUTH_DB",
+      "database_name": "viginti-oauth",
+      "database_id": "3581e62f-2c96-4167-af8e-53baafcb36d4",
+      "migrations_dir": "migrations",
+    },
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1,
+  },
+}

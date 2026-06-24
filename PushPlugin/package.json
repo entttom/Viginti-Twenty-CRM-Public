@@ -1,8 +1,8 @@
 {
-  "name": "twenty-ios-push-plugin",
+  "name": "viginti-ios-push-plugin",
   "version": "1.0.0",
   "private": true,
-  "description": "Remote push notifications for Twenty-iOS: Twenty marketplace app + Cloudflare relay worker (FCM HTTP v1). No Cloudflare Queue in v1.",
+  "description": "Remote push notifications for Viginti iOS: Twenty marketplace app + Cloudflare relay worker (FCM HTTP v1). No Cloudflare Queue in v1.",
   "scripts": {
     "install:all": "npm install --prefix twenty-app && npm install --prefix cloudflare-worker",
     "typecheck": "npm run typecheck --prefix twenty-app && npm run typecheck --prefix cloudflare-worker",

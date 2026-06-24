@@ -77,4 +77,6 @@ PushPlugin/twenty-app/.env.*
 PushPlugin/**/node_modules/
 PushPlugin/**/dist/
 PushPlugin/**/.wrangler/
+PushPlugin/**/.twenty/
 PushPlugin/**/coverage/
+PushPlugin/**/*.tgz

@@ -2,7 +2,9 @@
 **/node_modules/
 **/dist/
 **/.wrangler/
+**/.twenty/
 **/coverage/
+**/*.tgz
 
 # Cloudflare Worker secrets
 cloudflare-worker/.dev.vars
