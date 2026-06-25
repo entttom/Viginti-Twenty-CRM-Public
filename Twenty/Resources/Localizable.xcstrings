@@ -7255,6 +7255,138 @@
         }
       }
     },
+    "oauth.error.callback" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The sign-in response could not be verified. Please try again."
+          }
+        }
+      }
+    },
+    "oauth.error.cancelled" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sign-in was cancelled."
+          }
+        }
+      }
+    },
+    "oauth.error.denied" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sign-in was not completed."
+          }
+        }
+      }
+    },
+    "oauth.error.discovery" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This address does not expose a compatible Twenty OAuth configuration."
+          }
+        }
+      }
+    },
+    "oauth.error.insecureIssuer" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The Twenty instance must use HTTPS."
+          }
+        }
+      }
+    },
+    "oauth.error.invalidIssuer" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The Twenty instance address is invalid."
+          }
+        }
+      }
+    },
+    "oauth.error.managedBroker" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This Twenty instance requires a server-side OAuth registration. Update the instance or use an API token."
+          }
+        }
+      }
+    },
+    "oauth.error.missingTokens" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The Twenty instance did not return valid sign-in tokens."
+          }
+        }
+      }
+    },
+    "oauth.error.registration" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The app could not register with this Twenty instance."
+          }
+        }
+      }
+    },
+    "oauth.error.tokenExchange" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The sign-in could not be completed. Please try again."
+          }
+        }
+      }
+    },
+    "oauth.error.unsupported" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This Twenty instance does not support the required OAuth features."
+          }
+        }
+      }
+    },
+    "oauth.error.webSession" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The sign-in browser could not be started. Make sure the app's Associated Domains capability for viginti.entner.org is enabled."
+          }
+        }
+      }
+    },
     "offline.cache.persistenceFailed" : {
       "localizations" : {
         "de" : {
@@ -7450,6 +7582,7 @@
       }
     },
     "onboarding.authentication" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7461,6 +7594,50 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Authentication"
+          }
+        }
+      }
+    },
+    "onboarding.changeInstance" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Change"
+          }
+        }
+      }
+    },
+    "onboarding.checkingInstance" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Checking your instance…"
+          }
+        }
+      }
+    },
+    "onboarding.connectTo" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Connect to"
+          }
+        }
+      }
+    },
+    "onboarding.continue" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Continue"
           }
         }
       }
@@ -7482,6 +7659,7 @@
       }
     },
     "onboarding.instance" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7529,6 +7707,17 @@
         }
       }
     },
+    "onboarding.oauthHint" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Opens your Twenty instance in the browser — you enter your password there, never in the app."
+          }
+        }
+      }
+    },
     "onboarding.passwordHint" : {
       "localizations" : {
         "de" : {
@@ -7541,6 +7730,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sign in with your personal Twenty account. Your password is sent only to your Twenty instance and is not stored."
+          }
+        }
+      }
+    },
+    "onboarding.passwordOption" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sign in with email & password"
           }
         }
       }
@@ -7577,6 +7777,50 @@
         }
       }
     },
+    "onboarding.selfHosted" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Self-hosted"
+          }
+        }
+      }
+    },
+    "onboarding.selfHostedSubtitle" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Your own server"
+          }
+        }
+      }
+    },
+    "onboarding.signingIn" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Signing in…"
+          }
+        }
+      }
+    },
+    "onboarding.signInWithTwenty" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sign in with Twenty"
+          }
+        }
+      }
+    },
     "onboarding.subtitle" : {
       "localizations" : {
         "de" : {
@@ -7589,6 +7833,94 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connect to your Twenty CRM instance to manage contacts, companies, notes, and tasks."
+          }
+        }
+      }
+    },
+    "onboarding.support.broker" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Browser sign-in isn't available for this instance. Sign in with email & password."
+          }
+        }
+      }
+    },
+    "onboarding.support.invalid" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter a valid HTTPS instance address."
+          }
+        }
+      }
+    },
+    "onboarding.support.supported" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Browser sign-in is supported."
+          }
+        }
+      }
+    },
+    "onboarding.support.unreachable" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Could not reach this address or it is not a Twenty instance."
+          }
+        }
+      }
+    },
+    "onboarding.support.unsupported" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This instance doesn't support browser sign-in. Use email & password."
+          }
+        }
+      }
+    },
+    "onboarding.tryAgain" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Try again"
+          }
+        }
+      }
+    },
+    "onboarding.twentyCloud" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Twenty Cloud"
+          }
+        }
+      }
+    },
+    "onboarding.twentyCloudSubtitle" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "*.twenty.com"
           }
         }
       }
