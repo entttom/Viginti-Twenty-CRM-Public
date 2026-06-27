@@ -80,3 +80,6 @@ PushPlugin/**/.wrangler/
 PushPlugin/**/.twenty/
 PushPlugin/**/coverage/
 PushPlugin/**/*.tgz
+
+# Wrangler local state/cache
+.wrangler/
