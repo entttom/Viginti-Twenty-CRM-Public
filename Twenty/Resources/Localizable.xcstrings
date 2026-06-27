@@ -7327,7 +7327,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "This Twenty instance requires a server-side OAuth registration. Update the instance or use an API token."
+            "value" : "This Twenty instance requires browser sign-in through a compatible OAuth registration."
           }
         }
       }
