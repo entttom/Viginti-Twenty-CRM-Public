@@ -1,0 +1,19 @@
+{
+  "workspaces.title": ["Workspaces", "Workspaces"],
+  "workspaces.add": ["Add Workspace", "Workspace hinzufügen"],
+  "workspaces.manage": ["Manage Workspaces", "Workspaces verwalten"],
+  "workspaces.switcher": ["Workspace", "Workspace"],
+  "workspaces.active": ["Active", "Aktiv"],
+  "workspaces.remove": ["Remove", "Entfernen"],
+  "workspaces.remove.title": ["Remove “%@”?", "„%@“ entfernen?"],
+  "workspaces.remove.message": ["You will be signed out of this workspace on this device. Cached records and unsynced changes stay on this device unless you delete them.", "Sie werden auf diesem Gerät von diesem Workspace abgemeldet. Zwischengespeicherte Datensätze und nicht synchronisierte Änderungen bleiben auf diesem Gerät, sofern Sie sie nicht löschen."],
+  "workspaces.remove.keepData": ["Remove and Keep Local Data", "Entfernen und lokale Daten behalten"],
+  "workspaces.remove.deleteData": ["Remove and Delete Local Data", "Entfernen und lokale Daten löschen"],
+  "workspaces.footer": ["Tap a workspace to switch. Swipe left to sign out of it.", "Tippen Sie auf einen Workspace, um zu wechseln. Wischen Sie nach links, um sich davon abzumelden."],
+  "workspaces.footer.free": ["Switching between workspaces is part of Viginti Pro. Your active workspace stays fully usable, and the others keep their data.", "Der Wechsel zwischen Workspaces ist Teil von Viginti Pro. Ihr aktiver Workspace bleibt voll nutzbar, und die anderen behalten ihre Daten."],
+  "workspaces.switch.failed": ["Could Not Switch Workspace", "Workspace konnte nicht gewechselt werden"],
+  "workspaces.error.unknown": ["This workspace is no longer saved on this device.", "Dieser Workspace ist auf diesem Gerät nicht mehr gespeichert."],
+  "workspaces.error.missingCredentials": ["The sign-in for this workspace is no longer available. Remove it and add it again.", "Die Anmeldung für diesen Workspace ist nicht mehr verfügbar. Entfernen Sie ihn und fügen Sie ihn erneut hinzu."],
+  "workspaces.saved.title": ["Your Workspaces", "Ihre Workspaces"],
+  "workspaces.saved.hint": ["Continue with a saved workspace, or connect another one below.", "Fahren Sie mit einem gespeicherten Workspace fort oder verbinden Sie unten einen weiteren."]
+}

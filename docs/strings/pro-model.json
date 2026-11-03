@@ -1,0 +1,19 @@
+{
+  "pro.feature.recordCreation.headline": ["Creating records is free. Viginti Pro adds editing, deleting and offline changes.", "Datensätze anlegen ist kostenlos. Viginti Pro ergänzt Bearbeiten, Löschen und Offline-Änderungen."],
+  "pro.feature.recordEditing.headline": ["Editing records is part of Viginti Pro.", "Datensätze bearbeiten ist Teil von Viginti Pro."],
+  "pro.feature.recordDeletion.headline": ["Deleting records is part of Viginti Pro.", "Datensätze löschen ist Teil von Viginti Pro."],
+  "pro.feature.taskCompletion.headline": ["Completing tasks is free. Viginti Pro adds editing, deleting and offline changes.", "Aufgaben abschließen ist kostenlos. Viginti Pro ergänzt Bearbeiten, Löschen und Offline-Änderungen."],
+  "pro.feature.offlineMutations.headline": ["You're offline. Saving changes offline is part of Viginti Pro. Reconnect to save for free.", "Sie sind offline. Änderungen offline speichern ist Teil von Viginti Pro. Mit Internetverbindung speichern Sie kostenlos."],
+  "pro.feature.bulkActions.headline": ["Bulk actions are part of Viginti Pro.", "Mehrfachaktionen sind Teil von Viginti Pro."],
+  "pro.feature.businessCardScanner.headline": ["Scanning business cards is part of Viginti Pro.", "Visitenkarten scannen ist Teil von Viginti Pro."],
+  "pro.feature.appIntents.headline": ["Shortcuts that change your CRM are part of Viginti Pro.", "Kurzbefehle, die Ihr CRM ändern, sind Teil von Viginti Pro."],
+  "pro.feature.attachments.headline": ["Attachments are part of Viginti Pro.", "Anhänge sind Teil von Viginti Pro."],
+  "pro.feature.aiCapture.headline": ["AI capture is part of Viginti Pro.", "KI-Erfassung ist Teil von Viginti Pro."],
+  "pro.feature.meetingPrep.headline": ["Meeting prep is part of Viginti Pro.", "Die Meeting-Vorbereitung ist Teil von Viginti Pro."],
+  "offline.enqueue.proRequired": ["You're offline. Saving changes offline is part of Viginti Pro. Reconnect to save for free.", "Sie sind offline. Änderungen offline speichern ist Teil von Viginti Pro. Mit Internetverbindung speichern Sie kostenlos."],
+  "paywall.subtitle": ["Edit, delete and work offline: the complete Twenty CRM in your pocket.", "Bearbeiten, löschen und offline arbeiten: Ihr komplettes Twenty CRM für unterwegs."],
+  "paywall.benefit.edit": ["Edit and delete records, including bulk actions", "Datensätze bearbeiten und löschen, auch als Mehrfachaktion"],
+  "paywall.benefit.offline": ["Make changes offline that sync automatically", "Offline Änderungen vornehmen, die automatisch synchronisiert werden"],
+  "paywall.benefit.tools": ["Scanner, voice notes, AI capture and meeting prep", "Scanner, Sprachnotizen, KI-Erfassung und Meeting-Vorbereitung"],
+  "paywall.benefit.free": ["Always free: view, search, complete tasks and create records online", "Immer kostenlos: ansehen, suchen, Aufgaben abschließen und online Datensätze anlegen"]
+}

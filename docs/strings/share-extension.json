@@ -1,0 +1,246 @@
+{
+  "shareExtension.cancel": [
+    "Cancel",
+    "Abbrechen"
+  ],
+  "shareExtension.contactRequired": [
+    "Enter a name or an email address.",
+    "Geben Sie einen Namen oder eine E-Mail-Adresse ein."
+  ],
+  "shareExtension.done": [
+    "Done",
+    "Fertig"
+  ],
+  "shareExtension.empty.message": [
+    "Viginti can save web links, text and contact cards.",
+    "Viginti kann Weblinks, Text und Kontaktkarten speichern."
+  ],
+  "shareExtension.empty.title": [
+    "Nothing to Save",
+    "Nichts zu speichern"
+  ],
+  "shareExtension.failed.message": [
+    "The item could not be handed over to Viginti. Please try again.",
+    "Der Inhalt konnte nicht an Viginti übergeben werden. Bitte versuchen Sie es erneut."
+  ],
+  "shareExtension.failed.title": [
+    "Could Not Save",
+    "Speichern nicht möglich"
+  ],
+  "shareExtension.field.body": [
+    "Details",
+    "Details"
+  ],
+  "shareExtension.field.company": [
+    "Company",
+    "Firma"
+  ],
+  "shareExtension.field.email": [
+    "Email",
+    "E-Mail"
+  ],
+  "shareExtension.field.firstName": [
+    "First Name",
+    "Vorname"
+  ],
+  "shareExtension.field.lastName": [
+    "Last Name",
+    "Nachname"
+  ],
+  "shareExtension.field.phone": [
+    "Phone",
+    "Telefon"
+  ],
+  "shareExtension.field.title": [
+    "Title",
+    "Titel"
+  ],
+  "shareExtension.footer": [
+    "Viginti saves this to your CRM the next time you open the app.",
+    "Viginti speichert dies in Ihrem CRM, sobald Sie die App das nächste Mal öffnen."
+  ],
+  "shareExtension.link.header": [
+    "Link to Contact",
+    "Mit Kontakt verknüpfen"
+  ],
+  "shareExtension.link.remove": [
+    "Remove",
+    "Entfernen"
+  ],
+  "shareExtension.link.search": [
+    "Search contacts",
+    "Kontakte suchen"
+  ],
+  "shareExtension.locked.action": [
+    "Show Me in Viginti",
+    "In Viginti zeigen"
+  ],
+  "shareExtension.locked.message": [
+    "Saving links, text and contact cards from other apps is part of Viginti Pro.",
+    "Das Speichern von Links, Text und Kontaktkarten aus anderen Apps ist Teil von Viginti Pro."
+  ],
+  "shareExtension.locked.title": [
+    "Viginti Pro Feature",
+    "Funktion von Viginti Pro"
+  ],
+  "shareExtension.save": [
+    "Save",
+    "Speichern"
+  ],
+  "shareExtension.saved.message": [
+    "Viginti adds it to your CRM the next time you open the app.",
+    "Viginti fügt es Ihrem CRM hinzu, sobald Sie die App das nächste Mal öffnen."
+  ],
+  "shareExtension.saved.title": [
+    "Saved",
+    "Gespeichert"
+  ],
+  "shareExtension.signedOut.message": [
+    "Sign in to your Twenty workspace in Viginti, then share again.",
+    "Melden Sie sich in Viginti bei Ihrem Twenty-Workspace an und teilen Sie den Inhalt dann erneut."
+  ],
+  "shareExtension.signedOut.title": [
+    "Not Signed In",
+    "Nicht angemeldet"
+  ],
+  "shareExtension.target": [
+    "Save as",
+    "Speichern als"
+  ],
+  "shareExtension.target.contact": [
+    "Contact",
+    "Kontakt"
+  ],
+  "shareExtension.target.note": [
+    "Note",
+    "Notiz"
+  ],
+  "shareExtension.target.task": [
+    "Task",
+    "Aufgabe"
+  ],
+  "shareExtension.taskTitleRequired": [
+    "A task needs a title.",
+    "Eine Aufgabe benötigt einen Titel."
+  ],
+  "shareExtension.title": [
+    "Save to Viginti",
+    "In Viginti speichern"
+  ],
+  "shareInbox.banner.failedMany": [
+    "%lld shared items could not be saved.",
+    "%lld geteilte Inhalte konnten nicht gespeichert werden."
+  ],
+  "shareInbox.banner.failedOne": [
+    "A shared item could not be saved.",
+    "Ein geteilter Inhalt konnte nicht gespeichert werden."
+  ],
+  "shareInbox.banner.review": [
+    "Review",
+    "Prüfen"
+  ],
+  "shareInbox.banner.upgrade": [
+    "Viginti Pro",
+    "Viginti Pro"
+  ],
+  "shareInbox.banner.waitingMany": [
+    "%lld shared items are waiting. Saving them requires Viginti Pro.",
+    "%lld geteilte Inhalte warten. Zum Speichern benötigen Sie Viginti Pro."
+  ],
+  "shareInbox.banner.waitingOne": [
+    "A shared item is waiting. Saving it requires Viginti Pro.",
+    "Ein geteilter Inhalt wartet. Zum Speichern benötigen Sie Viginti Pro."
+  ],
+  "shareInbox.reason.creationFailed": [
+    "Saving failed.",
+    "Speichern fehlgeschlagen."
+  ],
+  "shareInbox.reason.creationFailedDetail": [
+    "Saving failed: %@",
+    "Speichern fehlgeschlagen: %@"
+  ],
+  "shareInbox.reason.invalidContent": [
+    "This item is missing required content.",
+    "Diesem Inhalt fehlen erforderliche Angaben."
+  ],
+  "shareInbox.reason.unreadable": [
+    "This item could not be read. It may be damaged.",
+    "Dieser Inhalt konnte nicht gelesen werden. Möglicherweise ist er beschädigt."
+  ],
+  "shareInbox.reason.unsupportedVersion": [
+    "This item was shared with a newer version of Viginti. Update the app, then try again.",
+    "Dieser Inhalt wurde mit einer neueren Version von Viginti geteilt. Aktualisieren Sie die App und versuchen Sie es dann erneut."
+  ],
+  "shareInbox.reason.workspaceMismatch": [
+    "This item was shared while another workspace was active. Retry saves it to the current workspace.",
+    "Dieser Inhalt wurde geteilt, während ein anderer Workspace aktiv war. „Erneut versuchen“ speichert ihn im aktuellen Workspace."
+  ],
+  "shareInbox.review.discard": [
+    "Discard",
+    "Verwerfen"
+  ],
+  "shareInbox.review.discardMessage": [
+    "The item is removed without being saved to your CRM.",
+    "Der Inhalt wird entfernt, ohne in Ihrem CRM gespeichert zu werden."
+  ],
+  "shareInbox.review.discardTitle": [
+    "Discard this shared item?",
+    "Diesen geteilten Inhalt verwerfen?"
+  ],
+  "shareInbox.review.empty": [
+    "Nothing to Review",
+    "Nichts zu prüfen"
+  ],
+  "shareInbox.review.proRequired": [
+    "Saving shared items requires Viginti Pro.",
+    "Zum Speichern geteilter Inhalte benötigen Sie Viginti Pro."
+  ],
+  "shareInbox.review.retry": [
+    "Retry",
+    "Erneut versuchen"
+  ],
+  "shareInbox.review.retryAll": [
+    "Retry All",
+    "Alle erneut versuchen"
+  ],
+  "shareInbox.review.signInRequired": [
+    "Sign in to a workspace to save shared items.",
+    "Melden Sie sich bei einem Workspace an, um geteilte Inhalte zu speichern."
+  ],
+  "shareInbox.review.title": [
+    "Shared Items",
+    "Geteilte Inhalte"
+  ],
+  "shareInbox.review.unreadableTitle": [
+    "Unreadable shared item",
+    "Unlesbarer geteilter Inhalt"
+  ],
+  "shareInbox.target.contact": [
+    "Contact",
+    "Kontakt"
+  ],
+  "shareInbox.target.note": [
+    "Note",
+    "Notiz"
+  ],
+  "shareInbox.target.task": [
+    "Task",
+    "Aufgabe"
+  ],
+  "shareInbox.toast.savedMany": [
+    "%lld shared items saved.",
+    "%lld geteilte Inhalte gespeichert."
+  ],
+  "shareInbox.toast.savedManyOffline": [
+    "%lld shared items saved. They will sync when the connection is restored.",
+    "%lld geteilte Inhalte gespeichert. Sie werden synchronisiert, sobald die Verbindung wiederhergestellt ist."
+  ],
+  "shareInbox.toast.savedOne": [
+    "Shared item saved.",
+    "Geteilter Inhalt gespeichert."
+  ],
+  "shareExtension.ok": [
+    "OK",
+    "OK"
+  ]
+}

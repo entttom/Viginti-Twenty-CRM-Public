@@ -1,0 +1,122 @@
+{
+  "pro.feature.aiCapture.headline": [
+    "On-device AI capture is part of Viginti Pro.",
+    "KI-Erfassung auf dem Gerät ist Teil von Viginti Pro."
+  ],
+  "ai.hint.appleIntelligenceOff": [
+    "Turn on Apple Intelligence in Settings to use on-device AI.",
+    "Aktivieren Sie Apple Intelligence in den Einstellungen, um die KI zu nutzen."
+  ],
+  "ai.hint.modelNotReady": [
+    "On-device AI is still getting ready. Try again later.",
+    "Die KI auf dem Gerät wird noch vorbereitet. Versuchen Sie es später erneut."
+  ],
+  "ai.hint.unsupportedLanguage": [
+    "On-device AI isn't available in your language yet.",
+    "Die KI auf dem Gerät ist in Ihrer Sprache noch nicht verfügbar."
+  ],
+  "ai.error.unavailable": [
+    "On-device AI isn't available right now.",
+    "Die KI auf dem Gerät ist gerade nicht verfügbar."
+  ],
+  "ai.error.emptyInput": [
+    "There's nothing to process yet.",
+    "Es gibt noch nichts zu verarbeiten."
+  ],
+  "ai.error.generationFailed": [
+    "On-device AI couldn't process this. Nothing was changed.",
+    "Die KI auf dem Gerät konnte dies nicht verarbeiten. Es wurde nichts geändert."
+  ],
+  "ai.onDeviceFootnote": [
+    "Runs on this device. Nothing leaves your iPhone or iPad.",
+    "Läuft auf diesem Gerät. Nichts verlässt Ihr iPhone oder iPad."
+  ],
+  "voiceNote.ai.structure": [
+    "Structure with AI",
+    "Mit KI strukturieren"
+  ],
+  "voiceNote.ai.structureHint": [
+    "Creates a title, a cleaned-up note and task suggestions on this device.",
+    "Erstellt auf diesem Gerät einen Titel, eine bereinigte Notiz und Aufgabenvorschläge."
+  ],
+  "voiceNote.ai.structuring": [
+    "Structuring on this device…",
+    "Wird auf diesem Gerät strukturiert …"
+  ],
+  "voiceNote.ai.applied": [
+    "Structured on this device. Please review.",
+    "Auf diesem Gerät strukturiert. Bitte prüfen Sie das Ergebnis."
+  ],
+  "voiceNote.ai.undo": [
+    "Undo",
+    "Rückgängig"
+  ],
+  "scanner.source.onDeviceAI": [
+    "OCR + on-device AI",
+    "OCR + KI auf dem Gerät"
+  ],
+  "scanner.refiningWithAI": [
+    "Reading the card on this device…",
+    "Karte wird auf diesem Gerät gelesen …"
+  ],
+  "scanner.field.address": [
+    "Address",
+    "Adresse"
+  ],
+  "briefing.title": [
+    "Briefing",
+    "Briefing"
+  ],
+  "briefing.idleMessage": [
+    "Get the key points from notes, tasks and deals before your next conversation.",
+    "Erhalten Sie vor Ihrem nächsten Gespräch die wichtigsten Punkte aus Notizen, Aufgaben und Deals."
+  ],
+  "briefing.generate": [
+    "Prepare Briefing",
+    "Briefing vorbereiten"
+  ],
+  "briefing.generating": [
+    "Preparing on this device…",
+    "Wird auf diesem Gerät vorbereitet …"
+  ],
+  "briefing.refresh": [
+    "Refresh briefing",
+    "Briefing aktualisieren"
+  ],
+  "briefing.footnote.ai": [
+    "Generated on this device from CRM data. Please double-check.",
+    "Auf diesem Gerät aus CRM-Daten erstellt. Bitte prüfen Sie die Angaben."
+  ],
+  "briefing.footnote.summary": [
+    "Summary of the latest CRM data.",
+    "Zusammenfassung der neuesten CRM-Daten."
+  ],
+  "briefing.fallback.overdue": [
+    "Overdue: %@",
+    "Überfällig: %@"
+  ],
+  "briefing.fallback.nextTask": [
+    "Next task: “%1$@”, due %2$@",
+    "Nächste Aufgabe: „%1$@“, fällig %2$@"
+  ],
+  "briefing.fallback.openTask": [
+    "Open task: “%@”",
+    "Offene Aufgabe: „%@“"
+  ],
+  "briefing.fallback.opportunity": [
+    "Opportunity “%1$@”: %2$@",
+    "Verkaufschance „%1$@“: %2$@"
+  ],
+  "briefing.fallback.lastNote": [
+    "Last note (%1$@): %2$@",
+    "Letzte Notiz (%1$@): %2$@"
+  ],
+  "briefing.fallback.lastInteraction": [
+    "Last interaction %@",
+    "Letzter Kontakt %@"
+  ],
+  "briefing.fallback.empty": [
+    "No notes, tasks or opportunities recorded yet.",
+    "Noch keine Notizen, Aufgaben oder Verkaufschancen erfasst."
+  ]
+}

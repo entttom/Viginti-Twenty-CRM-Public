@@ -1,0 +1,167 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti"
+          }
+        }
+      }
+    },
+    "NSCalendarsFullAccessUsageDescription" : {
+      "comment" : "Privacy - NSCalendarsFullAccessUsageDescription",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti trägt Ihre Aufgaben auf Wunsch in Ihren Kalender ein und hält die verknüpften Ereignisse aktuell. Wenn Sie die Terminvorbereitung aktivieren, liest Viginti Ihre anstehenden Termine auf diesem Gerät, um passende CRM-Kontakte anzuzeigen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti adds your tasks to your calendar and keeps the linked events in sync when you ask it to. If you turn on meeting preparation, Viginti reads your upcoming events on this device to show matching CRM contacts."
+          }
+        }
+      }
+    },
+    "NSCalendarsUsageDescription" : {
+      "comment" : "Privacy - NSCalendarsUsageDescription",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti trägt Ihre Aufgaben auf Wunsch in Ihren Kalender ein und hält die verknüpften Ereignisse aktuell. Wenn Sie die Terminvorbereitung aktivieren, liest Viginti Ihre anstehenden Termine auf diesem Gerät, um passende CRM-Kontakte anzuzeigen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti adds your tasks to your calendar and keeps the linked events in sync when you ask it to. If you turn on meeting preparation, Viginti reads your upcoming events on this device to show matching CRM contacts."
+          }
+        }
+      }
+    },
+    "NSCalendarsWriteOnlyAccessUsageDescription" : {
+      "comment" : "Privacy - NSCalendarsWriteOnlyAccessUsageDescription",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti trägt Ihre Aufgaben als Ereignisse in Ihren Kalender ein."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti adds your tasks to your calendar as events."
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription" : {
+      "comment" : "Privacy - NSCameraUsageDescription",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti verwendet die Kamera, um Visitenkarten zu scannen und daraus Kontakte anzulegen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti uses the camera to scan business cards and create contacts from them."
+          }
+        }
+      }
+    },
+    "NSContactsUsageDescription" : {
+      "comment" : "Privacy - NSContactsUsageDescription",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti fügt einen CRM-Kontakt zu Ihren iOS-Kontakten hinzu, wenn Sie dies auswählen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti adds a CRM contact to your iOS Contacts when you choose to."
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription" : {
+      "comment" : "Privacy - NSMicrophoneUsageDescription",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti nimmt nur dann Audio auf, wenn Sie eine Sprachnotiz starten, und transkribiert sie auf diesem Gerät."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti records audio only when you start a voice note so it can transcribe your note on this device."
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryUsageDescription" : {
+      "comment" : "Privacy - NSPhotoLibraryUsageDescription",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti verwendet Ihre Fotomediathek, um ausgewählte Visitenkartenbilder zu importieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti uses your photo library to import business card images you select."
+          }
+        }
+      }
+    },
+    "NSSpeechRecognitionUsageDescription" : {
+      "comment" : "Privacy - NSSpeechRecognitionUsageDescription",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti verwendet die Spracherkennung von Apple, um Ihre Sprachnotizen zu transkribieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti uses Apple speech recognition to transcribe voice notes you record."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

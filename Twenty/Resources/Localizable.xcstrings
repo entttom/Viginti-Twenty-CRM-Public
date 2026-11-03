@@ -532,18 +532,130 @@
         }
       }
     },
-    "app.name" : {
+    "ai.error.emptyInput" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty"
+            "value" : "Es gibt noch nichts zu verarbeiten."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty"
+            "value" : "There's nothing to process yet."
+          }
+        }
+      }
+    },
+    "ai.error.generationFailed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die KI auf dem Gerät konnte dies nicht verarbeiten. Es wurde nichts geändert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On-device AI couldn't process this. Nothing was changed."
+          }
+        }
+      }
+    },
+    "ai.error.unavailable" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die KI auf dem Gerät ist gerade nicht verfügbar."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On-device AI isn't available right now."
+          }
+        }
+      }
+    },
+    "ai.hint.appleIntelligenceOff" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktivieren Sie Apple Intelligence in den Einstellungen, um die KI zu nutzen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turn on Apple Intelligence in Settings to use on-device AI."
+          }
+        }
+      }
+    },
+    "ai.hint.modelNotReady" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die KI auf dem Gerät wird noch vorbereitet. Versuchen Sie es später erneut."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On-device AI is still getting ready. Try again later."
+          }
+        }
+      }
+    },
+    "ai.hint.unsupportedLanguage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die KI auf dem Gerät ist in Ihrer Sprache noch nicht verfügbar."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On-device AI isn't available in your language yet."
+          }
+        }
+      }
+    },
+    "ai.onDeviceFootnote" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läuft auf diesem Gerät. Nichts verlässt Ihr iPhone oder iPad."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runs on this device. Nothing leaves your iPhone or iPad."
+          }
+        }
+      }
+    },
+    "app.name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti"
           }
         }
       }
@@ -713,13 +825,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty ist gesperrt"
+            "value" : "Viginti ist gesperrt"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty is locked"
+            "value" : "Viginti is locked"
           }
         }
       }
@@ -996,6 +1108,23 @@
         }
       }
     },
+    "auth.browserLoginRequired" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Instanz erfordert die Anmeldung über den Browser."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This instance requires browser sign-in."
+          }
+        }
+      }
+    },
     "auth.checking" : {
       "localizations" : {
         "de" : {
@@ -1008,6 +1137,230 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Checking connection…"
+          }
+        }
+      }
+    },
+    "briefing.fallback.empty" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine Notizen, Aufgaben oder Verkaufschancen erfasst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No notes, tasks or opportunities recorded yet."
+          }
+        }
+      }
+    },
+    "briefing.fallback.lastInteraction" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letzter Kontakt %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last interaction %@"
+          }
+        }
+      }
+    },
+    "briefing.fallback.lastNote" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letzte Notiz (%1$@): %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last note (%1$@): %2$@"
+          }
+        }
+      }
+    },
+    "briefing.fallback.nextTask" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nächste Aufgabe: „%1$@“, fällig %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next task: “%1$@”, due %2$@"
+          }
+        }
+      }
+    },
+    "briefing.fallback.openTask" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Offene Aufgabe: „%@“"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open task: “%@”"
+          }
+        }
+      }
+    },
+    "briefing.fallback.opportunity" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verkaufschance „%1$@“: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opportunity “%1$@”: %2$@"
+          }
+        }
+      }
+    },
+    "briefing.fallback.overdue" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überfällig: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overdue: %@"
+          }
+        }
+      }
+    },
+    "briefing.footnote.ai" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf diesem Gerät aus CRM-Daten erstellt. Bitte prüfen Sie die Angaben."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generated on this device from CRM data. Please double-check."
+          }
+        }
+      }
+    },
+    "briefing.footnote.summary" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zusammenfassung der neuesten CRM-Daten."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Summary of the latest CRM data."
+          }
+        }
+      }
+    },
+    "briefing.generate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Briefing vorbereiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prepare Briefing"
+          }
+        }
+      }
+    },
+    "briefing.generating" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird auf diesem Gerät vorbereitet …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preparing on this device…"
+          }
+        }
+      }
+    },
+    "briefing.idleMessage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erhalten Sie vor Ihrem nächsten Gespräch die wichtigsten Punkte aus Notizen, Aufgaben und Deals."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get the key points from notes, tasks and deals before your next conversation."
+          }
+        }
+      }
+    },
+    "briefing.refresh" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Briefing aktualisieren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refresh briefing"
+          }
+        }
+      }
+    },
+    "briefing.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Briefing"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Briefing"
           }
         }
       }
@@ -1129,7 +1482,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Diese Aufgabe hat ein verknüpftes Kalenderereignis. Wähle, ob das Ereignis im Kalender bleiben oder ebenfalls gelöscht werden soll."
+            "value" : "Diese Aufgabe hat ein verknüpftes Kalenderereignis. Wählen Sie, ob das Ereignis im Kalender bleiben oder ebenfalls gelöscht werden soll."
           }
         },
         "en" : {
@@ -1380,6 +1733,89 @@
         }
       }
     },
+    "clientConfig.error.invalid" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Twenty-Instanz hat eine ungültige Client-Konfiguration geliefert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The Twenty instance returned an invalid client configuration."
+          }
+        }
+      }
+    },
+    "clientConfig.error.unreachable" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Twenty-Instanz ist nicht erreichbar."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The Twenty instance could not be reached."
+          }
+        }
+      }
+    },
+    "clientConfig.error.unsupported" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Twenty-Instanz stellt keine kompatible Client-Konfiguration bereit."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This Twenty instance does not expose a compatible client configuration."
+          }
+        }
+      }
+    },
+    "commands.go" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gehe zu"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go"
+          }
+        }
+      }
+    },
+    "commands.quickSearch" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schnellsuche"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick Search"
+          }
+        }
+      }
+    },
     "common.cancel" : {
       "localizations" : {
         "de" : {
@@ -1515,13 +1951,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty hat die Telefon-App geöffnet. Erstelle nur dann eine Notiz, wenn du diese Nachfassung manuell dokumentieren möchtest."
+            "value" : "Viginti hat die Telefon-App geöffnet. Erstellen Sie nur dann eine Notiz, wenn Sie diese Nachfassung manuell dokumentieren möchten."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty opened the phone app. Create a note only if you want to document this follow-up manually."
+            "value" : "Viginti opened the phone app. Create a note only if you want to document this follow-up manually."
           }
         }
       }
@@ -1563,13 +1999,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty hat den E-Mail-Entwurf geöffnet. Erstelle nur dann eine Notiz, wenn du diese Nachfassung manuell dokumentieren möchtest."
+            "value" : "Viginti hat den E-Mail-Entwurf geöffnet. Erstellen Sie nur dann eine Notiz, wenn Sie diese Nachfassung manuell dokumentieren möchten."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty opened your email composer. Create a note only if you want to document this follow-up manually."
+            "value" : "Viginti opened your email composer. Create a note only if you want to document this follow-up manually."
           }
         }
       }
@@ -1595,7 +2031,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Erstelle nur dann eine Notiz, wenn du diese Kommunikation manuell dokumentieren möchtest."
+            "value" : "Erstellen Sie nur dann eine Notiz, wenn Sie diese Kommunikation manuell dokumentieren möchten."
           }
         },
         "en" : {
@@ -1659,13 +2095,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Telefonische Nachfassung aus Twenty gestartet. Der Abschluss wurde nicht automatisch bestätigt."
+            "value" : "Telefonische Nachfassung aus Viginti gestartet. Der Abschluss wurde nicht automatisch bestätigt."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Phone follow-up started from Twenty. Completion was not verified automatically."
+            "value" : "Phone follow-up started from Viginti. Completion was not verified automatically."
           }
         }
       }
@@ -1675,13 +2111,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "E-Mail-Nachfassung aus Twenty gestartet. Der Versand wurde nicht automatisch bestätigt."
+            "value" : "E-Mail-Nachfassung aus Viginti gestartet. Der Versand wurde nicht automatisch bestätigt."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Email follow-up started from Twenty. Sending was not verified automatically."
+            "value" : "Email follow-up started from Viginti. Sending was not verified automatically."
           }
         }
       }
@@ -1707,13 +2143,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nachricht aus Twenty gestartet. Der Versand wurde nicht automatisch bestätigt."
+            "value" : "Nachricht aus Viginti gestartet. Der Versand wurde nicht automatisch bestätigt."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Message follow-up started from Twenty. Sending was not verified automatically."
+            "value" : "Message follow-up started from Viginti. Sending was not verified automatically."
           }
         }
       }
@@ -3511,6 +3947,70 @@
         }
       }
     },
+    "control.newTask.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffnet Viginti, um eine Aufgabe anzulegen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens Viginti to create a task."
+          }
+        }
+      }
+    },
+    "control.newTask.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Aufgabe"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Task"
+          }
+        }
+      }
+    },
+    "control.scanCard.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffnet Viginti, um eine Visitenkarte zu scannen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens Viginti to scan a business card."
+          }
+        }
+      }
+    },
+    "control.scanCard.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visitenkarte scannen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan Business Card"
+          }
+        }
+      }
+    },
     "customObject.add" : {
       "localizations" : {
         "de" : {
@@ -4088,6 +4588,38 @@
         }
       }
     },
+    "entity.company.type" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firma"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Company"
+          }
+        }
+      }
+    },
+    "entity.contact.type" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact"
+          }
+        }
+      }
+    },
     "error.action.title" : {
       "localizations" : {
         "de" : {
@@ -4462,7 +4994,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Es sind mehrere Twenty-Workspaces verfügbar. Verbinde die App mit der workspace-spezifischen URL."
+            "value" : "Es sind mehrere Twenty-Workspaces verfügbar. Verbinden Sie die App mit der workspace-spezifischen URL."
           }
         },
         "en" : {
@@ -6114,13 +6646,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Öffnen Sie Twenty, um „%@“ zu erledigen."
+            "value" : "Öffnen Sie Viginti, um „%@“ zu erledigen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Open Twenty to complete \"%@\"."
+            "value" : "Open Viginti to complete \"%@\"."
           }
         }
       }
@@ -6146,13 +6678,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "„%@“ konnte nicht erledigt werden. Öffnen Sie Twenty, um es erneut zu versuchen."
+            "value" : "„%@“ konnte nicht erledigt werden. Öffnen Sie Viginti, um es erneut zu versuchen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Could not complete \"%@\". Open Twenty to try again."
+            "value" : "Could not complete \"%@\". Open Viginti to try again."
           }
         }
       }
@@ -6269,18 +6801,162 @@
         }
       }
     },
-    "intent.openingTwenty" : {
+    "intent.openCompany.description" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty wird geöffnet."
+            "value" : "Öffnet eine Firma in Viginti."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opening Twenty."
+            "value" : "Opens a company in Viginti."
+          }
+        }
+      }
+    },
+    "intent.openCompany.parameter" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firma"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Company"
+          }
+        }
+      }
+    },
+    "intent.openCompany.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firma öffnen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Company"
+          }
+        }
+      }
+    },
+    "intent.openContact.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffnet einen Kontakt in Viginti."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens a contact in Viginti."
+          }
+        }
+      }
+    },
+    "intent.openContact.parameter" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact"
+          }
+        }
+      }
+    },
+    "intent.openContact.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt öffnen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Contact"
+          }
+        }
+      }
+    },
+    "intent.openingTwenty" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti wird geöffnet."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opening Viginti."
+          }
+        }
+      }
+    },
+    "intent.openTask.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffnet eine Aufgabe in Viginti."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens a task in Viginti."
+          }
+        }
+      }
+    },
+    "intent.openTask.parameter" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufgabe"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Task"
+          }
+        }
+      }
+    },
+    "intent.openTask.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufgabe öffnen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Task"
           }
         }
       }
@@ -6291,13 +6967,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kontakt in Twenty erstellen"
+            "value" : "Kontakt in Viginti erstellen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Create contact in Twenty"
+            "value" : "Create contact in Viginti"
           }
         }
       }
@@ -6308,13 +6984,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aufgabe in Twenty erstellen"
+            "value" : "Aufgabe in Viginti erstellen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Create task in Twenty"
+            "value" : "Create task in Viginti"
           }
         }
       }
@@ -6325,13 +7001,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Neuer Kontakt in Twenty"
+            "value" : "Neuer Kontakt in Viginti"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "New contact in Twenty"
+            "value" : "New contact in Viginti"
           }
         }
       }
@@ -6342,13 +7018,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Neue Aufgabe in Twenty"
+            "value" : "Neue Aufgabe in Viginti"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "New task in Twenty"
+            "value" : "New task in Viginti"
           }
         }
       }
@@ -6422,13 +7098,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suche in Twenty wird geöffnet."
+            "value" : "Suche in Viginti wird geöffnet."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opening search in Twenty."
+            "value" : "Opening search in Viginti."
           }
         }
       }
@@ -6577,6 +7253,38 @@
         }
       }
     },
+    "intent.shortcut.openCompany" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firma öffnen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Company"
+          }
+        }
+      }
+    },
+    "intent.shortcut.openContact" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt öffnen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Contact"
+          }
+        }
+      }
+    },
     "intent.shortcut.scanCard" : {
       "localizations" : {
         "de" : {
@@ -6662,13 +7370,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Melden Sie sich bei Twenty an, um fortzufahren."
+            "value" : "Melden Sie sich in Viginti bei Ihrem Twenty-Workspace an, um fortzufahren."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sign in to Twenty to continue."
+            "value" : "Sign in to your Twenty workspace in Viginti to continue."
           }
         }
       }
@@ -6717,6 +7425,470 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loading content"
+          }
+        }
+      }
+    },
+    "meetingPrep.aboutContact" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About %@"
+          }
+        }
+      }
+    },
+    "meetingPrep.briefing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Briefing"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Briefing"
+          }
+        }
+      }
+    },
+    "meetingPrep.card.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nächster Termin"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next meeting"
+          }
+        }
+      }
+    },
+    "meetingPrep.denied.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti kann Ihren Kalender nicht lesen, daher ist die Terminvorbereitung nicht verfügbar. Sie können Viginti in der Einstellungen-App den vollen Kalenderzugriff erlauben."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti cannot read your calendar, so meeting preparation is unavailable. You can allow full calendar access for Viginti in the Settings app."
+          }
+        }
+      }
+    },
+    "meetingPrep.explainer.continue" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiter"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        }
+      }
+    },
+    "meetingPrep.explainer.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um Sie auf Ihren nächsten Termin vorzubereiten, liest Viginti die Termine der nächsten 24 Stunden auf diesem Gerät und ordnet die Teilnehmer Ihren CRM-Kontakten zu. Kalenderdaten werden weder hochgeladen noch verändert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To prepare you for your next meeting, Viginti reads the events of the next 24 hours on this device and matches participants with your CRM contacts. Calendar data is not uploaded or changed."
+          }
+        }
+      }
+    },
+    "meetingPrep.explainer.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminvorbereitung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meeting preparation"
+          }
+        }
+      }
+    },
+    "meetingPrep.lastNote" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letzte Notiz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last note"
+          }
+        }
+      }
+    },
+    "meetingPrep.moreParticipants" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld weitere Kontakte"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld more contacts"
+          }
+        }
+      }
+    },
+    "meetingPrep.newNote" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminnotiz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meeting note"
+          }
+        }
+      }
+    },
+    "meetingPrep.newNote.accessibility" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Notiz zu diesem Termin"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New note for this meeting"
+          }
+        }
+      }
+    },
+    "meetingPrep.note.prefill" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Termin: %1$@ (%2$@)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meeting: %1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "meetingPrep.nothingOpen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine offenen Aufgaben, Notizen oder offenen Verkaufschancen zu diesem Kontakt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No open tasks, notes or open opportunities for this contact."
+          }
+        }
+      }
+    },
+    "meetingPrep.now" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Now"
+          }
+        }
+      }
+    },
+    "meetingPrep.openContact.hint" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffnet den Kontakt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens the contact"
+          }
+        }
+      }
+    },
+    "meetingPrep.openOpportunities" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld offene Verkaufschancen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld open opportunities"
+          }
+        }
+      }
+    },
+    "meetingPrep.openTasks" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld offene Aufgaben"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld open tasks"
+          }
+        }
+      }
+    },
+    "meetingPrep.optIn.hide" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausblenden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hide"
+          }
+        }
+      }
+    },
+    "meetingPrep.optIn.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sehen Sie, wen Sie als Nächstes treffen – mit offenen Aufgaben, Notizen und Verkaufschancen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See who you are meeting next, with open tasks, notes and opportunities."
+          }
+        }
+      }
+    },
+    "meetingPrep.optIn.setUp" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einrichten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set up"
+          }
+        }
+      }
+    },
+    "meetingPrep.optIn.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf Termine vorbereiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prepare for meetings"
+          }
+        }
+      }
+    },
+    "meetingPrep.organizer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Organisator"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Organizer"
+          }
+        }
+      }
+    },
+    "meetingPrep.overdueTasks" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld überfällig"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld overdue"
+          }
+        }
+      }
+    },
+    "meetingPrep.restricted.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Kalenderzugriff ist auf diesem Gerät eingeschränkt, daher ist die Terminvorbereitung nicht verfügbar."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calendar access is restricted on this device, so meeting preparation is unavailable."
+          }
+        }
+      }
+    },
+    "meetingPrep.time.today" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute, %1$@ – %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today, %1$@ – %2$@"
+          }
+        }
+      }
+    },
+    "meetingPrep.time.tomorrow" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morgen, %1$@ – %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tomorrow, %1$@ – %2$@"
+          }
+        }
+      }
+    },
+    "meetingPrep.time.until" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bis %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "until %@"
+          }
+        }
+      }
+    },
+    "meetingPrep.turnOff" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminvorbereitung deaktivieren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turn off meeting preparation"
+          }
+        }
+      }
+    },
+    "meetingPrep.untitledEvent" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Termin ohne Titel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Untitled meeting"
           }
         }
       }
@@ -7089,6 +8261,23 @@
         }
       }
     },
+    "notifications.denied.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erinnerungen benötigen Mitteilungen. Sie können Mitteilungen für Viginti in den Systemeinstellungen erlauben."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminders need notifications. You can allow notifications for Viginti in the Settings app."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
     "notifications.explainer.continue" : {
       "localizations" : {
         "de" : {
@@ -7110,13 +8299,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty kann Sie an fällige Aufgaben erinnern. Sie können dies jederzeit in den Einstellungen ändern."
+            "value" : "Viginti kann Sie an fällige Aufgaben erinnern. Sie können dies jederzeit in den Einstellungen ändern."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty can remind you when tasks are due. You can change this anytime in Settings."
+            "value" : "Viginti can remind you when tasks are due. You can change this anytime in Settings."
           }
         }
       }
@@ -7188,10 +8377,16 @@
     "notifications.status.ephemeral" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporär"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Temporär"
+            "state" : "translated",
+            "value" : "Temporary"
           }
         }
       }
@@ -7231,10 +8426,16 @@
     "notifications.status.unknown" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbekannt"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Unbekannt"
+            "state" : "translated",
+            "value" : "Unknown"
           }
         }
       }
@@ -7258,6 +8459,12 @@
     "oauth.error.callback" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Antwort der Anmeldung konnte nicht überprüft werden. Bitte versuchen Sie es erneut."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7269,6 +8476,12 @@
     "oauth.error.cancelled" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Anmeldung wurde abgebrochen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7280,6 +8493,12 @@
     "oauth.error.denied" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Anmeldung wurde nicht abgeschlossen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7291,6 +8510,12 @@
     "oauth.error.discovery" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Adresse stellt keine kompatible Twenty-OAuth-Konfiguration bereit."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7299,9 +8524,32 @@
         }
       }
     },
+    "oauth.error.discoveryIssuer" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Twenty-Instanz hat einen ungültigen OAuth-Aussteller geliefert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This Twenty instance returned an invalid OAuth issuer."
+          }
+        }
+      }
+    },
     "oauth.error.insecureIssuer" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Twenty-Instanz muss HTTPS verwenden."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7313,6 +8561,12 @@
     "oauth.error.invalidIssuer" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Adresse der Twenty-Instanz ist ungültig."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7324,6 +8578,12 @@
     "oauth.error.managedBroker" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Twenty-Instanz erfordert die Anmeldung über den Browser mit einer kompatiblen OAuth-Registrierung."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7335,6 +8595,12 @@
     "oauth.error.missingTokens" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Twenty-Instanz hat keine gültigen Anmelde-Tokens geliefert."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7346,6 +8612,12 @@
     "oauth.error.registration" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App konnte sich nicht bei dieser Twenty-Instanz registrieren."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7357,6 +8629,12 @@
     "oauth.error.tokenExchange" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Anmeldung konnte nicht abgeschlossen werden. Bitte versuchen Sie es erneut."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7368,6 +8646,12 @@
     "oauth.error.unsupported" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Twenty-Instanz unterstützt die benötigten OAuth-Funktionen nicht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7379,6 +8663,12 @@
     "oauth.error.webSession" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Browser für die Anmeldung konnte nicht gestartet werden. Prüfen Sie, ob die Associated-Domains-Funktion der App für viginti.entner.org aktiviert ist."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7472,13 +8762,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mit Viginti Pro kannst du Änderungen vornehmen und offline arbeiten."
+            "value" : "Sie sind offline. Änderungen offline speichern ist Teil von Viginti Pro. Mit Internetverbindung speichern Sie kostenlos."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With Viginti Pro you can make changes and work offline."
+            "value" : "You're offline. Saving changes offline is part of Viginti Pro. Reconnect to save for free."
           }
         }
       }
@@ -7502,6 +8792,12 @@
     "offline.pendingCreate.duplicate" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für diesen Datensatz gibt es bereits eine offline erstellte Version."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7513,6 +8809,12 @@
     "offline.pendingCreate.serverIDConflict" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Datensatz wurde mehrfach auf dem Server angelegt. Beheben Sie das Duplikat, bevor Sie ihn bearbeiten."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7524,6 +8826,12 @@
     "offline.pendingCreate.syncInProgress" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Datensatz wird gerade synchronisiert und kann im Moment nicht bearbeitet werden."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7598,9 +8906,49 @@
         }
       }
     },
+    "onboarding.browserRequired" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Instanz erfordert die Anmeldung über den Browser."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This instance requires sign-in through the browser."
+          }
+        }
+      }
+    },
+    "onboarding.browserUnavailable" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Anmeldung über den Browser ist für diese Instanzkonfiguration nicht verfügbar."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Browser sign-in is not available for this instance configuration."
+          }
+        }
+      }
+    },
     "onboarding.changeInstance" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ändern"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7612,6 +8960,12 @@
     "onboarding.checkingInstance" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instanz wird geprüft …"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7623,6 +8977,12 @@
     "onboarding.connectTo" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinden mit"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7634,6 +8994,12 @@
     "onboarding.continue" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiter"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7710,10 +9076,33 @@
     "onboarding.oauthHint" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffnet Ihre Twenty-Instanz im Browser – Ihr Passwort geben Sie dort ein, nie in der App."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Opens your Twenty instance in the browser — you enter your password there, never in the app."
+          }
+        }
+      }
+    },
+    "onboarding.passwordAvailabilityUnknown" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ob die Anmeldung mit Passwort möglich ist, konnte nicht geprüft werden. Die Anmeldung über den Browser ist weiterhin verfügbar."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Password sign-in availability could not be checked. Browser sign-in is still available."
           }
         }
       }
@@ -7723,7 +9112,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Melde dich mit deinem persönlichen Twenty-Konto an. Dein Passwort wird nur an deine Twenty-Instanz gesendet und nicht gespeichert."
+            "value" : "Melden Sie sich mit Ihrem persönlichen Twenty-Konto an. Ihr Passwort wird nur an Ihre Twenty-Instanz gesendet und nicht gespeichert."
           }
         },
         "en" : {
@@ -7737,6 +9126,12 @@
     "onboarding.passwordOption" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit E-Mail und Passwort anmelden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7780,6 +9175,12 @@
     "onboarding.selfHosted" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selbst gehostet"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7791,6 +9192,12 @@
     "onboarding.selfHostedSubtitle" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihr eigener Server"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7802,6 +9209,12 @@
     "onboarding.signingIn" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anmeldung läuft …"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7813,6 +9226,12 @@
     "onboarding.signInWithTwenty" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit Twenty anmelden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7840,10 +9259,16 @@
     "onboarding.support.broker" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Anmeldung über den Browser ist für diese Instanz nicht verfügbar."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Browser sign-in isn't available for this instance. Sign in with email & password."
+            "value" : "Browser sign-in isn't available for this instance."
           }
         }
       }
@@ -7851,6 +9276,12 @@
     "onboarding.support.invalid" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geben Sie eine gültige HTTPS-Adresse der Instanz ein."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7862,6 +9293,12 @@
     "onboarding.support.supported" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Anmeldung über den Browser wird unterstützt."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7873,6 +9310,12 @@
     "onboarding.support.unreachable" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Adresse ist nicht erreichbar oder keine Twenty-Instanz."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7884,10 +9327,16 @@
     "onboarding.support.unsupported" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Instanz unterstützt keine Anmeldung über den Browser."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "This instance doesn't support browser sign-in. Use email & password."
+            "value" : "This instance doesn't support browser sign-in."
           }
         }
       }
@@ -7895,6 +9344,12 @@
     "onboarding.tryAgain" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut versuchen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7906,6 +9361,12 @@
     "onboarding.twentyCloud" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twenty Cloud"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7917,6 +9378,12 @@
     "onboarding.twentyCloudSubtitle" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "*.twenty.com"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -7930,13 +9397,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Willkommen bei Twenty"
+            "value" : "Willkommen bei Viginti"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Welcome to Twenty"
+            "value" : "Welcome to Viginti"
           }
         }
       }
@@ -8362,7 +9829,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lade Teammitglieder in Twenty ein, um einen Verantwortlichen zuzuweisen."
+            "value" : "Laden Sie Teammitglieder in Twenty ein, um einen Verantwortlichen zuzuweisen."
           }
         },
         "en" : {
@@ -8795,13 +10262,29 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "CRM-Daten erstellen und bearbeiten"
+            "value" : "Datensätze bearbeiten und löschen, auch als Mehrfachaktion"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Create and edit CRM data"
+            "value" : "Edit and delete records, including bulk actions"
+          }
+        }
+      }
+    },
+    "paywall.benefit.free" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Immer kostenlos: ansehen, suchen, Aufgaben abschließen und online Datensätze anlegen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Always free: view, search, complete tasks and create records online"
           }
         }
       }
@@ -8811,13 +10294,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vollständig offline arbeiten"
+            "value" : "Offline Änderungen vornehmen, die automatisch synchronisiert werden"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Work fully offline"
+            "value" : "Make changes offline that sync automatically"
           }
         }
       }
@@ -8827,13 +10310,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Scanner, Sprachnotizen und eigene Ansichten nutzen"
+            "value" : "Scanner, Sprachnotizen, KI-Erfassung und Meeting-Vorbereitung"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Use the scanner, voice notes and custom views"
+            "value" : "Scanner, voice notes, AI capture and meeting prep"
           }
         }
       }
@@ -8859,16 +10342,33 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Arbeite vollständig mobil mit deinem Twenty CRM."
+            "value" : "Bearbeiten, löschen und offline arbeiten: Ihr komplettes Twenty CRM für unterwegs."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Work with your Twenty CRM wherever you are."
+            "value" : "Edit, delete and work offline: the complete Twenty CRM in your pocket."
           }
         }
       }
+    },
+    "permission.denied.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zugriff nicht erlaubt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Access Not Allowed"
+          }
+        }
+      },
+      "extractionState" : "manual"
     },
     "pro.badge" : {
       "localizations" : {
@@ -8936,19 +10436,35 @@
         }
       }
     },
+    "pro.feature.aiCapture.headline" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI-Erfassung ist Teil von Viginti Pro."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI capture is part of Viginti Pro."
+          }
+        }
+      }
+    },
     "pro.feature.appIntents.headline" : {
       "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Shortcuts und App Intents sind Teil von Viginti Pro."
+            "value" : "Kurzbefehle, die Ihr CRM ändern, sind Teil von Viginti Pro."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Shortcuts and App Intents are part of Viginti Pro."
+            "value" : "Shortcuts that change your CRM are part of Viginti Pro."
           }
         }
       }
@@ -8959,13 +10475,29 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anhänge hochladen ist Teil von Viginti Pro."
+            "value" : "Anhänge sind Teil von Viginti Pro."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uploading attachments is part of Viginti Pro."
+            "value" : "Attachments are part of Viginti Pro."
+          }
+        }
+      }
+    },
+    "pro.feature.bulkActions.headline" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mehrfachaktionen sind Teil von Viginti Pro."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bulk actions are part of Viginti Pro."
           }
         }
       }
@@ -8976,13 +10508,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mit Pro kannst du Visitenkarten direkt erfassen."
+            "value" : "Visitenkarten scannen ist Teil von Viginti Pro."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With Pro you can scan business cards directly."
+            "value" : "Scanning business cards is part of Viginti Pro."
           }
         }
       }
@@ -9072,6 +10604,22 @@
         }
       }
     },
+    "pro.feature.meetingPrep.headline" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Meeting-Vorbereitung ist Teil von Viginti Pro."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meeting prep is part of Viginti Pro."
+          }
+        }
+      }
+    },
     "pro.feature.multipleWorkspaces.headline" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -9095,13 +10643,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vollständiges Offline-Bearbeiten ist Teil von Viginti Pro."
+            "value" : "Sie sind offline. Änderungen offline speichern ist Teil von Viginti Pro. Mit Internetverbindung speichern Sie kostenlos."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Full offline editing is part of Viginti Pro."
+            "value" : "You're offline. Saving changes offline is part of Viginti Pro. Reconnect to save for free."
           }
         }
       }
@@ -9129,13 +10677,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mit Viginti Pro kannst du neue Datensätze anlegen."
+            "value" : "Datensätze anlegen ist kostenlos. Viginti Pro ergänzt Bearbeiten, Löschen und Offline-Änderungen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With Viginti Pro you can create new records."
+            "value" : "Creating records is free. Viginti Pro adds editing, deleting and offline changes."
           }
         }
       }
@@ -9146,13 +10694,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mit Viginti Pro kannst du Datensätze löschen."
+            "value" : "Datensätze löschen ist Teil von Viginti Pro."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With Viginti Pro you can delete records."
+            "value" : "Deleting records is part of Viginti Pro."
           }
         }
       }
@@ -9163,13 +10711,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mit Viginti Pro kannst du Datensätze bearbeiten."
+            "value" : "Datensätze bearbeiten ist Teil von Viginti Pro."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With Viginti Pro you can edit records."
+            "value" : "Editing records is part of Viginti Pro."
           }
         }
       }
@@ -9214,13 +10762,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mit Viginti Pro kannst du Aufgaben abschließen."
+            "value" : "Aufgaben abschließen ist kostenlos. Viginti Pro ergänzt Bearbeiten, Löschen und Offline-Änderungen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "With Viginti Pro you can complete tasks."
+            "value" : "Completing tasks is free. Viginti Pro adds editing, deleting and offline changes."
           }
         }
       }
@@ -9566,10 +11114,16 @@
     "remotePush.error.cancelled" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Push-Aktivierung wurde abgebrochen."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Push-Aktivierung wurde abgebrochen."
+            "state" : "translated",
+            "value" : "Push activation was cancelled."
           }
         }
       }
@@ -9577,10 +11131,16 @@
     "remotePush.error.firebase" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firebase ist noch nicht konfiguriert."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Firebase ist noch nicht konfiguriert."
+            "state" : "translated",
+            "value" : "Firebase is not configured yet."
           }
         }
       }
@@ -9588,10 +11148,16 @@
     "remotePush.error.invalidResponse" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Push-Registrierung lieferte eine ungültige Antwort."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Die Push-Registrierung lieferte eine ungültige Antwort."
+            "state" : "translated",
+            "value" : "The push registration returned an invalid response."
           }
         }
       }
@@ -9599,10 +11165,16 @@
     "remotePush.error.missingSession" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine aktive Twenty-Sitzung verfügbar."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Keine aktive Twenty-Sitzung verfügbar."
+            "state" : "translated",
+            "value" : "No active Twenty session is available."
           }
         }
       }
@@ -9610,10 +11182,16 @@
     "remotePush.error.missingToken" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das FCM-Token ist noch nicht verfügbar."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "FCM-Token ist noch nicht verfügbar."
+            "state" : "translated",
+            "value" : "The FCM token is not available yet."
           }
         }
       }
@@ -9623,7 +11201,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Der Twenty-Workspace konnte nicht eindeutig bestimmt werden. Verbinde die App mit der workspace-spezifischen Twenty-URL."
+            "value" : "Der Twenty-Workspace konnte nicht eindeutig bestimmt werden. Verbinden Sie die App mit der workspace-spezifischen Twenty-URL."
           }
         },
         "en" : {
@@ -9637,10 +11215,16 @@
     "remotePush.error.payload" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Push-Nachricht konnte nicht verarbeitet werden."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Die Push-Nachricht konnte nicht verarbeitet werden."
+            "state" : "translated",
+            "value" : "The push message could not be processed."
           }
         }
       }
@@ -9648,10 +11232,16 @@
     "remotePush.error.permissionDenied" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungen sind in den iOS-Einstellungen deaktiviert."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Benachrichtigungen sind in den iOS-Einstellungen deaktiviert."
+            "state" : "translated",
+            "value" : "Notifications are turned off in iOS Settings."
           }
         }
       }
@@ -9723,10 +11313,16 @@
     "remotePush.error.registrationFailed" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Push-Registrierung ist fehlgeschlagen."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Die Push-Registrierung ist fehlgeschlagen."
+            "state" : "translated",
+            "value" : "Push registration failed."
           }
         }
       }
@@ -9734,10 +11330,16 @@
     "remotePush.error.taskNotFound" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Aufgabe konnte nicht gefunden werden."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Die Aufgabe konnte nicht gefunden werden."
+            "state" : "translated",
+            "value" : "The task could not be found."
           }
         }
       }
@@ -9745,10 +11347,16 @@
     "remotePush.error.userSessionRequired" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Push benötigt eine persönliche Twenty-Anmeldung. Bitte melden Sie sich erneut mit Ihrem Twenty-Konto an."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Push benötigt eine persönliche Twenty-Anmeldung. Bitte melde dich erneut mit deinem Twenty-Konto an."
+            "state" : "translated",
+            "value" : "Push needs a personal Twenty sign-in. Please sign in again with your Twenty account."
           }
         }
       }
@@ -9756,10 +11364,16 @@
     "remotePush.status.active" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiv"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Aktiv"
+            "state" : "translated",
+            "value" : "Active"
           }
         }
       }
@@ -9767,10 +11381,16 @@
     "remotePush.status.apns" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APNs-Registrierung läuft …"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "APNs-Registrierung läuft …"
+            "state" : "translated",
+            "value" : "Registering with APNs…"
           }
         }
       }
@@ -9778,10 +11398,16 @@
     "remotePush.status.backend" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server-Registrierung läuft …"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Backend-Registrierung läuft …"
+            "state" : "translated",
+            "value" : "Registering with the server…"
           }
         }
       }
@@ -9805,10 +11431,16 @@
     "remotePush.status.disabled" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht eingerichtet"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Nicht eingerichtet"
+            "state" : "translated",
+            "value" : "Not set up"
           }
         }
       }
@@ -9816,10 +11448,16 @@
     "remotePush.status.failed" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Registrierung fehlgeschlagen"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Registrierung fehlgeschlagen"
+            "state" : "translated",
+            "value" : "Registration failed"
           }
         }
       }
@@ -9827,10 +11465,16 @@
     "remotePush.status.fcm" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FCM-Token wird abgerufen …"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "FCM-Token wird abgerufen …"
+            "state" : "translated",
+            "value" : "Fetching FCM token…"
           }
         }
       }
@@ -9838,10 +11482,16 @@
     "remotePush.status.permissionDenied" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In den iOS-Einstellungen deaktiviert"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "In den iOS-Einstellungen deaktiviert"
+            "state" : "translated",
+            "value" : "Turned off in iOS Settings"
           }
         }
       }
@@ -9849,10 +11499,16 @@
     "remotePush.status.permissionRequired" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berechtigung erforderlich"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Berechtigung erforderlich"
+            "state" : "translated",
+            "value" : "Permission required"
           }
         }
       }
@@ -9876,10 +11532,16 @@
     "remotePush.status.requestingPermission" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Push wird aktiviert …"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Push wird aktiviert …"
+            "state" : "translated",
+            "value" : "Turning on push…"
           }
         }
       }
@@ -10097,7 +11759,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Erstelle gefilterte Ansichten für Kontakte, Firmen, Chancen, Aufgaben und Notizen."
+            "value" : "Erstellen Sie gefilterte Ansichten für Kontakte, Firmen, Chancen, Aufgaben und Notizen."
           }
         },
         "en" : {
@@ -10738,7 +12400,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Es wurden keine nutzbaren Informationen erkannt. Versuche es mit einem schärferen Foto."
+            "value" : "Es wurden keine nutzbaren Informationen erkannt. Versuchen Sie es mit einem schärferen Foto."
           }
         },
         "en" : {
@@ -10761,6 +12423,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text recognition failed: %@"
+          }
+        }
+      }
+    },
+    "scanner.field.address" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adresse"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Address"
           }
         }
       }
@@ -10899,13 +12577,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty nutzt lokale Vision-OCR, um Kontaktdaten aus einem Foto zu extrahieren."
+            "value" : "Viginti nutzt lokale Vision-OCR, um Kontaktdaten aus einem Foto zu extrahieren."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twenty uses on-device Vision OCR to extract contact details from a photo."
+            "value" : "Viginti uses on-device Vision OCR to extract contact details from a photo."
           }
         }
       }
@@ -10954,6 +12632,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recognizing text…"
+          }
+        }
+      }
+    },
+    "scanner.refiningWithAI" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karte wird auf diesem Gerät gelesen …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading the card on this device…"
           }
         }
       }
@@ -11050,6 +12744,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OCR"
+          }
+        }
+      }
+    },
+    "scanner.source.onDeviceAI" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OCR + KI auf dem Gerät"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OCR + on-device AI"
           }
         }
       }
@@ -11763,7 +13473,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mit Bearbeiten kannst du Dashboard-Abschnitte neu anordnen. Ausgeblendete Abschnitte bleiben hier verfügbar."
+            "value" : "Mit Bearbeiten können Sie Dashboard-Abschnitte neu anordnen. Ausgeblendete Abschnitte bleiben hier verfügbar."
           }
         },
         "en" : {
@@ -11886,6 +13596,22 @@
         }
       }
     },
+    "settings.diagnostics.recentCrashes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abstürze (letzte 30 Tage)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crashes (last 30 days)"
+          }
+        }
+      }
+    },
     "settings.editConnection" : {
       "localizations" : {
         "de" : {
@@ -11995,6 +13721,166 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loading settings"
+          }
+        }
+      }
+    },
+    "settings.meetingPrep" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminvorbereitung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meeting preparation"
+          }
+        }
+      }
+    },
+    "settings.meetingPrep.calendars" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalender"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calendars"
+          }
+        }
+      }
+    },
+    "settings.meetingPrep.calendars.all" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All"
+          }
+        }
+      }
+    },
+    "settings.meetingPrep.calendars.allCalendars" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Kalender"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All calendars"
+          }
+        }
+      }
+    },
+    "settings.meetingPrep.calendars.count" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ausgewählt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld selected"
+          }
+        }
+      }
+    },
+    "settings.meetingPrep.denied" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti kann Ihren Kalender nicht lesen. Erlauben Sie Viginti in der Einstellungen-App den vollen Kalenderzugriff, um die Terminvorbereitung zu nutzen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti cannot read your calendar. Allow full calendar access for Viginti in the Settings app to use meeting preparation."
+          }
+        }
+      }
+    },
+    "settings.meetingPrep.footer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeigt Ihren nächsten Termin auf der Startseite mit passenden CRM-Kontakten, deren offenen Aufgaben, letzter Notiz und offenen Verkaufschancen. Termine werden nur auf diesem Gerät gelesen und nie verändert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shows your next meeting on Home with matching CRM contacts, their open tasks, last note and open opportunities. Events are read on this device only and never changed."
+          }
+        }
+      }
+    },
+    "settings.meetingPrep.restricted" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Kalenderzugriff ist auf diesem Gerät eingeschränkt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calendar access is restricted on this device."
+          }
+        }
+      }
+    },
+    "settings.meetingPrep.setUpAccess" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalenderzugriff einrichten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set up calendar access"
+          }
+        }
+      }
+    },
+    "settings.meetingPrep.toggle" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminvorbereitung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meeting preparation"
           }
         }
       }
@@ -12146,10 +14032,16 @@
     "settings.remotePush" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Push-Mitteilungen"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Push-Benachrichtigungen"
+            "state" : "translated",
+            "value" : "Push Notifications"
           }
         }
       }
@@ -12157,10 +14049,16 @@
     "settings.remotePush.enable" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Push-Mitteilungen aktivieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Push-Benachrichtigungen aktivieren"
+            "state" : "translated",
+            "value" : "Turn On Push Notifications"
           }
         }
       }
@@ -12168,10 +14066,16 @@
     "settings.remotePush.lastRegistration" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letzte Registrierung"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Letzte Registrierung"
+            "state" : "translated",
+            "value" : "Last Registration"
           }
         }
       }
@@ -12179,10 +14083,16 @@
     "settings.remotePush.localReminderSeparation" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lokale Aufgabenerinnerungen werden separat konfiguriert."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Lokale Aufgabenerinnerungen bleiben separat konfiguriert."
+            "state" : "translated",
+            "value" : "Local task reminders are configured separately."
           }
         }
       }
@@ -12190,10 +14100,16 @@
     "settings.remotePush.notifications" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungen"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Benachrichtigungen"
+            "state" : "translated",
+            "value" : "Notifications"
           }
         }
       }
@@ -12201,10 +14117,16 @@
     "settings.remotePush.permissionDenied" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungen sind in den iOS-Einstellungen deaktiviert."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Benachrichtigungen sind in den iOS-Einstellungen deaktiviert."
+            "state" : "translated",
+            "value" : "Notifications are turned off in iOS Settings."
           }
         }
       }
@@ -12212,10 +14134,16 @@
     "settings.remotePush.retry" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut versuchen"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Erneut versuchen"
+            "state" : "translated",
+            "value" : "Try Again"
           }
         }
       }
@@ -12223,9 +14151,15 @@
     "settings.remotePush.status" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Status"
           }
         }
@@ -12234,10 +14168,16 @@
     "settings.remotePush.taskAssigned" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Aufgabenzuweisung"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Neue Aufgabenzuweisung"
+            "state" : "translated",
+            "value" : "New Task Assignment"
           }
         }
       }
@@ -12245,10 +14185,16 @@
     "settings.remotePush.taskCompleted" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufgabe erledigt"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Aufgabe erledigt"
+            "state" : "translated",
+            "value" : "Task Completed"
           }
         }
       }
@@ -12256,10 +14202,16 @@
     "settings.remotePush.taskDueDateChanged" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fälligkeitsdatum geändert"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Fälligkeitsdatum geändert"
+            "state" : "translated",
+            "value" : "Due Date Changed"
           }
         }
       }
@@ -12267,10 +14219,16 @@
     "settings.remotePush.taskUnassigned" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zuweisung entfernt"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Zuweisung entfernt"
+            "state" : "translated",
+            "value" : "Assignment Removed"
           }
         }
       }
@@ -12404,6 +14362,38 @@
         }
       }
     },
+    "settings.spotlight" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datensätze in Spotlight anzeigen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Records in Spotlight"
+          }
+        }
+      }
+    },
+    "settings.spotlight.appLockHint" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namen von Kontakten und Firmen bleiben in Spotlight sichtbar, während die App gesperrt ist. Schalten Sie diese Option aus, um sie auszublenden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact and company names stay visible in Spotlight while the app is locked. Turn this off to hide them."
+          }
+        }
+      }
+    },
     "settings.startView" : {
       "localizations" : {
         "de" : {
@@ -12496,6 +14486,982 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Record Voice Note"
+          }
+        }
+      }
+    },
+    "shareExtension.cancel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "shareExtension.contactRequired" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geben Sie einen Namen oder eine E-Mail-Adresse ein."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a name or an email address."
+          }
+        }
+      }
+    },
+    "shareExtension.done" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        }
+      }
+    },
+    "shareExtension.empty.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti kann Weblinks, Text und Kontaktkarten speichern."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti can save web links, text and contact cards."
+          }
+        }
+      }
+    },
+    "shareExtension.empty.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nichts zu speichern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing to Save"
+          }
+        }
+      }
+    },
+    "shareExtension.failed.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Inhalt konnte nicht an Viginti übergeben werden. Bitte versuchen Sie es erneut."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The item could not be handed over to Viginti. Please try again."
+          }
+        }
+      }
+    },
+    "shareExtension.failed.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern nicht möglich"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could Not Save"
+          }
+        }
+      }
+    },
+    "shareExtension.field.body" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details"
+          }
+        }
+      }
+    },
+    "shareExtension.field.company" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firma"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Company"
+          }
+        }
+      }
+    },
+    "shareExtension.field.email" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-Mail"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        }
+      }
+    },
+    "shareExtension.field.firstName" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorname"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First Name"
+          }
+        }
+      }
+    },
+    "shareExtension.field.lastName" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nachname"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last Name"
+          }
+        }
+      }
+    },
+    "shareExtension.field.phone" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telefon"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phone"
+          }
+        }
+      }
+    },
+    "shareExtension.field.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "shareExtension.footer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti speichert dies in Ihrem CRM, sobald Sie die App das nächste Mal öffnen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti saves this to your CRM the next time you open the app."
+          }
+        }
+      }
+    },
+    "shareExtension.link.header" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit Kontakt verknüpfen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link to Contact"
+          }
+        }
+      }
+    },
+    "shareExtension.link.remove" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entfernen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove"
+          }
+        }
+      }
+    },
+    "shareExtension.link.search" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakte suchen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search contacts"
+          }
+        }
+      }
+    },
+    "shareExtension.locked.action" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In Viginti zeigen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Me in Viginti"
+          }
+        }
+      }
+    },
+    "shareExtension.locked.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Speichern von Links, Text und Kontaktkarten aus anderen Apps ist Teil von Viginti Pro."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saving links, text and contact cards from other apps is part of Viginti Pro."
+          }
+        }
+      }
+    },
+    "shareExtension.locked.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funktion von Viginti Pro"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti Pro Feature"
+          }
+        }
+      }
+    },
+    "shareExtension.ok" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "shareExtension.save" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        }
+      }
+    },
+    "shareExtension.saved.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti fügt es Ihrem CRM hinzu, sobald Sie die App das nächste Mal öffnen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti adds it to your CRM the next time you open the app."
+          }
+        }
+      }
+    },
+    "shareExtension.saved.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeichert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved"
+          }
+        }
+      }
+    },
+    "shareExtension.signedOut.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melden Sie sich in Viginti bei Ihrem Twenty-Workspace an und teilen Sie den Inhalt dann erneut."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign in to your Twenty workspace in Viginti, then share again."
+          }
+        }
+      }
+    },
+    "shareExtension.signedOut.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht angemeldet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Signed In"
+          }
+        }
+      }
+    },
+    "shareExtension.target" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern als"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save as"
+          }
+        }
+      }
+    },
+    "shareExtension.target.contact" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact"
+          }
+        }
+      }
+    },
+    "shareExtension.target.note" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notiz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note"
+          }
+        }
+      }
+    },
+    "shareExtension.target.task" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufgabe"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Task"
+          }
+        }
+      }
+    },
+    "shareExtension.taskTitleRequired" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine Aufgabe benötigt einen Titel."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A task needs a title."
+          }
+        }
+      }
+    },
+    "shareExtension.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In Viginti speichern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save to Viginti"
+          }
+        }
+      }
+    },
+    "shareInbox.banner.failedMany" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld geteilte Inhalte konnten nicht gespeichert werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld shared items could not be saved."
+          }
+        }
+      }
+    },
+    "shareInbox.banner.failedOne" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein geteilter Inhalt konnte nicht gespeichert werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A shared item could not be saved."
+          }
+        }
+      }
+    },
+    "shareInbox.banner.review" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prüfen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Review"
+          }
+        }
+      }
+    },
+    "shareInbox.banner.upgrade" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti Pro"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti Pro"
+          }
+        }
+      }
+    },
+    "shareInbox.banner.waitingMany" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld geteilte Inhalte warten. Zum Speichern benötigen Sie Viginti Pro."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld shared items are waiting. Saving them requires Viginti Pro."
+          }
+        }
+      }
+    },
+    "shareInbox.banner.waitingOne" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein geteilter Inhalt wartet. Zum Speichern benötigen Sie Viginti Pro."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A shared item is waiting. Saving it requires Viginti Pro."
+          }
+        }
+      }
+    },
+    "shareInbox.reason.creationFailed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern fehlgeschlagen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saving failed."
+          }
+        }
+      }
+    },
+    "shareInbox.reason.creationFailedDetail" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern fehlgeschlagen: %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saving failed: %@"
+          }
+        }
+      }
+    },
+    "shareInbox.reason.invalidContent" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diesem Inhalt fehlen erforderliche Angaben."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This item is missing required content."
+          }
+        }
+      }
+    },
+    "shareInbox.reason.unreadable" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Inhalt konnte nicht gelesen werden. Möglicherweise ist er beschädigt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This item could not be read. It may be damaged."
+          }
+        }
+      }
+    },
+    "shareInbox.reason.unsupportedVersion" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Inhalt wurde mit einer neueren Version von Viginti geteilt. Aktualisieren Sie die App und versuchen Sie es dann erneut."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This item was shared with a newer version of Viginti. Update the app, then try again."
+          }
+        }
+      }
+    },
+    "shareInbox.reason.workspaceMismatch" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Inhalt wurde geteilt, während ein anderer Workspace aktiv war. „Erneut versuchen“ speichert ihn im aktuellen Workspace."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This item was shared while another workspace was active. Retry saves it to the current workspace."
+          }
+        }
+      }
+    },
+    "shareInbox.review.discard" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwerfen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discard"
+          }
+        }
+      }
+    },
+    "shareInbox.review.discardMessage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Inhalt wird entfernt, ohne in Ihrem CRM gespeichert zu werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The item is removed without being saved to your CRM."
+          }
+        }
+      }
+    },
+    "shareInbox.review.discardTitle" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diesen geteilten Inhalt verwerfen?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discard this shared item?"
+          }
+        }
+      }
+    },
+    "shareInbox.review.empty" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nichts zu prüfen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing to Review"
+          }
+        }
+      }
+    },
+    "shareInbox.review.proRequired" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zum Speichern geteilter Inhalte benötigen Sie Viginti Pro."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saving shared items requires Viginti Pro."
+          }
+        }
+      }
+    },
+    "shareInbox.review.retry" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut versuchen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retry"
+          }
+        }
+      }
+    },
+    "shareInbox.review.retryAll" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle erneut versuchen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retry All"
+          }
+        }
+      }
+    },
+    "shareInbox.review.signInRequired" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melden Sie sich bei einem Workspace an, um geteilte Inhalte zu speichern."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign in to a workspace to save shared items."
+          }
+        }
+      }
+    },
+    "shareInbox.review.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geteilte Inhalte"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shared Items"
+          }
+        }
+      }
+    },
+    "shareInbox.review.unreadableTitle" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlesbarer geteilter Inhalt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unreadable shared item"
+          }
+        }
+      }
+    },
+    "shareInbox.target.contact" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact"
+          }
+        }
+      }
+    },
+    "shareInbox.target.note" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notiz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note"
+          }
+        }
+      }
+    },
+    "shareInbox.target.task" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufgabe"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Task"
+          }
+        }
+      }
+    },
+    "shareInbox.toast.savedMany" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld geteilte Inhalte gespeichert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld shared items saved."
+          }
+        }
+      }
+    },
+    "shareInbox.toast.savedManyOffline" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld geteilte Inhalte gespeichert. Sie werden synchronisiert, sobald die Verbindung wiederhergestellt ist."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld shared items saved. They will sync when the connection is restored."
+          }
+        }
+      }
+    },
+    "shareInbox.toast.savedOne" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geteilter Inhalt gespeichert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shared item saved."
           }
         }
       }
@@ -12640,6 +15606,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Descending"
+          }
+        }
+      }
+    },
+    "spotlight.company.untitled" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbenannte Firma"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unnamed company"
           }
         }
       }
@@ -12905,7 +15887,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monats- und Jahresabo verlängern sich automatisch über deinen Apple-Account. Du kannst jederzeit über „Abonnement verwalten“ kündigen."
+            "value" : "Monats- und Jahresabo verlängern sich automatisch über Ihren Apple-Account. Sie können jederzeit über „Abonnement verwalten“ kündigen."
           }
         },
         "en" : {
@@ -14030,6 +17012,12 @@
     "sync.serverCheckpointRepairRequired" : {
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Datensatz wurde auf dem Server angelegt, aber seine ID konnte nicht gespeichert werden. Er wird ohne Duplikat abgeglichen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -15607,6 +18595,86 @@
         }
       }
     },
+    "voiceNote.ai.applied" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf diesem Gerät strukturiert. Bitte prüfen Sie das Ergebnis."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Structured on this device. Please review."
+          }
+        }
+      }
+    },
+    "voiceNote.ai.structure" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit KI strukturieren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Structure with AI"
+          }
+        }
+      }
+    },
+    "voiceNote.ai.structureHint" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstellt auf diesem Gerät einen Titel, eine bereinigte Notiz und Aufgabenvorschläge."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creates a title, a cleaned-up note and task suggestions on this device."
+          }
+        }
+      }
+    },
+    "voiceNote.ai.structuring" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird auf diesem Gerät strukturiert …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Structuring on this device…"
+          }
+        }
+      }
+    },
+    "voiceNote.ai.undo" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rückgängig"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undo"
+          }
+        }
+      }
+    },
     "voiceNote.attach" : {
       "localizations" : {
         "de" : {
@@ -15692,7 +18760,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Der Mikrofonzugriff wurde verweigert. Aktiviere ihn in den Einstellungen, um Sprachnotizen aufzunehmen."
+            "value" : "Der Mikrofonzugriff wurde verweigert. Aktivieren Sie ihn in den Einstellungen, um Sprachnotizen aufzunehmen."
           }
         },
         "en" : {
@@ -15756,7 +18824,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Der Zugriff auf Spracherkennung wurde verweigert. Aktiviere ihn in den Einstellungen, um Sprachnotizen zu transkribieren."
+            "value" : "Der Zugriff auf Spracherkennung wurde verweigert. Aktivieren Sie ihn in den Einstellungen, um Sprachnotizen zu transkribieren."
           }
         },
         "en" : {
@@ -15980,13 +19048,61 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ihre Diktat erscheint hier."
+            "value" : "Ihr Diktat erscheint hier."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your dictation will appear here."
+          }
+        }
+      }
+    },
+    "widget.completeTask.accessibility" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ als erledigt markieren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mark \"%@\" as done"
+          }
+        }
+      }
+    },
+    "widget.completeTask.parameter" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufgabe"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Task"
+          }
+        }
+      }
+    },
+    "widget.completeTask.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufgabe erledigen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complete Task"
           }
         }
       }
@@ -16378,6 +19494,278 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Invite teammates in Twenty to assign tasks."
+          }
+        }
+      }
+    },
+    "workspaces.active" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiv"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Active"
+          }
+        }
+      }
+    },
+    "workspaces.add" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workspace hinzufügen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Workspace"
+          }
+        }
+      }
+    },
+    "workspaces.error.missingCredentials" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Anmeldung für diesen Workspace ist nicht mehr verfügbar. Entfernen Sie ihn und fügen Sie ihn erneut hinzu."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The sign-in for this workspace is no longer available. Remove it and add it again."
+          }
+        }
+      }
+    },
+    "workspaces.error.unknown" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Workspace ist auf diesem Gerät nicht mehr gespeichert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This workspace is no longer saved on this device."
+          }
+        }
+      }
+    },
+    "workspaces.footer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tippen Sie auf einen Workspace, um zu wechseln. Wischen Sie nach links, um sich davon abzumelden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap a workspace to switch. Swipe left to sign out of it."
+          }
+        }
+      }
+    },
+    "workspaces.footer.free" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Wechsel zwischen Workspaces ist Teil von Viginti Pro. Ihr aktiver Workspace bleibt voll nutzbar, und die anderen behalten ihre Daten."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switching between workspaces is part of Viginti Pro. Your active workspace stays fully usable, and the others keep their data."
+          }
+        }
+      }
+    },
+    "workspaces.manage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workspaces verwalten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage Workspaces"
+          }
+        }
+      }
+    },
+    "workspaces.remove" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entfernen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove"
+          }
+        }
+      }
+    },
+    "workspaces.remove.deleteData" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entfernen und lokale Daten löschen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove and Delete Local Data"
+          }
+        }
+      }
+    },
+    "workspaces.remove.keepData" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entfernen und lokale Daten behalten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove and Keep Local Data"
+          }
+        }
+      }
+    },
+    "workspaces.remove.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sie werden auf diesem Gerät von diesem Workspace abgemeldet. Zwischengespeicherte Datensätze und nicht synchronisierte Änderungen bleiben auf diesem Gerät, sofern Sie sie nicht löschen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You will be signed out of this workspace on this device. Cached records and unsynced changes stay on this device unless you delete them."
+          }
+        }
+      }
+    },
+    "workspaces.remove.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ entfernen?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove “%@”?"
+          }
+        }
+      }
+    },
+    "workspaces.saved.hint" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fahren Sie mit einem gespeicherten Workspace fort oder verbinden Sie unten einen weiteren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue with a saved workspace, or connect another one below."
+          }
+        }
+      }
+    },
+    "workspaces.saved.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihre Workspaces"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Workspaces"
+          }
+        }
+      }
+    },
+    "workspaces.switch.failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workspace konnte nicht gewechselt werden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could Not Switch Workspace"
+          }
+        }
+      }
+    },
+    "workspaces.switcher" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workspace"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workspace"
+          }
+        }
+      }
+    },
+    "workspaces.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workspaces"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workspaces"
           }
         }
       }

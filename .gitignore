@@ -83,3 +83,6 @@ PushPlugin/**/*.tgz
 
 # Wrangler local state/cache
 .wrangler/
+
+# Claude Code agent worktrees
+.claude/worktrees/

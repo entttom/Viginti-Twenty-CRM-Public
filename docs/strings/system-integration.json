@@ -1,0 +1,23 @@
+{
+  "control.newTask.description": ["Opens Viginti to create a task.", "Öffnet Viginti, um eine Aufgabe anzulegen."],
+  "control.newTask.title": ["New Task", "Neue Aufgabe"],
+  "control.scanCard.description": ["Opens Viginti to scan a business card.", "Öffnet Viginti, um eine Visitenkarte zu scannen."],
+  "control.scanCard.title": ["Scan Business Card", "Visitenkarte scannen"],
+  "entity.company.type": ["Company", "Firma"],
+  "entity.contact.type": ["Contact", "Kontakt"],
+  "intent.openCompany.description": ["Opens a company in Viginti.", "Öffnet eine Firma in Viginti."],
+  "intent.openCompany.parameter": ["Company", "Firma"],
+  "intent.openCompany.title": ["Open Company", "Firma öffnen"],
+  "intent.openContact.description": ["Opens a contact in Viginti.", "Öffnet einen Kontakt in Viginti."],
+  "intent.openContact.parameter": ["Contact", "Kontakt"],
+  "intent.openContact.title": ["Open Contact", "Kontakt öffnen"],
+  "intent.openTask.description": ["Opens a task in Viginti.", "Öffnet eine Aufgabe in Viginti."],
+  "intent.openTask.parameter": ["Task", "Aufgabe"],
+  "intent.openTask.title": ["Open Task", "Aufgabe öffnen"],
+  "intent.shortcut.openCompany": ["Open Company", "Firma öffnen"],
+  "intent.shortcut.openContact": ["Open Contact", "Kontakt öffnen"],
+  "spotlight.company.untitled": ["Unnamed company", "Unbenannte Firma"],
+  "widget.completeTask.accessibility": ["Mark \"%@\" as done", "„%@“ als erledigt markieren"],
+  "widget.completeTask.parameter": ["Task", "Aufgabe"],
+  "widget.completeTask.title": ["Complete Task", "Aufgabe erledigen"]
+}
