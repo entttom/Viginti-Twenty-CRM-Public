@@ -1,0 +1,10 @@
+{
+  "ai.error.inputTooLong": [
+    "This text is too long for on-device AI. Nothing was changed.",
+    "Dieser Text ist für die KI auf dem Gerät zu lang. Es wurde nichts geändert."
+  ],
+  "voiceNote.ai.partial": [
+    "This memo is long, so only its first part was structured. The rest was kept as dictated.",
+    "Diese Notiz ist lang, daher wurde nur der erste Teil strukturiert. Der Rest bleibt wie diktiert erhalten."
+  ]
+}

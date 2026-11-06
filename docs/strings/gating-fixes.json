@@ -1,0 +1,9 @@
+{
+  "calendar.accessDenied.settingsExplanation": [
+    "Viginti needs full access to your calendars to add tasks as events. You can allow this in the Settings app under Viginti > Calendars.",
+    "Viginti benötigt vollen Zugriff auf Ihre Kalender, um Aufgaben als Termine einzutragen. Sie können dies in der Einstellungen-App unter Viginti > Kalender erlauben."
+  ],
+  "pro.locked.learnMore": ["Learn about Viginti Pro", "Mehr über Viginti Pro erfahren"],
+  "settings.dashboard.customize": ["Customize dashboard", "Dashboard anpassen"],
+  "settings.followUp.customize": ["Customize follow-up rules", "Follow-up-Regeln anpassen"]
+}

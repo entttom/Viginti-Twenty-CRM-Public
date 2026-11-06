@@ -564,6 +564,22 @@
         }
       }
     },
+    "ai.error.inputTooLong" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Text ist für die KI auf dem Gerät zu lang. Es wurde nichts geändert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This text is too long for on-device AI. Nothing was changed."
+          }
+        }
+      }
+    },
     "ai.error.unavailable" : {
       "localizations" : {
         "de" : {
@@ -1425,6 +1441,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Calendar access was not granted."
+          }
+        }
+      }
+    },
+    "calendar.accessDenied.settingsExplanation" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti benötigt vollen Zugriff auf Ihre Kalender, um Aufgaben als Termine einzutragen. Sie können dies in der Einstellungen-App unter Viginti > Kalender erlauben."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti needs full access to your calendars to add tasks as events. You can allow this in the Settings app under Viginti > Calendars."
           }
         }
       }
@@ -4572,6 +4604,102 @@
         }
       }
     },
+    "documentScanner.action.scan" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokument scannen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan Document"
+          }
+        }
+      }
+    },
+    "documentScanner.cameraDenied.message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti hat keinen Zugriff auf die Kamera. Um Dokumente zu scannen, erlauben Sie den Kamerazugriff für Viginti in den Einstellungen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti has no access to the camera. To scan documents, allow camera access for Viginti in Settings."
+          }
+        }
+      }
+    },
+    "documentScanner.error.saveFailed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das gescannte Dokument konnte nicht gespeichert werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The scanned document could not be saved."
+          }
+        }
+      }
+    },
+    "documentScanner.error.scanFailed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Dokument konnte nicht gescannt werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The document could not be scanned."
+          }
+        }
+      }
+    },
+    "documentScanner.fileName" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan %@"
+          }
+        }
+      }
+    },
+    "documentScanner.saving" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan wird gespeichert …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saving scan…"
+          }
+        }
+      }
+    },
     "empty.noMatches" : {
       "localizations" : {
         "de" : {
@@ -6620,6 +6748,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Welcome"
+          }
+        }
+      }
+    },
+    "intent.completeTask.appLocked" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti ist gesperrt. Öffnen Sie Viginti, um diese Aufgabe zu erledigen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti is locked. Open Viginti to complete this task."
           }
         }
       }
@@ -10823,6 +10967,22 @@
         }
       }
     },
+    "pro.locked.learnMore" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mehr über Viginti Pro erfahren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learn about Viginti Pro"
+          }
+        }
+      }
+    },
     "quickAction.createContact.subtitle" : {
       "localizations" : {
         "de" : {
@@ -13420,6 +13580,22 @@
         }
       }
     },
+    "settings.dashboard.customize" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dashboard anpassen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Customize dashboard"
+          }
+        }
+      }
+    },
     "settings.dashboard.followUp" : {
       "localizations" : {
         "de" : {
@@ -13656,6 +13832,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enable Reminders"
+          }
+        }
+      }
+    },
+    "settings.followUp.customize" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow-up-Regeln anpassen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Customize follow-up rules"
           }
         }
       }
@@ -18607,6 +18799,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Structured on this device. Please review."
+          }
+        }
+      }
+    },
+    "voiceNote.ai.partial" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Notiz ist lang, daher wurde nur der erste Teil strukturiert. Der Rest bleibt wie diktiert erhalten."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This memo is long, so only its first part was structured. The rest was kept as dictated."
           }
         }
       }

@@ -1,0 +1,8 @@
+{
+  "documentScanner.action.scan": ["Scan Document", "Dokument scannen"],
+  "documentScanner.cameraDenied.message": ["Viginti has no access to the camera. To scan documents, allow camera access for Viginti in Settings.", "Viginti hat keinen Zugriff auf die Kamera. Um Dokumente zu scannen, erlauben Sie den Kamerazugriff für Viginti in den Einstellungen."],
+  "documentScanner.error.saveFailed": ["The scanned document could not be saved.", "Das gescannte Dokument konnte nicht gespeichert werden."],
+  "documentScanner.error.scanFailed": ["The document could not be scanned.", "Das Dokument konnte nicht gescannt werden."],
+  "documentScanner.fileName": ["Scan %@", "Scan %@"],
+  "documentScanner.saving": ["Saving scan…", "Scan wird gespeichert …"]
+}

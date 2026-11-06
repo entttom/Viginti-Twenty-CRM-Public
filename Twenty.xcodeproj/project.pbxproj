@@ -602,7 +602,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Viginti;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Viginti uses the camera to scan business cards and create contacts from them.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Viginti uses the camera to scan business cards and create contacts from them, and to scan documents you attach to records.";
 				INFOPLIST_KEY_NSContactsUsageDescription = "Viginti adds a CRM contact to your iOS Contacts when you choose to.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Viginti records audio only when you start a voice note so it can transcribe your note on this device.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Viginti uses your photo library to import business card images you select.";
@@ -654,7 +654,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Viginti;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Viginti uses the camera to scan business cards and create contacts from them.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Viginti uses the camera to scan business cards and create contacts from them, and to scan documents you attach to records.";
 				INFOPLIST_KEY_NSContactsUsageDescription = "Viginti adds a CRM contact to your iOS Contacts when you choose to.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Viginti records audio only when you start a voice note so it can transcribe your note on this device.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Viginti uses your photo library to import business card images you select.";

@@ -79,13 +79,13 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Viginti verwendet die Kamera, um Visitenkarten zu scannen und daraus Kontakte anzulegen."
+            "value" : "Viginti verwendet die Kamera, um Visitenkarten zu scannen und daraus Kontakte anzulegen sowie Dokumente zu scannen, die Sie an Datensätze anhängen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Viginti uses the camera to scan business cards and create contacts from them."
+            "value" : "Viginti uses the camera to scan business cards and create contacts from them, and to scan documents you attach to records."
           }
         }
       }
