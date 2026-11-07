@@ -1,0 +1,7 @@
+{
+  "liveActivity.inProgress": ["In progress", "Läuft"],
+  "liveActivity.moreContacts": ["+%lld more", "+%lld weitere"],
+  "liveActivity.nextMeeting": ["Next meeting", "Nächstes Meeting"],
+  "liveActivity.startsIn": ["Starts in", "Beginnt in"],
+  "liveActivity.until": ["until %@", "bis %@"]
+}

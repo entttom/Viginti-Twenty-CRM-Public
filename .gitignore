@@ -86,3 +86,4 @@ PushPlugin/**/*.tgz
 
 # Claude Code agent worktrees
 .claude/worktrees/
+docs/appstore/current/

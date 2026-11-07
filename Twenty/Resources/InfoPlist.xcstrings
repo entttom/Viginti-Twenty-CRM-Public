@@ -15,6 +15,36 @@
             "state" : "translated",
             "value" : "Viginti"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti"
+          }
         }
       }
     },
@@ -32,6 +62,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viginti adds your tasks to your calendar and keeps the linked events in sync when you ask it to. If you turn on meeting preparation, Viginti reads your upcoming events on this device to show matching CRM contacts."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti añade tus tareas al calendario y mantiene sincronizados los eventos vinculados cuando lo pides. Si activas la preparación de reuniones, Viginti lee tus próximos eventos en este dispositivo para mostrar los contactos del CRM coincidentes."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti ajoute vos tâches à votre calendrier et synchronise les événements liés lorsque vous le demandez. Si vous activez la préparation des réunions, Viginti lit vos prochains événements sur cet appareil pour afficher les contacts CRM correspondants."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti aggiunge le attività al calendario e mantiene sincronizzati gli eventi collegati quando richiesto. Se la preparazione delle riunioni è attiva, Viginti legge su questo dispositivo i prossimi eventi per mostrare i contatti del CRM corrispondenti."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti voegt uw taken toe aan uw agenda en houdt de gekoppelde afspraken gesynchroniseerd wanneer u dat vraagt. Als u afspraakvoorbereiding inschakelt, leest Viginti uw komende afspraken op dit apparaat om bijbehorende CRM-contacten te tonen."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Viginti adiciona suas tarefas ao calendário e mantém os eventos vinculados sincronizados quando você pede. Se você ativar a preparação para reuniões, o Viginti lê seus próximos eventos neste dispositivo para mostrar os contatos do CRM correspondentes."
           }
         }
       }
@@ -51,6 +111,36 @@
             "state" : "translated",
             "value" : "Viginti adds your tasks to your calendar and keeps the linked events in sync when you ask it to. If you turn on meeting preparation, Viginti reads your upcoming events on this device to show matching CRM contacts."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti añade tus tareas al calendario y mantiene sincronizados los eventos vinculados cuando lo pides. Si activas la preparación de reuniones, Viginti lee tus próximos eventos en este dispositivo para mostrar los contactos del CRM coincidentes."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti ajoute vos tâches à votre calendrier et synchronise les événements liés lorsque vous le demandez. Si vous activez la préparation des réunions, Viginti lit vos prochains événements sur cet appareil pour afficher les contacts CRM correspondants."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti aggiunge le attività al calendario e mantiene sincronizzati gli eventi collegati quando richiesto. Se la preparazione delle riunioni è attiva, Viginti legge su questo dispositivo i prossimi eventi per mostrare i contatti del CRM corrispondenti."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti voegt uw taken toe aan uw agenda en houdt de gekoppelde afspraken gesynchroniseerd wanneer u dat vraagt. Als u afspraakvoorbereiding inschakelt, leest Viginti uw komende afspraken op dit apparaat om bijbehorende CRM-contacten te tonen."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Viginti adiciona suas tarefas ao calendário e mantém os eventos vinculados sincronizados quando você pede. Se você ativar a preparação para reuniões, o Viginti lê seus próximos eventos neste dispositivo para mostrar os contatos do CRM correspondentes."
+          }
         }
       }
     },
@@ -68,6 +158,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viginti adds your tasks to your calendar as events."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti añade tus tareas a tu calendario como eventos."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti ajoute vos tâches à votre calendrier sous forme d’événements."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti aggiunge le attività al calendario come eventi."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti voegt uw taken als afspraken toe aan uw agenda."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Viginti adiciona suas tarefas ao calendário como eventos."
           }
         }
       }
@@ -87,6 +207,36 @@
             "state" : "translated",
             "value" : "Viginti uses the camera to scan business cards and create contacts from them, and to scan documents you attach to records."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti usa la cámara para escanear tarjetas de visita y crear contactos a partir de ellas, y para escanear los documentos que adjuntas a los registros."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti utilise l’appareil photo pour scanner des cartes de visite et en créer des contacts, ainsi que pour scanner les documents que vous joignez aux enregistrements."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti usa la fotocamera per scansionare i biglietti da visita e creare contatti, e per scansionare i documenti allegati ai record."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti gebruikt de camera om visitekaartjes te scannen en er contacten van te maken, en om documenten te scannen die u aan records toevoegt."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Viginti usa a câmera para escanear cartões de visita e criar contatos a partir deles, e para escanear documentos que você anexa aos registros."
+          }
         }
       }
     },
@@ -104,6 +254,84 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viginti adds a CRM contact to your iOS Contacts when you choose to."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti añade un contacto del CRM a tus Contactos de iOS cuando así lo eliges."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti ajoute un contact CRM à vos Contacts iOS lorsque vous le choisissez."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti aggiunge un contatto del CRM ai contatti iOS quando viene richiesto."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti voegt een CRM-contact toe aan uw iOS-contacten wanneer u dat kiest."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Viginti adiciona um contato do CRM aos seus Contatos do iOS quando você escolhe."
+          }
+        }
+      }
+    },
+    "NSLocationWhenInUseUsageDescription" : {
+      "comment" : "Privacy - NSLocationWhenInUseUsageDescription",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti verwendet Ihren Standort nur, während Sie die Karte nutzen, um Firmen und Kontakte in Ihrer Nähe anzuzeigen. Ihr Standort verlässt dieses Gerät nicht."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti uses your location only while you use the map, to show companies and contacts near you. Your location stays on this device."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti usa tu ubicación solo mientras utilizas el mapa, para mostrar empresas y contactos cercanos. Tu ubicación no sale de este dispositivo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti utilise votre position uniquement pendant que vous utilisez la carte, pour afficher les entreprises et les contacts à proximité. Votre position reste sur cet appareil."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti usa la tua posizione solo mentre utilizzi la mappa, per mostrare aziende e contatti nelle vicinanze. La tua posizione resta su questo dispositivo."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti gebruikt uw locatie alleen terwijl u de kaart gebruikt, om bedrijven en contacten in de buurt te tonen. Uw locatie blijft op dit apparaat."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Viginti usa sua localização somente enquanto você usa o mapa, para mostrar empresas e contatos próximos. Sua localização permanece neste dispositivo."
           }
         }
       }
@@ -123,6 +351,36 @@
             "state" : "translated",
             "value" : "Viginti records audio only when you start a voice note so it can transcribe your note on this device."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti graba audio solo cuando inicias una nota de voz, para poder transcribirla en este dispositivo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti n’enregistre le son que lorsque vous démarrez une note vocale, afin de la transcrire sur cet appareil."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti registra l'audio solo quando si avvia una nota vocale, per poterla trascrivere su questo dispositivo."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti neemt alleen audio op wanneer u een spraaknotitie start, zodat uw notitie op dit apparaat kan worden getranscribeerd."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Viginti grava áudio somente quando você inicia uma nota de voz, para transcrevê-la neste dispositivo."
+          }
         }
       }
     },
@@ -141,6 +399,36 @@
             "state" : "translated",
             "value" : "Viginti uses your photo library to import business card images you select."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti usa tu fototeca para importar las imágenes de tarjetas de visita que selecciones."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti utilise votre photothèque pour importer les images de cartes de visite que vous sélectionnez."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti usa la libreria foto per importare le immagini di biglietti da visita selezionate."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti gebruikt uw fotobibliotheek om afbeeldingen van visitekaartjes te importeren die u selecteert."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Viginti usa sua fototeca para importar as imagens de cartões de visita que você selecionar."
+          }
         }
       }
     },
@@ -158,6 +446,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viginti uses Apple speech recognition to transcribe voice notes you record."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti usa el reconocimiento de voz de Apple para transcribir las notas de voz que grabas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti utilise la reconnaissance vocale d’Apple pour transcrire les notes vocales que vous enregistrez."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti usa il riconoscimento vocale di Apple per trascrivere le note vocali registrate."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti gebruikt Apple-spraakherkenning om spraaknotities die u opneemt te transcriberen."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Viginti usa o reconhecimento de fala da Apple para transcrever as notas de voz que você grava."
           }
         }
       }

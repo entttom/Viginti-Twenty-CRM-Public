@@ -1,0 +1,9 @@
+{
+  "meetingPrep.liveActivity.disabled.message": ["Live Activities are turned off for Viginti. You can turn them on in the Settings app.", "Live-Aktivitäten sind für Viginti ausgeschaltet. Sie können sie in der Einstellungen-App einschalten."],
+  "meetingPrep.liveActivity.hide": ["Hide Live Activity", "Live-Aktivität ausblenden"],
+  "meetingPrep.liveActivity.show": ["Live Activity", "Live-Aktivität"],
+  "meetingPrep.liveActivity.show.accessibility": ["Show this meeting as a Live Activity", "Dieses Meeting als Live-Aktivität anzeigen"],
+  "pro.feature.liveActivities.headline": ["Your next meeting as a Live Activity is part of Viginti Pro.", "Ihr nächstes Meeting als Live-Aktivität ist Teil von Viginti Pro."],
+  "settings.meetingPrep.liveActivity": ["Next meeting as Live Activity", "Nächstes Meeting als Live-Aktivität"],
+  "settings.meetingPrep.liveActivity.hint": ["Shows the meeting on the Lock Screen and in the Dynamic Island from one hour before it starts, with the matching contacts. Starts while Viginti is open.", "Zeigt das Meeting ab einer Stunde vor Beginn mit den passenden Kontakten auf dem Sperrbildschirm und in der Dynamic Island. Startet, während Viginti geöffnet ist."]
+}

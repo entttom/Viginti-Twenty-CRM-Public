@@ -282,6 +282,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CC0100022FB2FF9200EEDB02 /* TwentyWidgets */,
+				5EA5E00F2FB2FF9200EEDD0F /* TwentyShared */,
 			);
 			name = TwentyWidgets;
 			packageProductDependencies = (
@@ -348,6 +349,11 @@
 			knownRegions = (
 				en,
 				de,
+				fr,
+				es,
+				it,
+				nl,
+				"pt-BR",
 				Base,
 			);
 			mainGroup = AAA43B622FB2FF9200EEDABE;

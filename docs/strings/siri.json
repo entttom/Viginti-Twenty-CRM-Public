@@ -1,0 +1,6 @@
+{
+  "entity.opportunity.type": ["Opportunity", "Opportunity"],
+  "intent.openOpportunity.description": ["Opens an opportunity in Viginti.", "Öffnet eine Opportunity in Viginti."],
+  "intent.openOpportunity.parameter": ["Opportunity", "Opportunity"],
+  "intent.openOpportunity.title": ["Open Opportunity", "Opportunity öffnen"]
+}

@@ -1,0 +1,16 @@
+{
+  "callFollowUp.action.close": ["Close", "Schließen"],
+  "callFollowUp.action.dismiss": ["Not now", "Nicht jetzt"],
+  "callFollowUp.action.followUp": ["Create a follow-up task", "Folgeaufgabe erstellen"],
+  "callFollowUp.action.note": ["Write a note", "Notiz schreiben"],
+  "callFollowUp.action.voiceNote": ["Record a voice note", "Sprachnotiz aufnehmen"],
+  "callFollowUp.footer": ["You can turn this question off in Settings under Calls.", "Sie können diese Frage in den Einstellungen unter „Anrufe“ ausschalten."],
+  "callFollowUp.navigationTitle": ["Call ended", "Anruf beendet"],
+  "callFollowUp.note.duration": ["Duration: %@", "Dauer: %@"],
+  "callFollowUp.note.prefill": ["Call with %1$@ (%2$@)", "Anruf mit %1$@ (%2$@)"],
+  "callFollowUp.prompt.title": ["Take notes on your call with %@?", "Gespräch mit %@ notieren?"],
+  "callFollowUp.taskSaved": ["Follow-up task created", "Folgeaufgabe erstellt"],
+  "settings.callFollowUp": ["Calls", "Anrufe"],
+  "settings.callFollowUp.footer": ["After a call you started from Viginti, offers to write a note, record a voice note or create a follow-up task. Only calls started in Viginti are recognized; phone numbers are never read.", "Bietet nach einem Anruf, den Sie in Viginti gestartet haben, an, eine Notiz zu schreiben, eine Sprachnotiz aufzunehmen oder eine Folgeaufgabe zu erstellen. Erkannt werden nur Anrufe, die in Viginti gestartet wurden; Telefonnummern werden nie ausgelesen."],
+  "settings.callFollowUp.toggle": ["Ask after calls", "Nach Anrufen nachfragen"]
+}

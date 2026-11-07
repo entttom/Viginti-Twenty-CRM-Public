@@ -1,0 +1,26 @@
+{
+  "locale": "es-ES",
+  "status": "new",
+  "group": {
+    "id": "22175067",
+    "referenceName": "Viginti Pro",
+    "name": "Viginti Pro",
+    "customAppName": null
+  },
+  "subscriptions": [
+    {
+      "id": "6782879016",
+      "productId": "org.entner.twenty.Twenty.pro.monatlich",
+      "period": "ONE_MONTH",
+      "name": "Viginti Pro – Mensual",
+      "description": "Mensual"
+    },
+    {
+      "id": "6782879401",
+      "productId": "org.entner.twenty.Twenty.pro.yearly",
+      "period": "ONE_YEAR",
+      "name": "Viginti Pro – Anual",
+      "description": "Anual"
+    }
+  ]
+}
