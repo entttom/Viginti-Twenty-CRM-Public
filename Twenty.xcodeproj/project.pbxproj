@@ -11,6 +11,8 @@
 		AAAF00012FC0000000F00001 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = AAAF00032FC0000000F00003 /* FirebaseMessaging */; };
 		CC01000B2FB2FF9200EEDB0B /* TwentyWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CC0100012FB2FF9200EEDB01 /* TwentyWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5EA5E00B2FB2FF9200EEDD0B /* TwentyShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5EA5E0012FB2FF9200EEDD01 /* TwentyShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A7C1000B2FB2FF9200EEE10B /* TwentyWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A7C100012FB2FF9200EEE101 /* TwentyWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A7C2000B2FB2FF9200EEE20B /* TwentyWatchWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A7C200012FB2FF9200EEE201 /* TwentyWatchWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,20 @@
 			remoteGlobalIDString = 5EA5E0042FB2FF9200EEDD04;
 			remoteInfo = TwentyShareExtension;
 		};
+		A7C100052FB2FF9200EEE105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA43B632FB2FF9200EEDABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C100042FB2FF9200EEE104;
+			remoteInfo = TwentyWatch;
+		};
+		A7C200052FB2FF9200EEE205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA43B632FB2FF9200EEDABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C200042FB2FF9200EEE204;
+			remoteInfo = TwentyWatchWidgets;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +73,28 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7C1000D2FB2FF9200EEE10D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A7C1000B2FB2FF9200EEE10B /* TwentyWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C2000D2FB2FF9200EEE20D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A7C2000B2FB2FF9200EEE20B /* TwentyWatchWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +105,8 @@
 		BB0200012FB2FF9200EEDA10 /* TwentyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwentyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0100012FB2FF9200EEDB01 /* TwentyWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TwentyWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA5E0012FB2FF9200EEDD01 /* TwentyShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TwentyShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C100012FB2FF9200EEE101 /* TwentyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwentyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C200012FB2FF9200EEE201 /* TwentyWatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TwentyWatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -83,6 +123,13 @@
 				Info.plist,
 			);
 			target = 5EA5E0042FB2FF9200EEDD04 /* TwentyShareExtension */;
+		};
+		A7C2000E2FB2FF9200EEE20E /* Exceptions for "TwentyWatchWidgets" folder in "TwentyWatchWidgets" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A7C200042FB2FF9200EEE204 /* TwentyWatchWidgets */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -121,6 +168,24 @@
 				5EA5E00E2FB2FF9200EEDD0E /* Exceptions for "TwentyShareExtension" folder in "TwentyShareExtension" target */,
 			);
 			path = TwentyShareExtension;
+			sourceTree = "<group>";
+		};
+		A7C100022FB2FF9200EEE102 /* TwentyWatch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TwentyWatch;
+			sourceTree = "<group>";
+		};
+		A7C200022FB2FF9200EEE202 /* TwentyWatchWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A7C2000E2FB2FF9200EEE20E /* Exceptions for "TwentyWatchWidgets" folder in "TwentyWatchWidgets" target */,
+			);
+			path = TwentyWatchWidgets;
+			sourceTree = "<group>";
+		};
+		A7C300022FB2FF9200EEE302 /* TwentyWatchShared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TwentyWatchShared;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -162,6 +227,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7C100032FB2FF9200EEE103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C200032FB2FF9200EEE203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -177,6 +256,9 @@
 				5EA5E0022FB2FF9200EEDD02 /* TwentyShareExtension */,
 				5EA5E00F2FB2FF9200EEDD0F /* TwentyShared */,
 				AAA43B6C2FB2FF9200EEDABE /* Products */,
+				A7C100022FB2FF9200EEE102 /* TwentyWatch */,
+				A7C200022FB2FF9200EEE202 /* TwentyWatchWidgets */,
+				A7C300022FB2FF9200EEE302 /* TwentyWatchShared */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,6 +270,8 @@
 				BB0200012FB2FF9200EEDA10 /* TwentyUITests.xctest */,
 				CC0100012FB2FF9200EEDB01 /* TwentyWidgets.appex */,
 				5EA5E0012FB2FF9200EEDD01 /* TwentyShareExtension.appex */,
+				A7C100012FB2FF9200EEE101 /* TwentyWatch.app */,
+				A7C200012FB2FF9200EEE201 /* TwentyWatchWidgets.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,16 +287,19 @@
 				AAA43B682FB2FF9200EEDABE /* Frameworks */,
 				AAA43B692FB2FF9200EEDABE /* Resources */,
 				CC01000D2FB2FF9200EEDB0D /* Embed Foundation Extensions */,
+				A7C1000D2FB2FF9200EEE10D /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				CC0100062FB2FF9200EEDB06 /* PBXTargetDependency */,
 				5EA5E0062FB2FF9200EEDD06 /* PBXTargetDependency */,
+				A7C100062FB2FF9200EEE106 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				AAA43B6D2FB2FF9200EEDABE /* Twenty */,
 				5EA5E00F2FB2FF9200EEDD0F /* TwentyShared */,
+				A7C300022FB2FF9200EEE302 /* TwentyWatchShared */,
 			);
 			name = Twenty;
 			packageProductDependencies = (
@@ -314,6 +401,54 @@
 			productReference = 5EA5E0012FB2FF9200EEDD01 /* TwentyShareExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		A7C100042FB2FF9200EEE104 /* TwentyWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C1000C2FB2FF9200EEE10C /* Build configuration list for PBXNativeTarget "TwentyWatch" */;
+			buildPhases = (
+				A7C100072FB2FF9200EEE107 /* Sources */,
+				A7C100032FB2FF9200EEE103 /* Frameworks */,
+				A7C100082FB2FF9200EEE108 /* Resources */,
+				A7C2000D2FB2FF9200EEE20D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7C200062FB2FF9200EEE206 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7C100022FB2FF9200EEE102 /* TwentyWatch */,
+				A7C300022FB2FF9200EEE302 /* TwentyWatchShared */,
+			);
+			name = TwentyWatch;
+			packageProductDependencies = (
+			);
+			productName = TwentyWatch;
+			productReference = A7C100012FB2FF9200EEE101 /* TwentyWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7C200042FB2FF9200EEE204 /* TwentyWatchWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C2000C2FB2FF9200EEE20C /* Build configuration list for PBXNativeTarget "TwentyWatchWidgets" */;
+			buildPhases = (
+				A7C200072FB2FF9200EEE207 /* Sources */,
+				A7C200032FB2FF9200EEE203 /* Frameworks */,
+				A7C200082FB2FF9200EEE208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A7C200022FB2FF9200EEE202 /* TwentyWatchWidgets */,
+				A7C300022FB2FF9200EEE302 /* TwentyWatchShared */,
+			);
+			name = TwentyWatchWidgets;
+			packageProductDependencies = (
+			);
+			productName = TwentyWatchWidgets;
+			productReference = A7C200012FB2FF9200EEE201 /* TwentyWatchWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -339,6 +474,12 @@
 						CreatedOnToolsVersion = 26.3;
 					};
 					5EA5E0042FB2FF9200EEDD04 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					A7C100042FB2FF9200EEE104 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					A7C200042FB2FF9200EEE204 = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
@@ -369,6 +510,8 @@
 				AAA43B6A2FB2FF9200EEDABE /* Twenty */,
 				CC0100042FB2FF9200EEDB04 /* TwentyWidgets */,
 				5EA5E0042FB2FF9200EEDD04 /* TwentyShareExtension */,
+				A7C100042FB2FF9200EEE104 /* TwentyWatch */,
+				A7C200042FB2FF9200EEE204 /* TwentyWatchWidgets */,
 				BB0100062FB2FF9200EEDA06 /* TwentyTests */,
 				BB0200062FB2FF9200EEDA16 /* TwentyUITests */,
 			);
@@ -406,6 +549,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5EA5E0082FB2FF9200EEDD08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C100082FB2FF9200EEE108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C200082FB2FF9200EEE208 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -450,6 +607,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7C100072FB2FF9200EEE107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C200072FB2FF9200EEE207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -472,6 +643,16 @@
 			isa = PBXTargetDependency;
 			target = 5EA5E0042FB2FF9200EEDD04 /* TwentyShareExtension */;
 			targetProxy = 5EA5E0052FB2FF9200EEDD05 /* PBXContainerItemProxy */;
+		};
+		A7C100062FB2FF9200EEE106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7C100042FB2FF9200EEE104 /* TwentyWatch */;
+			targetProxy = A7C100052FB2FF9200EEE105 /* PBXContainerItemProxy */;
+		};
+		A7C200062FB2FF9200EEE206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7C200042FB2FF9200EEE204 /* TwentyWatchWidgets */;
+			targetProxy = A7C200052FB2FF9200EEE205 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -924,6 +1105,138 @@
 			};
 			name = Release;
 		};
+		A7C100092FB2FF9200EEE109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TwentyWatch/TwentyWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Viginti;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = org.entner.twenty.Twenty;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.Twenty.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		A7C1000A2FB2FF9200EEE10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TwentyWatch/TwentyWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Viginti;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = org.entner.twenty.Twenty;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.Twenty.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		A7C200092FB2FF9200EEE209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TwentyWatchWidgets/TwentyWatchWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TwentyWatchWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.Twenty.watchkitapp.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		A7C2000A2FB2FF9200EEE20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TwentyWatchWidgets/TwentyWatchWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TwentyWatchWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.Twenty.watchkitapp.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -977,6 +1290,24 @@
 			buildConfigurations = (
 				5EA5E0092FB2FF9200EEDD09 /* Debug */,
 				5EA5E00A2FB2FF9200EEDD0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C1000C2FB2FF9200EEE10C /* Build configuration list for PBXNativeTarget "TwentyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C100092FB2FF9200EEE109 /* Debug */,
+				A7C1000A2FB2FF9200EEE10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C2000C2FB2FF9200EEE20C /* Build configuration list for PBXNativeTarget "TwentyWatchWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C200092FB2FF9200EEE209 /* Debug */,
+				A7C2000A2FB2FF9200EEE20A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

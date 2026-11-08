@@ -1,0 +1,9 @@
+{
+  "intent.duplicatePolicy.type": ["If It Already Exists", "Falls bereits vorhanden"],
+  "intent.duplicatePolicy.useExisting": ["Use Existing", "Vorhandenen verwenden"],
+  "intent.duplicatePolicy.createAnyway": ["Create Anyway", "Trotzdem anlegen"],
+  "intent.parameter.ifExists": ["If It Already Exists", "Falls bereits vorhanden"],
+  "intent.createContact.existing": ["%@ is already in Twenty, so no new contact was created.", "%@ ist bereits in Twenty, daher wurde kein neuer Kontakt angelegt."],
+  "intent.createCompany.existing": ["%@ is already in Twenty, so no new company was created.", "%@ ist bereits in Twenty, daher wurde keine neue Firma angelegt."],
+  "contactsSync.review.alreadyInCRM": ["Already in your CRM as %1$@ (%2$@)", "Bereits in Ihrem CRM als %1$@ (%2$@)"]
+}
