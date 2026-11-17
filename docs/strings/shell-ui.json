@@ -1,0 +1,930 @@
+{
+  "settings.appearance": [
+    "Appearance",
+    "Darstellung"
+  ],
+  "settings.appearance.system": [
+    "Automatic",
+    "Automatisch"
+  ],
+  "settings.appearance.light": [
+    "Light",
+    "Hell"
+  ],
+  "settings.appearance.dark": [
+    "Dark",
+    "Dunkel"
+  ],
+  "settings.appearance.footer": [
+    "Widgets and the Apple Watch follow the system appearance. The language is chosen for Viginti in the Settings app.",
+    "Widgets und die Apple Watch folgen der Systemdarstellung. Die Sprache wählen Sie für Viginti in der Einstellungen-App."
+  ],
+  "settings.language": [
+    "Language",
+    "Sprache"
+  ],
+  "settings.language.hint": [
+    "Opens the Settings app, where you can choose the app language.",
+    "Öffnet die Einstellungen-App, in der Sie die Sprache der App wählen können."
+  ],
+  "settings.general": [
+    "General",
+    "Allgemein"
+  ],
+  "settings.connectionAndSync": [
+    "Connection & Sync",
+    "Verbindung & Synchronisierung"
+  ],
+  "settings.notificationsAndReminders": [
+    "Notifications & Reminders",
+    "Mitteilungen & Erinnerungen"
+  ],
+  "settings.homeAndDashboard": [
+    "Home & Dashboard",
+    "Start & Dashboard"
+  ],
+  "settings.integrations": [
+    "Integrations",
+    "Integrationen"
+  ],
+  "settings.dataAndDiagnostics": [
+    "Data & Diagnostics",
+    "Daten & Diagnose"
+  ],
+  "settings.aboutAndLegal": [
+    "About & Legal",
+    "Info & Rechtliches"
+  ],
+  "settings.customObjects": [
+    "Custom Objects",
+    "Benutzerdefinierte Objekte"
+  ],
+  "settings.spotlight.header": [
+    "Spotlight",
+    "Spotlight"
+  ],
+  "settings.version": [
+    "Version",
+    "Version"
+  ],
+  "settings.diagnostics.previewTitle": [
+    "Viginti diagnostics",
+    "Viginti-Diagnose"
+  ],
+  "onboarding.testConnection": [
+    "Test Connection",
+    "Verbindung testen"
+  ],
+  "onboarding.testing": [
+    "Testing…",
+    "Wird getestet …"
+  ],
+  "onboarding.connect": [
+    "Connect",
+    "Verbinden"
+  ],
+  "onboarding.connecting": [
+    "Connecting…",
+    "Wird verbunden …"
+  ],
+  "onboarding.missingDetails": [
+    "Enter the required connection details first.",
+    "Geben Sie zuerst die erforderlichen Verbindungsdaten ein."
+  ],
+  "onboarding.connectedAs": [
+    "Connected as %@.",
+    "Verbunden als %@."
+  ],
+  "onboarding.urlInvalid": [
+    "Enter a valid address, for example https://crm.example.com.",
+    "Geben Sie eine gültige Adresse ein, zum Beispiel https://crm.example.com."
+  ],
+  "session.expired.workspace": [
+    "Workspace %@",
+    "Workspace %@"
+  ],
+  "sync.changesPending": [
+    "Changes pending — syncing soon.",
+    "Änderungen ausstehend – werden gleich synchronisiert."
+  ],
+  "repository.error.notFound.contact": [
+    "The contact was not found.",
+    "Der Kontakt wurde nicht gefunden."
+  ],
+  "repository.error.notFound.company": [
+    "The company was not found.",
+    "Das Unternehmen wurde nicht gefunden."
+  ],
+  "repository.error.notFound.opportunity": [
+    "The opportunity was not found.",
+    "Die Verkaufschance wurde nicht gefunden."
+  ],
+  "repository.error.notFound.task": [
+    "The task was not found.",
+    "Die Aufgabe wurde nicht gefunden."
+  ],
+  "repository.error.notFound.note": [
+    "The note was not found.",
+    "Die Notiz wurde nicht gefunden."
+  ],
+  "repository.error.notFound.record": [
+    "%@ was not found.",
+    "„%@“ wurde nicht gefunden."
+  ],
+  "repository.error.notConnected": [
+    "Connect to a Twenty instance to use this feature.",
+    "Verbinden Sie sich mit einer Twenty-Instanz, um diese Funktion zu nutzen."
+  ],
+  "repository.error.missingNoteBody": [
+    "The note has no text.",
+    "Die Notiz hat keinen Text."
+  ],
+  "repository.error.missingTaskTitle": [
+    "The task has no title.",
+    "Die Aufgabe hat keinen Titel."
+  ],
+  "repository.error.notYetSynced": [
+    "This item has not been synced yet. Try again once it is synced.",
+    "Dieser Eintrag ist noch nicht synchronisiert. Versuchen Sie es nach der Synchronisierung erneut."
+  ],
+  "repository.error.incompleteChange": [
+    "This change is missing data and cannot be synced.",
+    "Dieser Änderung fehlen Daten, sie kann nicht synchronisiert werden."
+  ],
+  "repository.error.unexpected": [
+    "Something went wrong. Please try again.",
+    "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+  ],
+  "home.defaultUser": [
+    "Viginti user",
+    "Viginti-Nutzer"
+  ],
+  "settings.legal": [
+    "Privacy & Legal",
+    "Datenschutz & Rechtliches"
+  ],
+  "settings.privacy": [
+    "Privacy Policy",
+    "Datenschutz"
+  ],
+  "settings.terms": [
+    "Terms of Use",
+    "Nutzungsbedingungen"
+  ],
+  "toast.dismiss": [
+    "Dismiss",
+    "Schließen"
+  ],
+  "action.undo": [
+    "Undo",
+    "Rückgängig"
+  ],
+  "accessibility.undoHint": [
+    "Restores the deleted item",
+    "Stellt den gelöschten Eintrag wieder her"
+  ],
+  "settings.openSystemSettings": [
+    "Open System Settings",
+    "Systemeinstellungen öffnen"
+  ],
+  "home.sync.message": {
+    "en": {
+      "one": "%lld change needs attention",
+      "other": "%lld changes need attention"
+    },
+    "de": {
+      "one": "%lld Änderung benötigt Aufmerksamkeit",
+      "other": "%lld Änderungen benötigen Aufmerksamkeit"
+    }
+  },
+  "home.subtitle.dueToday": {
+    "en": {
+      "one": "%lld task due today",
+      "other": "%lld tasks due today"
+    },
+    "de": {
+      "one": "%lld Aufgabe heute fällig",
+      "other": "%lld Aufgaben heute fällig"
+    }
+  },
+  "accessibility.employeeCount": {
+    "en": {
+      "one": "%lld employee",
+      "other": "%lld employees"
+    },
+    "de": {
+      "one": "%lld Mitarbeiter",
+      "other": "%lld Mitarbeitende"
+    }
+  },
+  "calendar.durationMinutes": {
+    "en": {
+      "one": "%lld minute",
+      "other": "%lld minutes"
+    },
+    "de": {
+      "one": "%lld Minute",
+      "other": "%lld Minuten"
+    }
+  },
+  "map.cluster.companies": {
+    "en": {
+      "one": "%lld company",
+      "other": "%lld companies"
+    },
+    "de": {
+      "one": "%lld Unternehmen",
+      "other": "%lld Unternehmen"
+    }
+  },
+  "map.cluster.people": {
+    "en": {
+      "one": "%lld person",
+      "other": "%lld people"
+    },
+    "de": {
+      "one": "%lld Person",
+      "other": "%lld Personen"
+    }
+  },
+  "meetingPrep.moreParticipants": {
+    "en": {
+      "one": "+%lld more contact",
+      "other": "+%lld more contacts"
+    },
+    "de": {
+      "one": "+%lld weiterer Kontakt",
+      "other": "+%lld weitere Kontakte"
+    }
+  },
+  "meetingPrep.openOpportunities": {
+    "en": {
+      "one": "%lld open opportunity",
+      "other": "%lld open opportunities"
+    },
+    "de": {
+      "one": "%lld offene Verkaufschance",
+      "other": "%lld offene Verkaufschancen"
+    }
+  },
+  "meetingPrep.openTasks": {
+    "en": {
+      "one": "%lld open task",
+      "other": "%lld open tasks"
+    },
+    "de": {
+      "one": "%lld offene Aufgabe",
+      "other": "%lld offene Aufgaben"
+    }
+  },
+  "opportunity.pipeline.activeFiltersFormat": {
+    "en": {
+      "one": "%lld filter active",
+      "other": "%lld filters active"
+    },
+    "de": {
+      "one": "%lld Filter aktiv",
+      "other": "%lld Filter aktiv"
+    }
+  },
+  "settings.daysFormat": {
+    "en": {
+      "one": "%lld day",
+      "other": "%lld days"
+    },
+    "de": {
+      "one": "%lld Tag",
+      "other": "%lld Tage"
+    }
+  },
+  "tasks.bulk.success": {
+    "en": {
+      "one": "%lld task updated",
+      "other": "%lld tasks updated"
+    },
+    "de": {
+      "one": "%lld Aufgabe aktualisiert",
+      "other": "%lld Aufgaben aktualisiert"
+    }
+  },
+  "shareInbox.toast.savedMany": {
+    "en": {
+      "one": "%lld shared item saved.",
+      "other": "%lld shared items saved."
+    },
+    "de": {
+      "one": "%lld geteilter Inhalt gespeichert.",
+      "other": "%lld geteilte Inhalte gespeichert."
+    }
+  },
+  "shareInbox.toast.savedManyOffline": {
+    "en": {
+      "one": "%lld shared item saved. It will sync when the connection is restored.",
+      "other": "%lld shared items saved. They will sync when the connection is restored."
+    },
+    "de": {
+      "one": "%lld geteilter Inhalt gespeichert. Er wird synchronisiert, sobald die Verbindung wiederhergestellt ist.",
+      "other": "%lld geteilte Inhalte gespeichert. Sie werden synchronisiert, sobald die Verbindung wiederhergestellt ist."
+    }
+  },
+  "shareInbox.banner.failedMany": {
+    "en": {
+      "one": "%lld shared item could not be saved.",
+      "other": "%lld shared items could not be saved."
+    },
+    "de": {
+      "one": "%lld geteilter Inhalt konnte nicht gespeichert werden.",
+      "other": "%lld geteilte Inhalte konnten nicht gespeichert werden."
+    }
+  },
+  "shareInbox.banner.waitingMany": {
+    "en": {
+      "one": "%lld shared item is waiting. Saving it requires Viginti Pro.",
+      "other": "%lld shared items are waiting. Saving them requires Viginti Pro."
+    },
+    "de": {
+      "one": "%lld geteilter Inhalt wartet. Zum Speichern benötigen Sie Viginti Pro.",
+      "other": "%lld geteilte Inhalte warten. Zum Speichern benötigen Sie Viginti Pro."
+    }
+  },
+  "accessibility.taskComplete": [
+    "Mark as done",
+    "Als erledigt markieren"
+  ],
+  "accessibility.taskStatus.completed": [
+    "%@, completed",
+    "%@, erledigt"
+  ],
+  "accessibility.taskStatus.dueToday": [
+    "%@, status: %@, due today",
+    "%@, Status: %@, heute fällig"
+  ],
+  "accessibility.taskStatus.overdue": [
+    "%@, status: %@, overdue",
+    "%@, Status: %@, überfällig"
+  ],
+  "action.cancel": [
+    "Cancel",
+    "Abbrechen"
+  ],
+  "action.edit": [
+    "Edit",
+    "Bearbeiten"
+  ],
+  "action.save": [
+    "Save",
+    "Speichern"
+  ],
+  "companies.empty": [
+    "No companies",
+    "Keine Unternehmen"
+  ],
+  "companies.empty.hint": [
+    "Create a company first to link a contact.",
+    "Erstellen Sie zuerst ein Unternehmen, um einen Kontakt zu verknüpfen."
+  ],
+  "companies.loading": [
+    "Loading companies…",
+    "Unternehmen werden geladen…"
+  ],
+  "companies.pick": [
+    "Pick Company",
+    "Unternehmen wählen"
+  ],
+  "companies.search": [
+    "Search companies",
+    "Unternehmen suchen"
+  ],
+  "company.error.bannerTitle": [
+    "Check company details",
+    "Unternehmensdaten prüfen"
+  ],
+  "company.error.domain": [
+    "The domain is invalid. Use e.g. apple.com.",
+    "Die Domain ist ungültig. Verwenden Sie z. B. apple.com."
+  ],
+  "company.error.employees": [
+    "Employee count must be a whole number.",
+    "Mitarbeiterzahl muss eine ganze Zahl sein."
+  ],
+  "company.error.prepare": [
+    "Could not prepare company data.",
+    "Unternehmensdaten konnten nicht vorbereitet werden."
+  ],
+  "company.form.edit": [
+    "Edit Company",
+    "Unternehmen bearbeiten"
+  ],
+  "company.form.new": [
+    "New Company",
+    "Neues Unternehmen"
+  ],
+  "company.hint.domain": [
+    "Enter a valid domain, e.g. apple.com.",
+    "Gültige Domain eingeben, z. B. apple.com."
+  ],
+  "company.hint.employees": [
+    "Enter a valid whole number.",
+    "Gültige ganze Zahl eingeben."
+  ],
+  "contact.company": [
+    "Company",
+    "Unternehmen"
+  ],
+  "contact.countryCode": [
+    "Country code",
+    "Ländervorwahl"
+  ],
+  "contact.error.bannerTitle": [
+    "Check contact details",
+    "Kontaktdaten prüfen"
+  ],
+  "contact.error.email": [
+    "The email address is invalid. Use e.g. alex@example.com.",
+    "Die E-Mail-Adresse ist ungültig. Verwenden Sie z. B. alex@example.com."
+  ],
+  "contact.error.phone": [
+    "The phone number is invalid. Use digits and common symbols only.",
+    "Die Telefonnummer ist ungültig. Nur Ziffern und übliche Symbole verwenden."
+  ],
+  "contact.error.prepare": [
+    "Could not prepare contact data.",
+    "Kontaktdaten konnten nicht vorbereitet werden."
+  ],
+  "contact.form.edit": [
+    "Edit Contact",
+    "Kontakt bearbeiten"
+  ],
+  "contact.form.new": [
+    "New Contact",
+    "Neuer Kontakt"
+  ],
+  "contact.hint.email": [
+    "Enter a valid email, e.g. alex@example.com.",
+    "Gültige E-Mail-Adresse eingeben, z. B. alex@example.com."
+  ],
+  "contact.hint.phone": [
+    "Enter a valid phone number.",
+    "Gültige Telefonnummer eingeben."
+  ],
+  "contact.phoneCountry": [
+    "Country code",
+    "Ländervorwahl"
+  ],
+  "contact.searchCountry": [
+    "Search country or code",
+    "Land oder Vorwahl suchen"
+  ],
+  "contact.section.company": [
+    "Company",
+    "Unternehmen"
+  ],
+  "contact.section.contact": [
+    "Contact",
+    "Kontakt"
+  ],
+  "contacts.loading": [
+    "Loading contacts…",
+    "Kontakte werden geladen…"
+  ],
+  "customObject.add": [
+    "Add record",
+    "Datensatz hinzufügen"
+  ],
+  "customObject.create": [
+    "New Record",
+    "Neuer Datensatz"
+  ],
+  "customObject.edit": [
+    "Edit Record",
+    "Datensatz bearbeiten"
+  ],
+  "customObject.empty": [
+    "No records",
+    "Keine Datensätze"
+  ],
+  "customObject.emptyHint": [
+    "This custom object has no records yet.",
+    "Dieses benutzerdefinierte Objekt hat noch keine Datensätze."
+  ],
+  "customObject.loading": [
+    "Loading records…",
+    "Datensätze werden geladen…"
+  ],
+  "customObject.noWorkspace": [
+    "Workspace unavailable.",
+    "Workspace nicht verfügbar."
+  ],
+  "customObject.notFound": [
+    "Custom object not found.",
+    "Benutzerdefiniertes Objekt nicht gefunden."
+  ],
+  "customObject.readOnlyFields": [
+    "Read-only fields",
+    "Schreibgeschützte Felder"
+  ],
+  "customObject.readOnlyHint": [
+    "This object is read-only.",
+    "Dieses Objekt ist schreibgeschützt."
+  ],
+  "customObject.search": [
+    "Search records",
+    "Datensätze durchsuchen"
+  ],
+  "error.retry": [
+    "Retry",
+    "Erneut versuchen"
+  ],
+  "form.cancel": [
+    "Cancel",
+    "Abbrechen"
+  ],
+  "form.save": [
+    "Save",
+    "Speichern"
+  ],
+  "form.saveHint": [
+    "Saves the entered data",
+    "Speichert die eingegebenen Daten"
+  ],
+  "form.unsaved.message": [
+    "You have unsaved changes that will be lost.",
+    "Nicht gespeicherte Änderungen gehen verloren."
+  ],
+  "form.unsaved.title": [
+    "Discard changes?",
+    "Änderungen verwerfen?"
+  ],
+  "home.cachedData": [
+    "Showing cached data",
+    "Zwischengespeicherte Daten"
+  ],
+  "home.loading": [
+    "Loading dashboard",
+    "Dashboard wird geladen"
+  ],
+  "home.noteSaved": [
+    "Note saved.",
+    "Notiz gespeichert."
+  ],
+  "home.voiceNoteSaved": [
+    "Voice note saved.",
+    "Sprachnotiz gespeichert."
+  ],
+  "intent.proRequired": [
+    "Viginti Pro is required to use this action.",
+    "Viginti Pro ist erforderlich, um diese Aktion zu verwenden."
+  ],
+  "loading.skeleton": [
+    "Loading content",
+    "Inhalte werden geladen"
+  ],
+  "notes.form.edit": [
+    "Edit Note",
+    "Notiz bearbeiten"
+  ],
+  "notes.form.new": [
+    "New Note",
+    "Neue Notiz"
+  ],
+  "notes.loading": [
+    "Loading note…",
+    "Notiz wird geladen…"
+  ],
+  "notifications.denied.message": [
+    "Reminders need notifications. You can allow notifications for Viginti in the Settings app.",
+    "Erinnerungen benötigen Mitteilungen. Sie können Mitteilungen für Viginti in den Systemeinstellungen erlauben."
+  ],
+  "notifications.explainer.message": [
+    "Viginti can remind you when tasks are due. You can change this anytime in Settings.",
+    "Viginti kann Sie an fällige Aufgaben erinnern. Sie können dies jederzeit in den Einstellungen ändern."
+  ],
+  "notifications.explainer.title": [
+    "Task Reminders",
+    "Aufgaben-Erinnerungen"
+  ],
+  "notifications.status.ephemeral": [
+    "Temporary",
+    "Temporär"
+  ],
+  "notifications.status.provisional": [
+    "Provisional",
+    "Vorläufig"
+  ],
+  "notifications.taskDue.title": [
+    "Task Due",
+    "Aufgabe fällig"
+  ],
+  "offline.cachedData": [
+    "Showing cached data",
+    "Zwischengespeicherte Daten"
+  ],
+  "opportunities.loading": [
+    "Loading opportunities…",
+    "Chancen werden geladen…"
+  ],
+  "opportunities.loadingOne": [
+    "Loading opportunity…",
+    "Chance wird geladen…"
+  ],
+  "paywall.autorenewNotice": [
+    "Then renews automatically at the displayed price. Cancel anytime.",
+    "Danach automatische Verlängerung zum angezeigten Preis. Jederzeit kündbar."
+  ],
+  "permission.denied.title": [
+    "Access Not Allowed",
+    "Zugriff nicht erlaubt"
+  ],
+  "pro.gate.accessibilityHint": [
+    "Viginti Pro required. Double-tap to learn more.",
+    "Viginti Pro erforderlich. Doppeltippen, um mehr zu erfahren."
+  ],
+  "remotePush.error.firebase": [
+    "Firebase is not configured yet.",
+    "Firebase ist noch nicht konfiguriert."
+  ],
+  "remotePush.error.invalidResponse": [
+    "The push registration returned an invalid response.",
+    "Die Push-Registrierung lieferte eine ungültige Antwort."
+  ],
+  "remotePush.error.missingSession": [
+    "No active Twenty session is available.",
+    "Keine aktive Twenty-Sitzung verfügbar."
+  ],
+  "remotePush.error.missingToken": [
+    "The FCM token is not available yet.",
+    "Das FCM-Token ist noch nicht verfügbar."
+  ],
+  "remotePush.error.missingWorkspace": [
+    "The Twenty workspace could not be determined. Connect the app with the workspace-specific Twenty URL.",
+    "Der Twenty-Workspace konnte nicht eindeutig bestimmt werden. Verbinden Sie die App mit der workspace-spezifischen Twenty-URL."
+  ],
+  "remotePush.error.payload": [
+    "The push message could not be processed.",
+    "Die Push-Nachricht konnte nicht verarbeitet werden."
+  ],
+  "remotePush.error.permissionDenied": [
+    "Notifications are turned off in iOS Settings.",
+    "Mitteilungen sind in den iOS-Einstellungen deaktiviert."
+  ],
+  "remotePush.error.pluginCheckFailed": [
+    "The Push plugin could not be checked on this server.",
+    "Das Push-Plugin konnte auf diesem Server nicht geprüft werden."
+  ],
+  "remotePush.error.pluginUnavailable": [
+    "The Push plugin is not installed on this Twenty server.",
+    "Das Push-Plugin ist auf diesem Twenty-Server nicht installiert."
+  ],
+  "remotePush.error.preferencesFailed": [
+    "The push notification settings could not be saved.",
+    "Die Push-Einstellungen konnten nicht gespeichert werden."
+  ],
+  "remotePush.error.proRequired": [
+    "Push notifications are included with Viginti Pro.",
+    "Push-Benachrichtigungen sind Teil von Viginti Pro."
+  ],
+  "remotePush.error.registrationFailed": [
+    "Push registration failed.",
+    "Die Push-Registrierung ist fehlgeschlagen."
+  ],
+  "remotePush.error.taskNotFound": [
+    "The task could not be found.",
+    "Die Aufgabe konnte nicht gefunden werden."
+  ],
+  "remotePush.error.userSessionRequired": [
+    "Push needs a personal Twenty sign-in. Please sign in again with your Twenty account.",
+    "Push benötigt eine persönliche Twenty-Anmeldung. Bitte melden Sie sich erneut mit Ihrem Twenty-Konto an."
+  ],
+  "remotePush.status.apns": [
+    "Registering with APNs…",
+    "APNs-Registrierung läuft …"
+  ],
+  "remotePush.status.backend": [
+    "Registering with the server…",
+    "Server-Registrierung läuft …"
+  ],
+  "remotePush.status.checkingPlugin": [
+    "Checking Push plugin...",
+    "Push-Plugin wird geprüft ..."
+  ],
+  "remotePush.status.failed": [
+    "Registration failed",
+    "Registrierung fehlgeschlagen"
+  ],
+  "remotePush.status.fcm": [
+    "Fetching FCM token…",
+    "FCM-Token wird abgerufen …"
+  ],
+  "remotePush.status.permissionDenied": [
+    "Turned off in iOS Settings",
+    "In den iOS-Einstellungen deaktiviert"
+  ],
+  "remotePush.status.pluginUnavailable": [
+    "Push plugin not installed",
+    "Push-Plugin nicht installiert"
+  ],
+  "remotePush.status.requestingPermission": [
+    "Turning on push…",
+    "Push wird aktiviert …"
+  ],
+  "settings.defaultReminderTime": [
+    "Default Time",
+    "Standardzeit"
+  ],
+  "settings.enableReminders": [
+    "Enable Reminders",
+    "Erinnerungen aktivieren"
+  ],
+  "settings.notificationsDeniedHint": [
+    "Notifications are disabled in system settings.",
+    "Benachrichtigungen sind in den Systemeinstellungen deaktiviert."
+  ],
+  "settings.reminderLeadTime": [
+    "Lead Time: %lld min",
+    "Vorlaufzeit: %lld Min."
+  ],
+  "settings.reminders": [
+    "Reminders",
+    "Erinnerungen"
+  ],
+  "settings.remotePush": [
+    "Push Notifications",
+    "Push-Mitteilungen"
+  ],
+  "settings.remotePush.enable": [
+    "Turn On Push Notifications",
+    "Push-Mitteilungen aktivieren"
+  ],
+  "settings.remotePush.lastRegistration": [
+    "Last Registration",
+    "Letzte Registrierung"
+  ],
+  "settings.remotePush.localReminderSeparation": [
+    "Local task reminders are configured separately.",
+    "Lokale Aufgabenerinnerungen werden separat konfiguriert."
+  ],
+  "settings.remotePush.notifications": [
+    "Notifications",
+    "Mitteilungen"
+  ],
+  "settings.remotePush.permissionDenied": [
+    "Notifications are turned off in iOS Settings.",
+    "Mitteilungen sind in den iOS-Einstellungen deaktiviert."
+  ],
+  "settings.remotePush.retry": [
+    "Try Again",
+    "Erneut versuchen"
+  ],
+  "settings.remotePush.taskAssigned": [
+    "New Task Assignment",
+    "Neue Aufgabenzuweisung"
+  ],
+  "settings.remotePush.taskCompleted": [
+    "Task Completed",
+    "Aufgabe erledigt"
+  ],
+  "settings.remotePush.taskDueDateChanged": [
+    "Due Date Changed",
+    "Fälligkeitsdatum geändert"
+  ],
+  "settings.remotePush.taskUnassigned": [
+    "Assignment Removed",
+    "Zuweisung entfernt"
+  ],
+  "subscription.action.restore": [
+    "Restore Purchases",
+    "Käufe wiederherstellen"
+  ],
+  "subscription.close": [
+    "Close",
+    "Schließen"
+  ],
+  "subscription.detail.availableUntil": [
+    "Available until %@",
+    "Verfügbar bis %@"
+  ],
+  "subscription.detail.fixBilling": [
+    "Please check your payment method. Available until %@",
+    "Bitte Zahlungsmethode prüfen. Verfügbar bis %@"
+  ],
+  "subscription.detail.renewsOn": [
+    "Renews on %@",
+    "Verlängert sich am %@"
+  ],
+  "subscription.error.generic": [
+    "The purchase could not be completed.",
+    "Der Kauf konnte nicht abgeschlossen werden."
+  ],
+  "subscription.error.productUnavailable": [
+    "This product is currently unavailable. Please try again later.",
+    "Dieses Produkt ist derzeit nicht verfügbar. Bitte versuche es später erneut."
+  ],
+  "subscription.error.restoreFailed": [
+    "Purchases could not be restored.",
+    "Käufe konnten nicht wiederhergestellt werden."
+  ],
+  "subscription.error.unverified": [
+    "The purchase could not be verified.",
+    "Der Kauf konnte nicht verifiziert werden."
+  ],
+  "subscription.restore.nothing": [
+    "No active purchases found.",
+    "Keine aktiven Käufe gefunden."
+  ],
+  "subscription.restore.success": [
+    "Purchases restored.",
+    "Käufe wiederhergestellt."
+  ],
+  "subscription.section.footer": [
+    "Monthly and yearly plans renew automatically via your Apple account. You can cancel anytime via “Manage Subscription”.",
+    "Monats- und Jahresabo verlängern sich automatisch über Ihren Apple-Account. Sie können jederzeit über „Abonnement verwalten“ kündigen."
+  ],
+  "subscription.status.cancelled": [
+    "Cancelled – still active",
+    "Gekündigt – noch aktiv"
+  ],
+  "subscription.status.grace": [
+    "Billing issue – access active",
+    "Zahlungsproblem – Zugriff aktiv"
+  ],
+  "subscription.status.loading": [
+    "Loading…",
+    "Wird geladen …"
+  ],
+  "subscription.status.revoked": [
+    "Subscription refunded",
+    "Abo zurückerstattet"
+  ],
+  "subscription.status.unavailable": [
+    "Status unavailable",
+    "Status nicht verfügbar"
+  ],
+  "task.assignee": [
+    "Assignee",
+    "Zuständig"
+  ],
+  "task.contact": [
+    "Contact",
+    "Kontakt"
+  ],
+  "task.due": [
+    "Due",
+    "Fällig"
+  ],
+  "task.form.edit": [
+    "Edit Task",
+    "Aufgabe bearbeiten"
+  ],
+  "task.form.new": [
+    "New Task",
+    "Neue Aufgabe"
+  ],
+  "task.pickAssignee": [
+    "Pick Assignee",
+    "Zuständigen wählen"
+  ],
+  "task.section.dueDate": [
+    "Due Date",
+    "Fälligkeit"
+  ],
+  "task.section.links": [
+    "Links",
+    "Verknüpfungen"
+  ],
+  "task.section.task": [
+    "Task",
+    "Aufgabe"
+  ],
+  "task.setDueDate": [
+    "Set due date",
+    "Fälligkeitsdatum setzen"
+  ],
+  "tasks.loading": [
+    "Loading task…",
+    "Aufgabe wird geladen…"
+  ],
+  "undo.deletedCompany": [
+    "%@ deleted",
+    "%@ gelöscht"
+  ],
+  "undo.deletedContact": [
+    "%@ deleted",
+    "%@ gelöscht"
+  ],
+  "undo.deletedTask": [
+    "Task \"%@\" deleted",
+    "Aufgabe „%@“ gelöscht"
+  ],
+  "workspace.loadingMembers": [
+    "Loading members…",
+    "Mitglieder werden geladen…"
+  ],
+  "workspace.noMembers": [
+    "No workspace members",
+    "Keine Workspace-Mitglieder"
+  ],
+  "workspace.noMembers.hint": [
+    "Invite teammates in Twenty to assign tasks.",
+    "Laden Sie Teammitglieder in Twenty ein, um Aufgaben zuzuweisen."
+  ]
+}

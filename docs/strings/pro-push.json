@@ -1,0 +1,23 @@
+{
+  "pro.feature.appIntents.headline": ["Shortcuts that create records are part of Viginti Pro.", "Kurzbefehle, die Datensätze anlegen, sind Teil von Viginti Pro."],
+  "pro.feature.aiCapture.headline": ["AI capture (on supported devices) is part of Viginti Pro.", "KI-Erfassung (auf unterstützten Geräten) ist Teil von Viginti Pro."],
+  "paywall.benefit.connect": ["Push, widgets and Shortcuts that create records", "Push, Widgets und Kurzbefehle, die Datensätze anlegen"],
+  "paywall.benefit.tools": ["Scanner, voice notes, meeting prep and AI capture on supported devices", "Scanner, Sprachnotizen, Terminvorbereitung und KI-Erfassung auf unterstützten Geräten"],
+  "paywall.benefit.free": ["Always free: view, search, complete tasks and create records online in the app", "Immer kostenlos: ansehen, suchen, Aufgaben erledigen und in der App online Datensätze anlegen"],
+  "paywall.yearlySavings": ["Yearly works out to %@ per month. Save %lld%%.", "Im Jahresabo nur %@ pro Monat. Du sparst %lld %%."],
+  "paywall.autorenewNotice": ["Renews automatically at the price shown. Cancel anytime.", "Verlängert sich automatisch zum angezeigten Preis. Jederzeit kündbar."],
+  "paywall.autorenewNotice.trial": ["Free for %@, then renews automatically at the price shown. Cancel anytime.", "%@ kostenlos, danach automatische Verlängerung zum angezeigten Preis. Jederzeit kündbar."],
+  "paywall.purchase.pending": ["Your purchase is waiting for approval (Ask to Buy). Viginti Pro unlocks as soon as it is approved.", "Dein Kauf wartet auf Zustimmung („Vor dem Kauf fragen“). Viginti Pro wird freigeschaltet, sobald er bestätigt ist."],
+  "paywall.purchase.cancelled": ["Purchase cancelled. Nothing was charged.", "Kauf abgebrochen. Es wurde nichts berechnet."],
+  "paywall.purchase.processing": ["Purchase complete. Viginti Pro will be active in a moment.", "Kauf abgeschlossen. Viginti Pro ist gleich aktiv."],
+  "subscription.error.unverified": ["The purchase could not be verified. If you were charged, use Restore Purchases.", "Der Kauf konnte nicht verifiziert werden. Falls dir etwas berechnet wurde, tippe auf „Käufe wiederherstellen“."],
+  "subscription.error.generic": ["The purchase could not be completed.", "Der Kauf konnte nicht abgeschlossen werden."],
+  "subscription.error.restoreFailed": ["Purchases could not be restored.", "Käufe konnten nicht wiederhergestellt werden."],
+  "subscription.status.trialActive": ["Free trial active", "Gratis-Test aktiv"],
+  "subscription.status.billingRetryPaused": ["Access paused – update your payment method", "Zugriff pausiert – Zahlungsmethode aktualisieren"],
+  "subscription.detail.billingRetry": ["Apple could not renew Viginti Pro. Update your payment method in Manage Subscription to continue.", "Apple konnte Viginti Pro nicht verlängern. Aktualisiere deine Zahlungsmethode unter „Abonnement verwalten“, um weiterzumachen."],
+  "subscription.detail.renewalPending": ["Checking the renewal with the App Store …", "Verlängerung wird beim App Store geprüft …"],
+  "subscription.detail.graceUntil": ["Update your payment method. Access continues until %@.", "Bitte Zahlungsmethode aktualisieren. Zugriff bleibt bis %@ erhalten."],
+  "subscription.detail.updatePayment": ["Update your payment method in Manage Subscription.", "Aktualisiere deine Zahlungsmethode unter „Abonnement verwalten“."],
+  "subscription.action.updatePayment": ["Update Payment Method", "Zahlungsmethode aktualisieren"]
+}

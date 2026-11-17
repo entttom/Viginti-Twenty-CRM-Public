@@ -1,0 +1,12 @@
+{
+  "permissions.denied.read": ["Your role in this workspace can't view these records.", "Ihre Rolle in diesem Workspace darf diese Datensätze nicht ansehen."],
+  "permissions.denied.create": ["Your role in this workspace can't create these records.", "Ihre Rolle in diesem Workspace darf diese Datensätze nicht anlegen."],
+  "permissions.denied.update": ["Your role in this workspace can't edit these records.", "Ihre Rolle in diesem Workspace darf diese Datensätze nicht bearbeiten."],
+  "permissions.denied.delete": ["Your role in this workspace can't delete these records.", "Ihre Rolle in diesem Workspace darf diese Datensätze nicht löschen."],
+  "permissions.denied.title": ["Not Allowed", "Nicht erlaubt"],
+  "permissions.denied.contactAdmin": ["Ask a workspace admin to change your role.", "Bitten Sie einen Workspace-Admin, Ihre Rolle zu ändern."],
+  "permissions.denied.close": ["Close", "Schließen"],
+  "permissions.field.readOnlyHint": ["Read-only for your role.", "Für Ihre Rolle schreibgeschützt."],
+  "permissions.readOnly.title": ["Read-only", "Nur Lesen"],
+  "permissions.readOnly.message": ["Your role in this workspace can view these records but not change them.", "Ihre Rolle in diesem Workspace kann diese Datensätze ansehen, aber nicht ändern."]
+}

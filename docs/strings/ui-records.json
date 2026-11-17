@@ -1,0 +1,16 @@
+{
+  "opportunity.pipeline.show": ["Show pipeline", "Pipeline anzeigen"],
+  "opportunity.pipeline.filtersMenu": ["Pipeline Filters…", "Pipeline-Filter …"],
+  "opportunities.filter.clear": ["Clear Filters", "Filter zurücksetzen"],
+  "tasks.markComplete": ["Mark as Complete", "Als erledigt markieren"],
+  "notes.linkedContactNamed": ["Contact: %@", "Kontakt: %@"],
+  "notes.linkedCompanyNamed": ["Company: %@", "Unternehmen: %@"],
+  "notes.openContact": ["Open Contact", "Kontakt öffnen"],
+  "notes.openCompany": ["Open Company", "Unternehmen öffnen"],
+  "notes.openLinkedHint": ["Opens the linked record", "Öffnet den verknüpften Datensatz"],
+  "timeline.filter.menu": ["Filter timeline", "Zeitleiste filtern"],
+  "timeline.filter.kind": ["Show", "Anzeigen"],
+  "timeline.filter.source": ["From", "Herkunft"],
+  "timeline.opportunity.relatedOnlyInfoLabel": ["About this timeline", "Über diese Zeitleiste"],
+  "timeline.opportunity.relatedOnlyInfo": ["Notes and tasks of this opportunity are shown from its contact and company.", "Notizen und Aufgaben dieser Opportunity werden über den verknüpften Kontakt und das Unternehmen angezeigt."]
+}

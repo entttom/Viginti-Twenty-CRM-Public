@@ -1,0 +1,9 @@
+{
+  "appLock.reason": ["Unlock Viginti", "Viginti entsperren"],
+  "intent.completeTask.queued": [
+    "Marked \"%@\" as done. The change syncs when Viginti is online again.",
+    "„%@“ als erledigt markiert. Die Änderung wird synchronisiert, sobald Viginti wieder online ist."
+  ],
+  "widget.completeTask.title": ["Complete Task", "Aufgabe erledigen"],
+  "widget.completeTask.parameter": ["Task", "Aufgabe"]
+}

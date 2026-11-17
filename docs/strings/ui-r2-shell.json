@@ -1,0 +1,5 @@
+{
+  "subscription.action.unlock": ["Unlock Viginti Pro", "Viginti Pro freischalten"],
+  "subscription.action.manage": ["Manage Subscription", "Abonnement verwalten"],
+  "subscription.action.refresh": ["Refresh purchase status", "Kaufstatus aktualisieren"]
+}

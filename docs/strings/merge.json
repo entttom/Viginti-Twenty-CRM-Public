@@ -1,0 +1,89 @@
+{
+  "pro.feature.mergeRecords.headline": ["Merging duplicates is part of Viginti Pro.", "Das Zusammenführen von Duplikaten ist Teil von Viginti Pro."],
+
+  "duplicates.finder.menu": ["Find Duplicates", "Duplikate suchen"],
+  "duplicates.finder.title": ["Find Duplicates", "Duplikate suchen"],
+  "duplicates.finder.footer": ["Select the records that are the same as this one, then merge them.", "Wähle die Datensätze aus, die diesem entsprechen, und führe sie zusammen."],
+  "duplicates.finder.loading": ["Looking for duplicates…", "Suche nach Duplikaten …"],
+  "duplicates.finder.empty.title": ["No Duplicates Found", "Keine Duplikate gefunden"],
+  "duplicates.finder.empty.message": ["Nothing shares an email, phone number, domain or name with this record. Search to merge another record.", "Kein Datensatz teilt E-Mail, Telefonnummer, Domain oder Namen mit diesem. Über die Suche kannst du einen anderen Datensatz zusammenführen."],
+  "duplicates.finder.searchResults": ["Search Results", "Suchergebnisse"],
+  "duplicates.finder.noResults": ["No matching records.", "Keine passenden Datensätze."],
+  "duplicates.finder.selected": ["Also Selected", "Ebenfalls ausgewählt"],
+  "duplicates.finder.selectHint": ["Selects this record for merging.", "Wählt diesen Datensatz zum Zusammenführen aus."],
+  "duplicates.finder.merge.none": ["Select Records to Merge", "Datensätze zum Zusammenführen wählen"],
+  "duplicates.finder.merge.count": {
+    "en": { "one": "Merge %lld Record", "other": "Merge %lld Records" },
+    "de": { "one": "%lld Datensatz zusammenführen", "other": "%lld Datensätze zusammenführen" }
+  },
+  "duplicates.finder.offline": ["You're offline. Matches come from data on this device; merging needs a connection.", "Du bist offline. Die Treffer stammen aus den Daten auf diesem Gerät; zum Zusammenführen ist eine Verbindung nötig."],
+  "duplicates.finder.search.person": ["Search other contacts", "Andere Kontakte suchen"],
+  "duplicates.finder.search.company": ["Search other companies", "Andere Firmen suchen"],
+  "duplicates.finder.search.opportunity": ["Search other opportunities", "Andere Verkaufschancen suchen"],
+
+  "merge.title": ["Merge Records", "Datensätze zusammenführen"],
+  "merge.loading": ["Comparing records…", "Datensätze werden verglichen …"],
+  "merge.keep.header": ["Record to Keep", "Behaltener Datensatz"],
+  "merge.keep.footer": ["Its values win where the records differ; empty fields are filled from the others. Notes, tasks, opportunities, files and the timeline move to it. The other records are deleted.", "Wo sich die Datensätze unterscheiden, gelten seine Werte; leere Felder werden aus den anderen ergänzt. Notizen, Aufgaben, Verkaufschancen, Dateien und die Timeline wandern zu ihm. Die anderen Datensätze werden gelöscht."],
+  "merge.record.created": ["Created %@", "Erstellt am %@"],
+  "merge.record.kept": ["Kept", "Bleibt"],
+  "merge.record.keepHint": ["Keeps this record and deletes the others after merging.", "Behält diesen Datensatz und löscht die anderen nach dem Zusammenführen."],
+  "merge.conflicts.header": ["Different Values", "Abweichende Werte"],
+  "merge.conflicts.footer": ["Tap a value to keep the record it belongs to.", "Tippe auf einen Wert, um den Datensatz zu behalten, zu dem er gehört."],
+  "merge.conflicts.combined": ["The other values are kept as additional entries.", "Die anderen Werte bleiben als zusätzliche Einträge erhalten."],
+  "merge.noConflicts": ["No conflicting values. Nothing is lost.", "Keine widersprüchlichen Werte. Es geht nichts verloren."],
+  "merge.matching.count": {
+    "en": { "one": "%lld matching or filled-in field", "other": "%lld matching or filled-in fields" },
+    "de": { "one": "%lld gleiches oder ergänztes Feld", "other": "%lld gleiche oder ergänzte Felder" }
+  },
+  "merge.result.header": ["Merged Record", "Zusammengeführter Datensatz"],
+  "merge.preview.loading": ["Checking the result with Twenty…", "Ergebnis wird mit Twenty geprüft …"],
+  "merge.preview.server": ["Preview calculated by your Twenty server.", "Vorschau von deinem Twenty-Server berechnet."],
+  "merge.preview.device": ["Preview calculated on this device. Twenty applies the same rule when merging.", "Vorschau auf diesem Gerät berechnet. Twenty wendet beim Zusammenführen dieselbe Regel an."],
+  "merge.run.title": {
+    "en": { "one": "Merge %lld Record", "other": "Merge %lld Records" },
+    "de": { "one": "%lld Datensatz zusammenführen", "other": "%lld Datensätze zusammenführen" }
+  },
+  "merge.confirm.title": ["Merge into “%@”?", "In „%@“ zusammenführen?"],
+  "merge.confirm.message": {
+    "en": {
+      "one": "%lld other record will be deleted after its data and links move to the kept record. This cannot be undone.",
+      "other": "%lld other records will be deleted after their data and links move to the kept record. This cannot be undone."
+    },
+    "de": {
+      "one": "%lld anderer Datensatz wird gelöscht, nachdem seine Daten und Verknüpfungen zum behaltenen Datensatz gewandert sind. Das kann nicht rückgängig gemacht werden.",
+      "other": "%lld andere Datensätze werden gelöscht, nachdem ihre Daten und Verknüpfungen zum behaltenen Datensatz gewandert sind. Das kann nicht rückgängig gemacht werden."
+    }
+  },
+  "merge.confirm.action": ["Merge", "Zusammenführen"],
+  "merge.failed": ["Merge failed", "Zusammenführen fehlgeschlagen"],
+  "merge.success.title": ["Records Merged", "Datensätze zusammengeführt"],
+  "merge.success.message": {
+    "en": { "one": "%lld record was merged into “%@”.", "other": "%lld records were merged into “%@”." },
+    "de": { "one": "%lld Datensatz wurde in „%@“ zusammengeführt.", "other": "%lld Datensätze wurden in „%@“ zusammengeführt." }
+  },
+  "merge.success.open": ["Open Merged Record", "Zusammengeführten Datensatz öffnen"],
+
+  "merge.field.name": ["Name", "Name"],
+  "merge.field.domain": ["Domain", "Domain"],
+  "merge.field.employees": ["Employees", "Mitarbeitende"],
+  "merge.field.stage": ["Stage", "Phase"],
+  "merge.field.amount": ["Amount", "Betrag"],
+  "merge.field.closeDate": ["Close date", "Abschlussdatum"],
+  "merge.field.probability": ["Probability", "Wahrscheinlichkeit"],
+  "merge.field.pointOfContact": ["Point of contact", "Ansprechperson"],
+  "merge.field.owner": ["Owner", "Verantwortlich"],
+
+  "merge.error.tooFew": ["Select at least two records to merge.", "Wähle mindestens zwei Datensätze zum Zusammenführen."],
+  "merge.error.tooMany": {
+    "en": { "one": "You can merge up to %lld record at once.", "other": "You can merge up to %lld records at once." },
+    "de": { "one": "Du kannst höchstens %lld Datensatz auf einmal zusammenführen.", "other": "Du kannst höchstens %lld Datensätze auf einmal zusammenführen." }
+  },
+  "merge.error.invalidSelection": ["These records cannot be merged together.", "Diese Datensätze können nicht zusammengeführt werden."],
+  "merge.error.unsynced": ["A record created offline has not been synced yet. Merge it once it is on the server.", "Ein offline erstellter Datensatz ist noch nicht synchronisiert. Führe ihn zusammen, sobald er auf dem Server ist."],
+  "merge.error.pendingChanges": ["Some of these records have changes that are still waiting to sync. Merge them once everything is synced.", "Einige dieser Datensätze haben Änderungen, die noch synchronisiert werden müssen. Führe sie zusammen, sobald alles synchronisiert ist."],
+  "merge.error.offline": ["Merging needs an internet connection.", "Zum Zusammenführen ist eine Internetverbindung nötig."],
+  "merge.error.unsupportedServer": ["Your Twenty server does not support merging yet. Update Twenty to merge records.", "Dein Twenty-Server unterstützt das Zusammenführen noch nicht. Aktualisiere Twenty, um Datensätze zusammenzuführen."],
+  "merge.error.unsupportedRepository": ["Merging is only available with a Twenty workspace.", "Das Zusammenführen ist nur mit einem Twenty-Workspace verfügbar."],
+  "merge.error.forbidden": ["Your role in Twenty does not allow merging these records. Ask a workspace admin for access.", "Deine Rolle in Twenty erlaubt das Zusammenführen dieser Datensätze nicht. Bitte einen Workspace-Admin um Zugriff."]
+}

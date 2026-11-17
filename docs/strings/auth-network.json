@@ -1,0 +1,4 @@
+{
+  "error.insecureHTTPBlocked": ["Unencrypted connections (http) are blocked by iOS. Please use https.", "Unverschlüsselte Verbindung (http) wird von iOS blockiert – bitte https verwenden."],
+  "oauth.error.issuerPath": ["Browser sign-in needs the server address without a path, for example https://crm.example.com.", "Für die Anmeldung im Browser wird die Serveradresse ohne Pfad benötigt, zum Beispiel https://crm.example.com."]
+}

@@ -1,0 +1,7 @@
+{
+  "widget.appLocked.title": ["Viginti is locked", "Viginti ist gesperrt"],
+  "widget.appLocked.counts": ["%1$lld today · %2$lld overdue", "%1$lld heute · %2$lld überfällig"],
+  "widget.signedOut.title": ["Not signed in", "Nicht angemeldet"],
+  "widget.signedOut.subtitle": ["Open Viginti to sign in.", "Öffnen Sie Viginti, um sich anzumelden."],
+  "widget.pendingSync.accessibility": ["\"%@\", done, not yet synced", "„%@“, erledigt, noch nicht synchronisiert"]
+}

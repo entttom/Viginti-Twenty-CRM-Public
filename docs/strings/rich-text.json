@@ -1,0 +1,44 @@
+{
+  "notes.body": ["Note text", "Notiztext"],
+  "notes.form.title": ["Note title", "Titel der Notiz"],
+  "notes.form.titlePlaceholder": ["Title", "Titel"],
+  "notes.form.bodyPlaceholder": ["Write your note…", "Notiz schreiben …"],
+  "task.description.edit": ["Edit Description", "Beschreibung bearbeiten"],
+  "richText.quote": ["Quote", "Zitat"],
+  "richText.code": ["Code", "Code"],
+  "richText.unsupported": ["Content not shown in the app", "Inhalt wird in der App nicht angezeigt"],
+  "richText.checked": ["Checked", "Abgehakt"],
+  "richText.unchecked": ["Not checked", "Nicht abgehakt"],
+  "richText.toggleHint": ["Double-tap to toggle", "Zum Umschalten doppeltippen"],
+  "richText.file": ["File", "Datei"],
+  "richText.image": ["Image", "Bild"],
+  "richText.table": ["Table", "Tabelle"],
+  "richText.editor.placeholder": ["Write something…", "Text eingeben …"],
+  "richText.editor.preservedFooter": [
+    "Content marked with a lock can't be edited in the app. It is kept as it is; edit it on the web.",
+    "Inhalte mit Schloss lassen sich in der App nicht bearbeiten. Sie bleiben unverändert erhalten; bearbeiten Sie sie im Web."
+  ],
+  "richText.editor.markdownFooter": [
+    "Formatting: # heading, **bold**, _italic_, - list, - [ ] checklist, [link](https://…)",
+    "Formatierung: # Überschrift, **fett**, _kursiv_, - Liste, - [ ] Checkliste, [Link](https://…)"
+  ],
+  "richText.editor.kept": ["Kept as is", "Bleibt unverändert"],
+  "richText.editor.removed": ["Will be removed", "Wird entfernt"],
+  "richText.editor.remove": ["Remove", "Entfernen"],
+  "richText.editor.removeBlock": ["Remove this block", "Diesen Block entfernen"],
+  "richText.editor.restore": ["Restore", "Wiederherstellen"],
+  "richText.format.heading": ["Heading", "Überschrift"],
+  "richText.format.bold": ["Bold", "Fett"],
+  "richText.format.italic": ["Italic", "Kursiv"],
+  "richText.format.list": ["Bulleted List", "Aufzählung"],
+  "richText.format.checklist": ["Checklist", "Checkliste"],
+  "richText.format.link": ["Link", "Link"],
+  "richText.link.title": ["Insert Link", "Link einfügen"],
+  "richText.link.url": ["URL", "URL"],
+  "richText.link.insert": ["Insert", "Einfügen"],
+  "richText.readOnly.message": [
+    "This text uses formatting the app can't edit without losing content. You can read it here and edit it on the web.",
+    "Dieser Text enthält Formatierungen, die die App nicht ohne Verlust bearbeiten kann. Sie können ihn hier lesen und im Web bearbeiten."
+  ],
+  "richText.readOnly.openWeb": ["Edit on the Web", "Im Web bearbeiten"]
+}

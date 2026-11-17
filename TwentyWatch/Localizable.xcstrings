@@ -1316,6 +1316,52 @@
           }
         }
       }
+    },
+    "watch.tasks.failure.notPermitted" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihre Rolle in diesem Workspace darf keine Aufgaben bearbeiten."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your role in this workspace can't edit tasks."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu rol en este espacio de trabajo no puede editar tareas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre rôle dans cet espace de travail ne permet pas de modifier les tâches."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il ruolo in questo workspace non consente di modificare le attività."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uw rol in deze workspace kan geen taken wijzigen."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sua função neste espaço de trabalho não pode editar tarefas."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

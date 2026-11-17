@@ -11,6 +11,7 @@
 		AAAF00012FC0000000F00001 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = AAAF00032FC0000000F00003 /* FirebaseMessaging */; };
 		CC01000B2FB2FF9200EEDB0B /* TwentyWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CC0100012FB2FF9200EEDB01 /* TwentyWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5EA5E00B2FB2FF9200EEDD0B /* TwentyShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5EA5E0012FB2FF9200EEDD01 /* TwentyShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD1D000B2FB2FF9200EEDF0B /* TwentyCallDirectory.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CD1D00012FB2FF9200EEDF01 /* TwentyCallDirectory.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A7C1000B2FB2FF9200EEE10B /* TwentyWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A7C100012FB2FF9200EEE101 /* TwentyWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A7C2000B2FB2FF9200EEE20B /* TwentyWatchWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A7C200012FB2FF9200EEE201 /* TwentyWatchWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -44,6 +45,13 @@
 			remoteGlobalIDString = 5EA5E0042FB2FF9200EEDD04;
 			remoteInfo = TwentyShareExtension;
 		};
+		CD1D00052FB2FF9200EEDF05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA43B632FB2FF9200EEDABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1D00042FB2FF9200EEDF04;
+			remoteInfo = TwentyCallDirectory;
+		};
 		A7C100052FB2FF9200EEE105 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AAA43B632FB2FF9200EEDABE /* Project object */;
@@ -69,6 +77,7 @@
 			files = (
 				CC01000B2FB2FF9200EEDB0B /* TwentyWidgets.appex in Embed Foundation Extensions */,
 				5EA5E00B2FB2FF9200EEDD0B /* TwentyShareExtension.appex in Embed Foundation Extensions */,
+				CD1D000B2FB2FF9200EEDF0B /* TwentyCallDirectory.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,6 +114,7 @@
 		BB0200012FB2FF9200EEDA10 /* TwentyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwentyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0100012FB2FF9200EEDB01 /* TwentyWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TwentyWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA5E0012FB2FF9200EEDD01 /* TwentyShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TwentyShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1D00012FB2FF9200EEDF01 /* TwentyCallDirectory.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TwentyCallDirectory.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C100012FB2FF9200EEE101 /* TwentyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwentyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C200012FB2FF9200EEE201 /* TwentyWatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TwentyWatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -123,6 +133,13 @@
 				Info.plist,
 			);
 			target = 5EA5E0042FB2FF9200EEDD04 /* TwentyShareExtension */;
+		};
+		CD1D000E2FB2FF9200EEDF0E /* Exceptions for "TwentyCallDirectory" folder in "TwentyCallDirectory" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CD1D00042FB2FF9200EEDF04 /* TwentyCallDirectory */;
 		};
 		A7C2000E2FB2FF9200EEE20E /* Exceptions for "TwentyWatchWidgets" folder in "TwentyWatchWidgets" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -168,6 +185,14 @@
 				5EA5E00E2FB2FF9200EEDD0E /* Exceptions for "TwentyShareExtension" folder in "TwentyShareExtension" target */,
 			);
 			path = TwentyShareExtension;
+			sourceTree = "<group>";
+		};
+		CD1D00022FB2FF9200EEDF02 /* TwentyCallDirectory */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CD1D000E2FB2FF9200EEDF0E /* Exceptions for "TwentyCallDirectory" folder in "TwentyCallDirectory" target */,
+			);
+			path = TwentyCallDirectory;
 			sourceTree = "<group>";
 		};
 		A7C100022FB2FF9200EEE102 /* TwentyWatch */ = {
@@ -227,6 +252,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD1D00032FB2FF9200EEDF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7C100032FB2FF9200EEE103 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +287,7 @@
 				CC0100022FB2FF9200EEDB02 /* TwentyWidgets */,
 				5EA5E0022FB2FF9200EEDD02 /* TwentyShareExtension */,
 				5EA5E00F2FB2FF9200EEDD0F /* TwentyShared */,
+				CD1D00022FB2FF9200EEDF02 /* TwentyCallDirectory */,
 				AAA43B6C2FB2FF9200EEDABE /* Products */,
 				A7C100022FB2FF9200EEE102 /* TwentyWatch */,
 				A7C200022FB2FF9200EEE202 /* TwentyWatchWidgets */,
@@ -270,6 +303,7 @@
 				BB0200012FB2FF9200EEDA10 /* TwentyUITests.xctest */,
 				CC0100012FB2FF9200EEDB01 /* TwentyWidgets.appex */,
 				5EA5E0012FB2FF9200EEDD01 /* TwentyShareExtension.appex */,
+				CD1D00012FB2FF9200EEDF01 /* TwentyCallDirectory.appex */,
 				A7C100012FB2FF9200EEE101 /* TwentyWatch.app */,
 				A7C200012FB2FF9200EEE201 /* TwentyWatchWidgets.appex */,
 			);
@@ -294,6 +328,7 @@
 			dependencies = (
 				CC0100062FB2FF9200EEDB06 /* PBXTargetDependency */,
 				5EA5E0062FB2FF9200EEDD06 /* PBXTargetDependency */,
+				CD1D00062FB2FF9200EEDF06 /* PBXTargetDependency */,
 				A7C100062FB2FF9200EEE106 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
@@ -401,6 +436,29 @@
 			productReference = 5EA5E0012FB2FF9200EEDD01 /* TwentyShareExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		CD1D00042FB2FF9200EEDF04 /* TwentyCallDirectory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1D000C2FB2FF9200EEDF0C /* Build configuration list for PBXNativeTarget "TwentyCallDirectory" */;
+			buildPhases = (
+				CD1D00072FB2FF9200EEDF07 /* Sources */,
+				CD1D00032FB2FF9200EEDF03 /* Frameworks */,
+				CD1D00082FB2FF9200EEDF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CD1D00022FB2FF9200EEDF02 /* TwentyCallDirectory */,
+				5EA5E00F2FB2FF9200EEDD0F /* TwentyShared */,
+			);
+			name = TwentyCallDirectory;
+			packageProductDependencies = (
+			);
+			productName = TwentyCallDirectory;
+			productReference = CD1D00012FB2FF9200EEDF01 /* TwentyCallDirectory.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A7C100042FB2FF9200EEE104 /* TwentyWatch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7C1000C2FB2FF9200EEE10C /* Build configuration list for PBXNativeTarget "TwentyWatch" */;
@@ -476,6 +534,9 @@
 					5EA5E0042FB2FF9200EEDD04 = {
 						CreatedOnToolsVersion = 26.3;
 					};
+					CD1D00042FB2FF9200EEDF04 = {
+						CreatedOnToolsVersion = 26.3;
+					};
 					A7C100042FB2FF9200EEE104 = {
 						CreatedOnToolsVersion = 26.3;
 					};
@@ -510,6 +571,7 @@
 				AAA43B6A2FB2FF9200EEDABE /* Twenty */,
 				CC0100042FB2FF9200EEDB04 /* TwentyWidgets */,
 				5EA5E0042FB2FF9200EEDD04 /* TwentyShareExtension */,
+				CD1D00042FB2FF9200EEDF04 /* TwentyCallDirectory */,
 				A7C100042FB2FF9200EEE104 /* TwentyWatch */,
 				A7C200042FB2FF9200EEE204 /* TwentyWatchWidgets */,
 				BB0100062FB2FF9200EEDA06 /* TwentyTests */,
@@ -549,6 +611,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5EA5E0082FB2FF9200EEDD08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1D00082FB2FF9200EEDF08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -607,6 +676,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD1D00072FB2FF9200EEDF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7C100072FB2FF9200EEE107 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -643,6 +719,11 @@
 			isa = PBXTargetDependency;
 			target = 5EA5E0042FB2FF9200EEDD04 /* TwentyShareExtension */;
 			targetProxy = 5EA5E0052FB2FF9200EEDD05 /* PBXContainerItemProxy */;
+		};
+		CD1D00062FB2FF9200EEDF06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1D00042FB2FF9200EEDF04 /* TwentyCallDirectory */;
+			targetProxy = CD1D00052FB2FF9200EEDF05 /* PBXContainerItemProxy */;
 		};
 		A7C100062FB2FF9200EEE106 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -784,15 +865,17 @@
 				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = RG7FE682S2;
 				ENABLE_PREVIEWS = YES;
-				FIREBASE_ENABLED = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Viginti;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Viginti adds your tasks to your calendar and keeps the linked events in sync when you ask it to. If you turn on meeting preparation, Viginti reads your upcoming events on this device to show matching CRM contacts.";
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "Viginti adds your tasks to your calendar as events.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Viginti uses the camera to scan business cards and create contacts from them, and to scan documents you attach to records.";
 				INFOPLIST_KEY_NSContactsUsageDescription = "Viginti adds a CRM contact to your iOS Contacts when you choose to.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Viginti uses Face ID to unlock the app when App Lock is turned on.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Viginti uses your location only while you use the map, to show companies and contacts near you. Your location stays on this device.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Viginti records audio only when you start a voice note so it can transcribe your note on this device.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Viginti uses your photo library to import business card images you select.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Viginti uses Apple speech recognition to transcribe voice notes you record.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -836,15 +919,17 @@
 				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = RG7FE682S2;
 				ENABLE_PREVIEWS = YES;
-				FIREBASE_ENABLED = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Viginti;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Viginti adds your tasks to your calendar and keeps the linked events in sync when you ask it to. If you turn on meeting preparation, Viginti reads your upcoming events on this device to show matching CRM contacts.";
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "Viginti adds your tasks to your calendar as events.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Viginti uses the camera to scan business cards and create contacts from them, and to scan documents you attach to records.";
 				INFOPLIST_KEY_NSContactsUsageDescription = "Viginti adds a CRM contact to your iOS Contacts when you choose to.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Viginti uses Face ID to unlock the app when App Lock is turned on.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Viginti uses your location only while you use the map, to show companies and contacts near you. Your location stays on this device.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Viginti records audio only when you start a voice note so it can transcribe your note on this device.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Viginti uses your photo library to import business card images you select.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Viginti uses Apple speech recognition to transcribe voice notes you record.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -898,6 +983,7 @@
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -927,6 +1013,7 @@
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -1004,6 +1091,7 @@
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -1034,6 +1122,7 @@
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -1091,6 +1180,70 @@
 				);
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.Twenty.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD1D00092FB2FF9200EEDF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = TwentyCallDirectory/TwentyCallDirectory.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TwentyCallDirectory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.Twenty.CallDirectory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD1D000A2FB2FF9200EEDF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = TwentyCallDirectory/TwentyCallDirectory.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TwentyCallDirectory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.entner.twenty.Twenty.CallDirectory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1199,6 +1352,7 @@
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -1229,6 +1383,7 @@
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -1290,6 +1445,15 @@
 			buildConfigurations = (
 				5EA5E0092FB2FF9200EEDD09 /* Debug */,
 				5EA5E00A2FB2FF9200EEDD0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1D000C2FB2FF9200EEDF0C /* Build configuration list for PBXNativeTarget "TwentyCallDirectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1D00092FB2FF9200EEDF09 /* Debug */,
+				CD1D000A2FB2FF9200EEDF0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -56,7 +56,9 @@ export async function route(
 
   // --- Shared OAuth callback ----------------------------------------------
   if (path === '/twenty/callback') {
-    return mustGet(method, requestId, () => buildCallbackResponse(url, requestId));
+    return mustGet(method, requestId, () =>
+      buildCallbackResponse(url, requestId, request.headers.get('accept-language')),
+    );
   }
 
   // --- Managed provider routes --------------------------------------------

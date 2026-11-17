@@ -1,0 +1,3 @@
+{
+  "watch.tasks.failure.notPermitted": ["Your role in this workspace can't edit tasks.", "Ihre Rolle in diesem Workspace darf keine Aufgaben bearbeiten."]
+}

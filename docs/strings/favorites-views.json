@@ -1,0 +1,67 @@
+{
+  "favorites.folder.untitled": ["Folder", "Ordner"],
+  "favorites.folder.accessibility": ["Favorites folder %@", "Favoritenordner %@"],
+
+  "relativeDate.inPast": ["In the past", "In der Vergangenheit"],
+  "relativeDate.inFuture": ["In the future", "In der Zukunft"],
+  "relativeDate.this.second": ["This second", "Diese Sekunde"],
+  "relativeDate.this.minute": ["This minute", "Diese Minute"],
+  "relativeDate.this.hour": ["This hour", "Diese Stunde"],
+  "relativeDate.this.day": ["Today", "Heute"],
+  "relativeDate.this.week": ["This week", "Diese Woche"],
+  "relativeDate.this.month": ["This month", "Dieser Monat"],
+  "relativeDate.this.quarter": ["This quarter", "Dieses Quartal"],
+  "relativeDate.this.year": ["This year", "Dieses Jahr"],
+  "relativeDate.past": ["Past %@", "Vergangene %@"],
+  "relativeDate.next": ["Next %@", "Nächste %@"],
+  "filter.relativeDate.change": ["Change", "Ändern"],
+
+  "savedViews.field.firstName": ["First name", "Vorname"],
+  "savedViews.field.lastName": ["Last name", "Nachname"],
+  "savedViews.field.jobTitle": ["Job title", "Position"],
+  "savedViews.field.companyId": ["Company ID", "Firmen-ID"],
+  "savedViews.field.contactId": ["Contact ID", "Kontakt-ID"],
+  "savedViews.field.ownerId": ["Owner ID", "Verantwortlichen-ID"],
+  "savedViews.field.assigneeId": ["Assignee ID", "Zuständigen-ID"],
+  "savedViews.filterGroup.notice": {
+    "en": {
+      "one": "Also applies %lld filter in groups from Twenty. It is kept but can’t be edited here.",
+      "other": "Also applies %lld filters in groups from Twenty. They are kept but can’t be edited here."
+    },
+    "de": {
+      "one": "Wendet zusätzlich %lld Filter in Gruppen aus Twenty an. Er bleibt erhalten, kann hier aber nicht bearbeitet werden.",
+      "other": "Wendet zusätzlich %lld Filter in Gruppen aus Twenty an. Sie bleiben erhalten, können hier aber nicht bearbeitet werden."
+    }
+  },
+  "savedViews.filterGroup.remove": ["Remove Grouped Filters", "Gruppierte Filter entfernen"],
+
+  "workspaceViews.title": ["Workspace views", "Workspace-Ansichten"],
+  "workspaceViews.loading": ["Loading workspace views…", "Workspace-Ansichten werden geladen …"],
+  "workspaceViews.unsupported": ["This Twenty server does not share its views with the app.", "Dieser Twenty-Server stellt seine Ansichten der App nicht zur Verfügung."],
+  "workspaceViews.failed": ["Workspace views could not be loaded. %@", "Workspace-Ansichten konnten nicht geladen werden. %@"],
+  "workspaceViews.empty": ["This workspace has no shared views for contacts, companies, opportunities, tasks, or notes.", "Dieser Workspace hat keine geteilten Ansichten für Kontakte, Firmen, Verkaufschancen, Aufgaben oder Notizen."],
+  "workspaceViews.hiddenCount": {
+    "en": {
+      "one": "%lld view of another record type is not shown.",
+      "other": "%lld views of other record types are not shown."
+    },
+    "de": {
+      "one": "%lld Ansicht eines anderen Datensatztyps wird nicht angezeigt.",
+      "other": "%lld Ansichten anderer Datensatztypen werden nicht angezeigt."
+    }
+  },
+  "workspaceViews.partiallySupported": ["Partly supported", "Teilweise unterstützt"],
+  "workspaceViews.source": ["Source", "Quelle"],
+  "workspaceViews.source.twenty": ["Twenty workspace", "Twenty-Workspace"],
+  "workspaceViews.issues.title": ["Not supported in the app", "In der App nicht unterstützt"],
+  "workspaceViews.issues.footer": ["The results can differ from Twenty because these parts are ignored.", "Die Ergebnisse können von Twenty abweichen, weil diese Teile ignoriert werden."],
+  "workspaceViews.duplicate": ["Duplicate as My View", "Als eigene Ansicht duplizieren"],
+  "workspaceViews.readOnly": ["Workspace views are read-only here. Duplicate one to change it under My views.", "Workspace-Ansichten sind hier schreibgeschützt. Dupliziere eine, um sie unter „Meine Ansichten“ zu ändern."],
+  "workspaceViews.duplicated.title": ["Saved to My views", "Unter „Meine Ansichten“ gespeichert"],
+  "workspaceViews.duplicated.message": ["“%@” is now one of your saved views.", "„%@“ ist jetzt eine deiner gespeicherten Ansichten."],
+  "workspaceViews.issue.filter": ["The filter on “%@” is not supported in the app and is ignored.", "Der Filter für „%@“ wird in der App nicht unterstützt und ignoriert."],
+  "workspaceViews.issue.sort": ["Sorting by “%@” is not supported in the app and is ignored.", "Die Sortierung nach „%@“ wird in der App nicht unterstützt und ignoriert."],
+  "workspaceViews.issue.group": ["A filter group of type “%@” is not supported in the app and is ignored.", "Eine Filtergruppe vom Typ „%@“ wird in der App nicht unterstützt und ignoriert."],
+  "workspaceViews.issue.currentMember": ["The filter on “%@” uses “Me”, which could not be resolved, and is ignored.", "Der Filter für „%@“ verwendet „Ich“, das nicht aufgelöst werden konnte, und wird ignoriert."],
+  "workspaceViews.issue.unknownField": ["A filter on a field the app does not know is ignored.", "Ein Filter für ein der App unbekanntes Feld wird ignoriert."]
+}

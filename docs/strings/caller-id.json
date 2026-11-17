@@ -1,0 +1,34 @@
+{
+  "pro.feature.callerID.headline": [
+    "Showing CRM contacts as caller ID is part of Viginti Pro.",
+    "Die Anruferkennung mit CRM-Kontakten ist Teil von Viginti Pro."
+  ],
+  "settings.callerID": [
+    "Caller ID",
+    "Anruferkennung"
+  ],
+  "settings.callerID.toggle": [
+    "Show CRM contacts as caller ID",
+    "CRM-Kontakte bei Anrufen anzeigen"
+  ],
+  "settings.callerID.footer": [
+    "When a CRM contact calls, your iPhone shows their name and company. Viginti uses the phone numbers of the active workspace's contacts stored on this device. Who calls you is never sent to Viginti or your Twenty server.",
+    "Ruft ein CRM-Kontakt an, zeigt Ihr iPhone Name und Firma an. Viginti verwendet dafür die auf diesem Gerät gespeicherten Telefonnummern der Kontakte des aktiven Workspace. Wer Sie anruft, wird nie an Viginti oder Ihren Twenty-Server gesendet."
+  ],
+  "settings.callerID.appLockHint": [
+    "App Lock cannot hide caller ID: while your iPhone rings, the name also appears on the Lock Screen. With App Lock on, only the name is shown, not the company. Turn caller ID off to hide the names.",
+    "Die App-Sperre kann die Anruferkennung nicht verbergen: Während Ihr iPhone klingelt, erscheint der Name auch auf dem Sperrbildschirm. Bei aktiver App-Sperre wird nur der Name angezeigt, nicht die Firma. Schalten Sie die Anruferkennung aus, um die Namen zu verbergen."
+  ],
+  "settings.callerID.paused": [
+    "Paused: caller ID is part of Viginti Pro. Your CRM contacts are not shown during calls.",
+    "Pausiert: Die Anruferkennung ist Teil von Viginti Pro. Ihre CRM-Kontakte werden bei Anrufen nicht angezeigt."
+  ],
+  "settings.callerID.numbers": [
+    "Phone numbers",
+    "Telefonnummern"
+  ],
+  "settings.callerID.disabled": [
+    "Caller ID for Viginti is turned off in the Settings app. Turn on Viginti under Apps → Phone → Call Blocking & Identification.",
+    "Die Anruferkennung für Viginti ist in der Einstellungen-App ausgeschaltet. Aktivieren Sie Viginti unter Apps → Telefon → Anrufe blockieren und identifizieren."
+  ]
+}

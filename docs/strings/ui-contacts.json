@@ -1,0 +1,17 @@
+{
+  "contactAction.more": ["More", "Mehr"],
+  "contacts.noFavorites": ["No Favorites", "Keine Favoriten"],
+  "contacts.noFavoritesHint": ["Swipe right on a contact to add it to your favorites.", "Wischen Sie auf einem Kontakt nach rechts, um ihn zu Ihren Favoriten hinzuzufügen."],
+  "companies.noFavorites": ["No Favorites", "Keine Favoriten"],
+  "companies.noFavoritesHint": ["Swipe right on a company to add it to your favorites.", "Wischen Sie auf einem Unternehmen nach rechts, um es zu Ihren Favoriten hinzuzufügen."],
+  "contacts.filter.all": ["All", "Alle"],
+  "contacts.filter.favorites": ["Favorites", "Favoriten"],
+  "companies.filter.all": ["All", "Alle"],
+  "companies.filter.favorites": ["Favorites", "Favoriten"],
+  "contact.firstName": ["First name", "Vorname"],
+  "contact.lastName": ["Last name", "Nachname"],
+  "contact.email": ["Email", "E-Mail"],
+  "contact.phone": ["Phone number", "Telefonnummer"],
+  "form.none": ["None", "Keine"],
+  "form.unsaved.discard": ["Discard", "Verwerfen"]
+}

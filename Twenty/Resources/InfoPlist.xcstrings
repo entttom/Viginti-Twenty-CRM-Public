@@ -96,54 +96,6 @@
         }
       }
     },
-    "NSCalendarsUsageDescription" : {
-      "comment" : "Privacy - NSCalendarsUsageDescription",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti trägt Ihre Aufgaben auf Wunsch in Ihren Kalender ein und hält die verknüpften Ereignisse aktuell. Wenn Sie die Terminvorbereitung aktivieren, liest Viginti Ihre anstehenden Termine auf diesem Gerät, um passende CRM-Kontakte anzuzeigen."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti adds your tasks to your calendar and keeps the linked events in sync when you ask it to. If you turn on meeting preparation, Viginti reads your upcoming events on this device to show matching CRM contacts."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti añade tus tareas al calendario y mantiene sincronizados los eventos vinculados cuando lo pides. Si activas la preparación de reuniones, Viginti lee tus próximos eventos en este dispositivo para mostrar los contactos del CRM coincidentes."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti ajoute vos tâches à votre calendrier et synchronise les événements liés lorsque vous le demandez. Si vous activez la préparation des réunions, Viginti lit vos prochains événements sur cet appareil pour afficher les contacts CRM correspondants."
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti aggiunge le attività al calendario e mantiene sincronizzati gli eventi collegati quando richiesto. Se la preparazione delle riunioni è attiva, Viginti legge su questo dispositivo i prossimi eventi per mostrare i contatti del CRM corrispondenti."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti voegt uw taken toe aan uw agenda en houdt de gekoppelde afspraken gesynchroniseerd wanneer u dat vraagt. Als u afspraakvoorbereiding inschakelt, leest Viginti uw komende afspraken op dit apparaat om bijbehorende CRM-contacten te tonen."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "O Viginti adiciona suas tarefas ao calendário e mantém os eventos vinculados sincronizados quando você pede. Se você ativar a preparação para reuniões, o Viginti lê seus próximos eventos neste dispositivo para mostrar os contatos do CRM correspondentes."
-          }
-        }
-      }
-    },
     "NSCalendarsWriteOnlyAccessUsageDescription" : {
       "comment" : "Privacy - NSCalendarsWriteOnlyAccessUsageDescription",
       "extractionState" : "manual",
@@ -384,54 +336,6 @@
         }
       }
     },
-    "NSPhotoLibraryUsageDescription" : {
-      "comment" : "Privacy - NSPhotoLibraryUsageDescription",
-      "extractionState" : "manual",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti verwendet Ihre Fotomediathek, um ausgewählte Visitenkartenbilder zu importieren."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti uses your photo library to import business card images you select."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti usa tu fototeca para importar las imágenes de tarjetas de visita que selecciones."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti utilise votre photothèque pour importer les images de cartes de visite que vous sélectionnez."
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti usa la libreria foto per importare le immagini di biglietti da visita selezionate."
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viginti gebruikt uw fotobibliotheek om afbeeldingen van visitekaartjes te importeren die u selecteert."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "O Viginti usa sua fototeca para importar as imagens de cartões de visita que você selecionar."
-          }
-        }
-      }
-    },
     "NSSpeechRecognitionUsageDescription" : {
       "comment" : "Privacy - NSSpeechRecognitionUsageDescription",
       "extractionState" : "manual",
@@ -476,6 +380,52 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O Viginti usa o reconhecimento de fala da Apple para transcrever as notas de voz que você grava."
+          }
+        }
+      }
+    },
+    "NSFaceIDUsageDescription" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti verwendet Face ID, um die App zu entsperren, wenn die App-Sperre aktiviert ist."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti uses Face ID to unlock the app when App Lock is turned on."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti usa Face ID para desbloquear la app cuando el bloqueo de la app está activado."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti utilise Face ID pour déverrouiller l’app lorsque le verrouillage de l’app est activé."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti usa Face ID per sbloccare l'app quando il blocco app è attivo."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viginti gebruikt Face ID om de app te ontgrendelen als appvergrendeling is ingeschakeld."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Viginti usa o Face ID para desbloquear o app quando o Bloqueio do App está ativado."
           }
         }
       }

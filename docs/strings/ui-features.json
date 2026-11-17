@@ -1,0 +1,28 @@
+{
+  "fieldEditor.multi.footer.edit": [
+    "The first entry is the primary one. Tap Edit to remove or reorder entries, or touch and hold an entry to make it primary.",
+    "Der erste Eintrag ist der primäre. Tippen Sie auf „Bearbeiten“, um Einträge zu entfernen oder neu anzuordnen, oder halten Sie einen Eintrag gedrückt, um ihn zum primären zu machen."
+  ],
+  "meetingFollowUp.dontLog.confirm": [
+    "Discard and Don't Log",
+    "Verwerfen und nicht nachbereiten"
+  ],
+  "meetingFollowUp.dontLog.confirmMessage": [
+    "Your note, dictation and follow-up task will be discarded, and this meeting won't be offered again.",
+    "Ihre Notiz, Ihr Diktat und die Folgeaufgabe werden verworfen, und dieser Termin wird nicht mehr angeboten."
+  ],
+  "meetingFollowUp.dontLog.confirmTitle": [
+    "Don't log this meeting?",
+    "Diesen Termin nicht nachbereiten?"
+  ],
+  "savedViews.filterCountLabel": {
+    "en": {
+      "one": "%lld filter",
+      "other": "%lld filters"
+    },
+    "de": {
+      "one": "%lld Filter",
+      "other": "%lld Filter"
+    }
+  }
+}

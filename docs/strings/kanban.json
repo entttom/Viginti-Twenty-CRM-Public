@@ -1,0 +1,29 @@
+{
+  "kanban.card.moveTo": ["Move to %@", "Nach %@ verschieben"],
+  "kanban.card.moveToMenu": ["Move to…", "Verschieben nach …"],
+  "kanban.card.saving": ["Saving", "Wird gespeichert"],
+  "kanban.column.collapsedEmpty": ["Empty column", "Leere Spalte"],
+  "kanban.column.count": {
+    "en": {"one": "%lld record", "other": "%lld records"},
+    "de": {"one": "%lld Datensatz", "other": "%lld Datensätze"}
+  },
+  "kanban.column.dropHere": ["Drop here", "Hier ablegen"],
+  "kanban.column.empty": ["No records", "Keine Datensätze"],
+  "kanban.column.noValue": ["No value", "Kein Wert"],
+  "kanban.loading": ["Loading board…", "Board wird geladen …"],
+  "kanban.move.offline": ["Moving cards needs an internet connection. Try again when you're back online.", "Zum Verschieben von Karten ist eine Internetverbindung nötig. Versuche es wieder, sobald du online bist."],
+  "kanban.noField.message": ["A board needs a select field. Add one in Twenty to group these records.", "Ein Board braucht ein Auswahlfeld. Lege in Twenty eines an, um diese Datensätze zu gruppieren."],
+  "kanban.noField.title": ["No field to group by", "Kein Feld zum Gruppieren"],
+  "kanban.notice.readOnly": ["This field is read-only, so cards can't be moved.", "Dieses Feld ist schreibgeschützt, Karten lassen sich daher nicht verschieben."],
+  "kanban.notice.truncated": ["Showing the first %lld records. Counts and totals include only these.", "Die ersten %lld Datensätze werden angezeigt. Anzahlen und Summen beziehen sich nur auf diese."],
+  "kanban.options.collapseEmpty": ["Collapse empty columns", "Leere Spalten einklappen"],
+  "kanban.options.groupBy": ["Group by", "Gruppieren nach"],
+  "kanban.options.groupedBy": ["Grouped by %@", "Gruppiert nach %@"],
+  "kanban.options.sum": ["Column total", "Spaltensumme"],
+  "kanban.options.sumNone": ["None", "Keine"],
+  "kanban.options.title": ["Board options", "Board-Optionen"],
+  "kanban.record.untitled": ["Untitled", "Ohne Namen"],
+  "kanban.task.statusField": ["Status", "Status"],
+  "kanban.toggle.showBoard": ["Show as board", "Als Board anzeigen"],
+  "kanban.toggle.showList": ["Show as list", "Als Liste anzeigen"]
+}

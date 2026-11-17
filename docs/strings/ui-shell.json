@@ -1,0 +1,18 @@
+{
+  "notes.form.links": [
+    "Links",
+    "Verknüpfungen"
+  ],
+  "notes.form.contact": [
+    "Contact",
+    "Kontakt"
+  ],
+  "notes.form.company": [
+    "Company",
+    "Firma"
+  ],
+  "notes.form.noLink": [
+    "None",
+    "Keine"
+  ]
+}

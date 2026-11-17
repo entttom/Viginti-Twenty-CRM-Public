@@ -1,0 +1,10 @@
+{
+  "remotePush.notification.taskAssigned.title": ["New task", "Neue Aufgabe"],
+  "remotePush.notification.taskAssigned.body": ["A task was assigned to you in Twenty.", "Ihnen wurde in Twenty eine Aufgabe zugewiesen."],
+  "remotePush.notification.taskDueDateChanged.title": ["Task changed", "Aufgabe geändert"],
+  "remotePush.notification.taskDueDateChanged.body": ["The due date of a task was changed.", "Das Fälligkeitsdatum einer Aufgabe wurde geändert."],
+  "remotePush.notification.taskCompleted.title": ["Task completed", "Aufgabe abgeschlossen"],
+  "remotePush.notification.taskCompleted.body": ["A task assigned to you was completed.", "Eine Ihnen zugewiesene Aufgabe wurde abgeschlossen."],
+  "remotePush.notification.taskUnassigned.title": ["Assignment removed", "Zuweisung entfernt"],
+  "remotePush.notification.taskUnassigned.body": ["A task assignment was removed.", "Eine Aufgabenzuweisung wurde entfernt."]
+}

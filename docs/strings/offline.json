@@ -1,0 +1,26 @@
+{
+  "sync.blocked.waitingFor": [
+    "Waiting for an earlier change to “%@” that could not be synced. Retry or discard that change first.",
+    "Wartet auf eine frühere Änderung an „%@“, die nicht synchronisiert werden konnte. Wiederholen oder verwerfen Sie zuerst diese Änderung."
+  ],
+  "sync.blocked.waiting": [
+    "Waiting for an earlier change that could not be synced. Retry or discard that change first.",
+    "Wartet auf eine frühere Änderung, die nicht synchronisiert werden konnte. Wiederholen oder verwerfen Sie zuerst diese Änderung."
+  ],
+  "sync.localRepairFailed": [
+    "The change reached the server, but local data could not be refreshed. Retry to refresh it, or discard to drop the local copy.",
+    "Die Änderung ist auf dem Server angekommen, aber die lokalen Daten konnten nicht aktualisiert werden. Wiederholen Sie, um sie zu aktualisieren, oder verwerfen Sie die lokale Kopie."
+  ],
+  "sync.unknownAction": [
+    "This change was saved by a different version of Viginti and cannot be synced by this version.",
+    "Diese Änderung wurde von einer anderen Version von Viginti gespeichert und kann von dieser Version nicht synchronisiert werden."
+  ],
+  "sync.accountMismatch": [
+    "This change was made while another account was signed in at this address. It was not sent. Retry to send it with the current account, or discard it.",
+    "Diese Änderung wurde gemacht, während unter dieser Adresse ein anderes Konto angemeldet war. Sie wurde nicht gesendet. Wiederholen Sie, um sie mit dem aktuellen Konto zu senden, oder verwerfen Sie sie."
+  ],
+  "offline.storeRecovery.message": [
+    "Viginti could not open its offline data and started with an empty offline store. Changes that had not synced yet were kept in a backup on this device and were not sent.",
+    "Viginti konnte seine Offline-Daten nicht öffnen und hat mit einem leeren Offline-Speicher begonnen. Noch nicht synchronisierte Änderungen wurden als Sicherung auf diesem Gerät aufbewahrt und nicht gesendet."
+  ]
+}

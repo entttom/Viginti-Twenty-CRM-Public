@@ -1,0 +1,110 @@
+{
+  "pro.feature.trash.headline": [
+    "Restoring and permanently deleting records from the trash is part of Viginti Pro.",
+    "Datensätze aus dem Papierkorb wiederherstellen und endgültig löschen ist Teil von Viginti Pro."
+  ],
+  "section.trash": [
+    "Trash",
+    "Papierkorb"
+  ],
+  "trash.action.destroy": [
+    "Delete Permanently",
+    "Endgültig löschen"
+  ],
+  "trash.action.restore": [
+    "Restore",
+    "Wiederherstellen"
+  ],
+  "trash.deletedAgo": [
+    "Deleted %@",
+    "Gelöscht %@"
+  ],
+  "trash.destroyConfirm.message": [
+    "“%@” will be removed from Twenty for good. This cannot be undone.",
+    "„%@“ wird endgültig aus Twenty entfernt. Dies kann nicht rückgängig gemacht werden."
+  ],
+  "trash.destroyConfirm.title": [
+    "Delete permanently?",
+    "Endgültig löschen?"
+  ],
+  "trash.destroyed": [
+    "“%@” deleted permanently",
+    "„%@“ endgültig gelöscht"
+  ],
+  "trash.empty.message": [
+    "Records of this type that are deleted in Twenty appear here, so you can restore them.",
+    "In Twenty gelöschte Datensätze dieses Typs erscheinen hier, damit Sie sie wiederherstellen können."
+  ],
+  "trash.empty.searchMessage": [
+    "No deleted records match “%@”.",
+    "Keine gelöschten Datensätze passen zu „%@“."
+  ],
+  "trash.empty.title": [
+    "The Trash Is Empty",
+    "Der Papierkorb ist leer"
+  ],
+  "trash.error.forbiddenAction": [
+    "You do not have permission to change this record in Twenty.",
+    "Sie haben in Twenty keine Berechtigung, diesen Datensatz zu ändern."
+  ],
+  "trash.error.forbiddenList": [
+    "You do not have permission to see deleted records of this type.",
+    "Sie haben keine Berechtigung, gelöschte Datensätze dieses Typs zu sehen."
+  ],
+  "trash.error.localOnly": [
+    "This item has not been synced yet, so it is not in the trash.",
+    "Dieser Eintrag wurde noch nicht synchronisiert und ist daher nicht im Papierkorb."
+  ],
+  "trash.error.unsupported": [
+    "This Twenty server does not support the trash.",
+    "Dieser Twenty-Server unterstützt den Papierkorb nicht."
+  ],
+  "trash.loading": [
+    "Loading the trash…",
+    "Papierkorb wird geladen …"
+  ],
+  "trash.offer.message": [
+    "Moved to the trash",
+    "In den Papierkorb verschoben"
+  ],
+  "trash.offer.restored": [
+    "Restored",
+    "Wiederhergestellt"
+  ],
+  "trash.offer.restoring": [
+    "Restoring",
+    "Wird wiederhergestellt"
+  ],
+  "trash.offline.message": [
+    "The trash is on your Twenty server. Connect to the internet to see, restore or delete records.",
+    "Der Papierkorb liegt auf Ihrem Twenty-Server. Stellen Sie eine Internetverbindung her, um Datensätze anzuzeigen, wiederherzustellen oder zu löschen."
+  ],
+  "trash.offline.title": [
+    "No Connection",
+    "Keine Verbindung"
+  ],
+  "trash.restored": [
+    "“%@” restored",
+    "„%@“ wiederhergestellt"
+  ],
+  "trash.retentionHint": [
+    "Twenty removes records from the trash for good after the retention period set for your workspace.",
+    "Twenty entfernt Datensätze nach der für Ihren Workspace eingestellten Aufbewahrungsfrist endgültig aus dem Papierkorb."
+  ],
+  "trash.search": [
+    "Search the trash",
+    "Papierkorb durchsuchen"
+  ],
+  "trash.type": [
+    "Record Type",
+    "Datensatztyp"
+  ],
+  "trash.unsupported.title": [
+    "Trash Not Available",
+    "Papierkorb nicht verfügbar"
+  ],
+  "trash.untitled": [
+    "Untitled",
+    "Ohne Titel"
+  ]
+}

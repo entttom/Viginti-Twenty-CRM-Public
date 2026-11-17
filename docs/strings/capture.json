@@ -1,0 +1,20 @@
+{
+  "attachments.fileMissing": ["File not found on this device", "Datei auf diesem Gerät nicht gefunden"],
+  "attachments.moreActions": ["More actions for this file", "Weitere Aktionen für diese Datei"],
+  "attachments.open": ["Open", "Öffnen"],
+  "attachments.openHint": ["Opens a preview of the file.", "Öffnet eine Vorschau der Datei."],
+  "attachments.share": ["Share", "Teilen"],
+  "contactsSync.review.duplicateInImport": ["Same email or phone as %@ in this import", "Gleiche E-Mail-Adresse oder Telefonnummer wie %@ in diesem Import"],
+  "meetingPrep.explainer.message": ["To prepare you for your next meeting, Viginti reads the events of the next 24 hours on this device. The participants' email addresses are matched with the contacts on your Twenty server. Titles, times, notes and other calendar contents stay on this device and are never changed.", "Um Sie auf Ihren nächsten Termin vorzubereiten, liest Viginti die Termine der nächsten 24 Stunden auf diesem Gerät. Die E-Mail-Adressen der Teilnehmer werden mit den Kontakten auf Ihrem Twenty-Server abgeglichen. Titel, Zeiten, Notizen und andere Kalenderinhalte bleiben auf diesem Gerät und werden nie verändert."],
+  "scanner.cameraDenied.message": ["Viginti has no access to the camera. To scan business cards, allow camera access for Viginti in Settings. You can still choose a photo from your library.", "Viginti hat keinen Zugriff auf die Kamera. Um Visitenkarten zu scannen, erlauben Sie den Kamerazugriff für Viginti in den Einstellungen. Sie können weiterhin ein Foto aus Ihrer Mediathek auswählen."],
+  "scanner.checkingDuplicates": ["Checking for duplicates…", "Suche nach Duplikaten …"],
+  "settings.meetingPrep.footer": ["Shows your next meeting on Home with matching CRM contacts, their open tasks, last note and open opportunities. Participants' email addresses are matched with your Twenty server; all other calendar contents stay on this device and are never changed.", "Zeigt Ihren nächsten Termin auf der Startseite mit passenden CRM-Kontakten, deren offenen Aufgaben, letzter Notiz und offenen Verkaufschancen. Die E-Mail-Adressen der Teilnehmer werden mit Ihrem Twenty-Server abgeglichen; alle anderen Kalenderinhalte bleiben auf diesem Gerät und werden nie verändert."],
+  "settings.openSystemSettings": ["Open Settings", "Einstellungen öffnen"],
+  "voiceNote.discard.confirm": ["Discard Note", "Notiz verwerfen"],
+  "voiceNote.discard.keep": ["Keep Editing", "Weiter bearbeiten"],
+  "voiceNote.discard.message": ["The transcript will be lost.", "Das Transkript geht verloren."],
+  "voiceNote.discard.title": ["Discard this voice note?", "Diese Sprachnotiz verwerfen?"],
+  "voiceNote.error.onDeviceUnsupported": ["Viginti transcribes voice notes only on this device, and on-device recognition isn't available for %@ here. Nothing was recorded. To use voice notes, add a supported language under Settings › General › Keyboard › Dictation Languages, or switch your iPhone or iPad to a language that supports on-device dictation.", "Viginti transkribiert Sprachnotizen nur auf diesem Gerät, und für %@ ist die Spracherkennung auf diesem Gerät nicht verfügbar. Es wurde nichts aufgenommen. Um Sprachnotizen zu nutzen, fügen Sie unter Einstellungen › Allgemein › Tastatur › Diktiersprachen eine unterstützte Sprache hinzu oder stellen Sie Ihr iPhone oder iPad auf eine Sprache um, die Diktieren auf dem Gerät unterstützt."],
+  "voiceNote.error.recognizerUnavailable": ["Speech recognition is not available right now. Please try again later.", "Die Spracherkennung ist gerade nicht verfügbar. Bitte versuchen Sie es später erneut."],
+  "voiceNote.removeContact": ["Remove Contact", "Kontakt entfernen"]
+}

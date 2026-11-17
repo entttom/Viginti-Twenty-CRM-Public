@@ -1,0 +1,302 @@
+{
+  "company.domainLabel": [
+    "Domain",
+    "Domain"
+  ],
+  "contact.additionalEmail": [
+    "Additional email",
+    "Weitere E-Mail"
+  ],
+  "contact.additionalEmails": [
+    "Additional emails",
+    "Weitere E-Mail-Adressen"
+  ],
+  "contact.additionalPhones": [
+    "Additional phone numbers",
+    "Weitere Telefonnummern"
+  ],
+  "contact.section.moreContact": [
+    "More Emails & Phones",
+    "Weitere E-Mails & Telefonnummern"
+  ],
+  "contact.section.moreContact.footer": [
+    "Swipe left on an entry to remove it.",
+    "Nach links wischen, um einen Eintrag zu entfernen."
+  ],
+  "contact.section.social": [
+    "Social Profiles",
+    "Soziale Profile"
+  ],
+  "field.native.accountOwner": [
+    "Account owner",
+    "Kundenbetreuer:in"
+  ],
+  "field.native.address": [
+    "Address",
+    "Adresse"
+  ],
+  "field.native.annualRevenue": [
+    "Annual revenue",
+    "Jahresumsatz"
+  ],
+  "field.native.arr": [
+    "Annual recurring revenue",
+    "Jährlich wiederkehrender Umsatz"
+  ],
+  "field.native.createdBy": [
+    "Created by",
+    "Erstellt von"
+  ],
+  "field.native.employees": [
+    "Employees",
+    "Mitarbeitende"
+  ],
+  "field.native.icp": [
+    "Ideal customer profile",
+    "Ideales Kundenprofil"
+  ],
+  "field.native.linkedin": [
+    "LinkedIn",
+    "LinkedIn"
+  ],
+  "field.native.x": [
+    "X (Twitter)",
+    "X (Twitter)"
+  ],
+  "fieldEditor.actor.calendar": [
+    "Calendar",
+    "Kalender"
+  ],
+  "fieldEditor.actor.email": [
+    "Email",
+    "E-Mail"
+  ],
+  "fieldEditor.actor.import": [
+    "Import",
+    "Import"
+  ],
+  "fieldEditor.actor.manual": [
+    "Manual",
+    "Manuell"
+  ],
+  "fieldEditor.actor.system": [
+    "System",
+    "System"
+  ],
+  "fieldEditor.actor.workflow": [
+    "Workflow",
+    "Workflow"
+  ],
+  "fieldEditor.address.city": [
+    "City",
+    "Ort"
+  ],
+  "fieldEditor.address.coordinatesFooter": [
+    "Coordinates are set by Twenty and cannot be edited here.",
+    "Koordinaten werden von Twenty gesetzt und können hier nicht bearbeitet werden."
+  ],
+  "fieldEditor.address.country": [
+    "Country",
+    "Land"
+  ],
+  "fieldEditor.address.latitude": [
+    "Latitude",
+    "Breitengrad"
+  ],
+  "fieldEditor.address.longitude": [
+    "Longitude",
+    "Längengrad"
+  ],
+  "fieldEditor.address.openMapsHint": [
+    "Opens the address in Maps",
+    "Öffnet die Adresse in Karten"
+  ],
+  "fieldEditor.address.postcode": [
+    "Postcode",
+    "PLZ"
+  ],
+  "fieldEditor.address.state": [
+    "State / Region",
+    "Bundesland / Region"
+  ],
+  "fieldEditor.address.street1": [
+    "Street",
+    "Straße"
+  ],
+  "fieldEditor.address.street2": [
+    "Street (line 2)",
+    "Straße (Zeile 2)"
+  ],
+  "fieldEditor.array.add": [
+    "Add value",
+    "Wert hinzufügen"
+  ],
+  "fieldEditor.array.addButton": [
+    "Add",
+    "Hinzufügen"
+  ],
+  "fieldEditor.array.footer": [
+    "Separate several values with commas.",
+    "Mehrere Werte mit Kommas trennen."
+  ],
+  "fieldEditor.currency": [
+    "Currency",
+    "Währung"
+  ],
+  "fieldEditor.date.add": [
+    "Add date",
+    "Datum hinzufügen"
+  ],
+  "fieldEditor.emails.add": [
+    "Add Email",
+    "E-Mail hinzufügen"
+  ],
+  "fieldEditor.emails.additional": [
+    "Additional email",
+    "Weitere E-Mail"
+  ],
+  "fieldEditor.emails.primary": [
+    "Primary email",
+    "Haupt-E-Mail"
+  ],
+  "fieldEditor.error.currency": [
+    "%@: choose a currency.",
+    "%@: Bitte eine Währung wählen."
+  ],
+  "fieldEditor.error.email": [
+    "%@: enter valid email addresses, e.g. alex@example.com.",
+    "%@: Bitte gültige E-Mail-Adressen eingeben, z. B. alex@example.com."
+  ],
+  "fieldEditor.error.number": [
+    "%@: enter a valid number.",
+    "%@: Bitte eine gültige Zahl eingeben."
+  ],
+  "fieldEditor.error.phone": [
+    "%@: enter valid phone numbers.",
+    "%@: Bitte gültige Telefonnummern eingeben."
+  ],
+  "fieldEditor.error.required": [
+    "%@ is required.",
+    "%@ ist ein Pflichtfeld."
+  ],
+  "fieldEditor.error.url": [
+    "%@: enter valid web addresses, e.g. example.com.",
+    "%@: Bitte gültige Webadressen eingeben, z. B. example.com."
+  ],
+  "fieldEditor.error.uuid": [
+    "%@: enter a valid ID (UUID).",
+    "%@: Bitte eine gültige ID (UUID) eingeben."
+  ],
+  "fieldEditor.file.unnamed": [
+    "File",
+    "Datei"
+  ],
+  "fieldEditor.fullName.first": [
+    "%@: first name",
+    "%@: Vorname"
+  ],
+  "fieldEditor.fullName.last": [
+    "%@: last name",
+    "%@: Nachname"
+  ],
+  "fieldEditor.hint.amount": [
+    "Enter a valid amount, e.g. 1,250.50.",
+    "Bitte einen gültigen Betrag eingeben, z. B. 1.250,50."
+  ],
+  "fieldEditor.hint.number": [
+    "Enter a valid number.",
+    "Bitte eine gültige Zahl eingeben."
+  ],
+  "fieldEditor.hint.url": [
+    "Enter a valid web address, e.g. example.com.",
+    "Bitte eine gültige Webadresse eingeben, z. B. example.com."
+  ],
+  "fieldEditor.links.add": [
+    "Add Link",
+    "Link hinzufügen"
+  ],
+  "fieldEditor.links.additional": [
+    "Additional link",
+    "Weiterer Link"
+  ],
+  "fieldEditor.links.footer": [
+    "The first link is the primary one.",
+    "Der erste Link ist der Hauptlink."
+  ],
+  "fieldEditor.links.label": [
+    "Label (optional)",
+    "Bezeichnung (optional)"
+  ],
+  "fieldEditor.links.primary": [
+    "Primary link",
+    "Hauptlink"
+  ],
+  "fieldEditor.links.remove": [
+    "Remove Link",
+    "Link entfernen"
+  ],
+  "fieldEditor.makePrimary": [
+    "Make Primary",
+    "Als Haupteintrag"
+  ],
+  "fieldEditor.multi.footer": [
+    "The first entry is the primary one. Swipe left on an entry to remove it or make it primary.",
+    "Der erste Eintrag ist der Haupteintrag. Nach links wischen, um einen Eintrag zu entfernen oder zum Haupteintrag zu machen."
+  ],
+  "fieldEditor.phones.add": [
+    "Add Phone Number",
+    "Telefonnummer hinzufügen"
+  ],
+  "fieldEditor.rating.accessibility": [
+    "%lld of %lld stars",
+    "%lld von %lld Sternen"
+  ],
+  "fieldEditor.rating.star": [
+    "%lld stars",
+    "%lld Sterne"
+  ],
+  "fieldEditor.readOnlyHint": [
+    "This field cannot be edited in the app.",
+    "Dieses Feld kann in der App nicht bearbeitet werden."
+  ],
+  "fieldEditor.relation.empty": [
+    "No records",
+    "Keine Datensätze"
+  ],
+  "fieldEditor.relation.emptyHint": [
+    "There is nothing to link yet.",
+    "Noch nichts zum Verknüpfen vorhanden."
+  ],
+  "fieldEditor.relation.loading": [
+    "Loading records…",
+    "Datensätze werden geladen …"
+  ],
+  "fieldEditor.relation.noMatch": [
+    "No records match \"%@\".",
+    "Keine Datensätze passen zu „%@“."
+  ],
+  "fieldEditor.relation.search": [
+    "Search",
+    "Suchen"
+  ],
+  "fieldEditor.relation.title": [
+    "Choose Record",
+    "Datensatz wählen"
+  ],
+  "fieldEditor.relation.unsupported": [
+    "Records of this type cannot be picked in the app.",
+    "Datensätze dieses Typs können in der App nicht ausgewählt werden."
+  ],
+  "fieldEditor.richText.placeholder": [
+    "Write something…",
+    "Etwas schreiben …"
+  ],
+  "fieldEditor.summary.more": [
+    "%@ +%lld",
+    "%@ +%lld"
+  ],
+  "fields.custom": [
+    "Custom Fields",
+    "Eigene Felder"
+  ]
+}
